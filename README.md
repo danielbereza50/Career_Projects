@@ -18,6 +18,8 @@ https://my.fusebox.fm/
 
 https://soundcloud.com/daniel-bereza-723395149
 
+https://www.alignable.com/new-baltimore-mi/212-creative-llc
+
 <hr>
 
 Job Boards: 
@@ -32,5 +34,20 @@ https://www.upwork.com/
 
 https://www.fiverr.com/danielbereza50
 
-https://www.alignable.com/new-baltimore-mi/212-creative-llc
+https://www.internships.com/
+
+https://www.guru.com/
+
+https://www.freelance.com/en/
+
+https://www.ifreelance.com/
+
+https://www.toptal.com/talent/apply
+
+https://www.ziprecruiter.com/ 
+
+https://www.flexjobs.com/
+
+
+
 
