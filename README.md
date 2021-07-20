@@ -456,15 +456,13 @@ https://pickerplace.com/
 
 https://inoacusa.com/
 
-https://inoac.co.jp/en/solution/
-
 https://hanna.ca/events/
 
 https://atlessdraincleaning.com/
 
 http://presidentiallawncaresolutions.com/
 
-https://www.midwestaerotech.com/
+https://midwestaerotech.com/
 
 <hr>
 
