@@ -456,8 +456,6 @@ https://pickerplace.com/
 
 https://inoacusa.com/
 
-https://hanna.ca/events/
-
 https://atlessdraincleaning.com/
 
 http://presidentiallawncaresolutions.com/
