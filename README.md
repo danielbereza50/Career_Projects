@@ -425,8 +425,6 @@ https://staging3.pickerplace.com/
 
 https://staging2.goodygreetings.com/
 
-https://staging2.presidentiallawncaresolutions.com/
-
 http://staging2.atlessdraincleaning.com/
 
 https://staging4.midwestaerotech.com/
@@ -465,6 +463,8 @@ https://marinecityhealthandfitness.com
 
 https://lighthousebiblenb.com
 
+http://presidentiallawncaresolutions.com/
+
 <hr>
 
 https://pickerplace.com/
@@ -472,8 +472,6 @@ https://pickerplace.com/
 https://inoacusa.com/
 
 https://atlessdraincleaning.com/
-
-http://presidentiallawncaresolutions.com/
 
 https://midwestaerotech.com/
 
