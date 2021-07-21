@@ -168,7 +168,12 @@ Custom Themes + SEO work via
 * https://www.bizcardmaker.com/
 * https://www.speedtest.net/
 * https://copilot.github.com/
+
+
+Learning resources:
+
 * https://www.khanacademy.org/computing/computer-programming
+* https://www.linkedin.com/learning/topics/python
 
 
 Other Popular CMS systems:
