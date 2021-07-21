@@ -172,8 +172,9 @@ Custom Themes + SEO work via
 
 Learning resources:
 
-* https://www.khanacademy.org/computing/computer-programming
-* https://www.linkedin.com/learning/topics/python
+https://www.khanacademy.org/computing/computer-programming
+
+https://www.linkedin.com/learning/topics/python
 
 
 Other Popular CMS systems:
