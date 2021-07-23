@@ -27,3 +27,17 @@ Google Analytics 4:
 9. Use multimedia in the page content
 
 If using the WordPress CMS, the Yoast SEO plugin is a good starting point
+
+
+Facebook Ads Campaign:
+
+https://www.facebook.com/business/ads
+
+CPC (cost per click): https://sixads.net/blog/facebook-ads-cost/
+
+
+Google Ads Campaign: 
+
+https://ads.google.com/intl/en_us/getstarted/
+
+https://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost
