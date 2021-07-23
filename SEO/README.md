@@ -33,7 +33,9 @@ Facebook Ads Campaign:
 
 https://www.facebook.com/business/ads
 
-CPC (cost per click): https://sixads.net/blog/facebook-ads-cost/
+CPC (cost per click): 
+
+https://sixads.net/blog/facebook-ads-cost/
 
 
 Google Ads Campaign: 
