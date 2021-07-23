@@ -469,7 +469,7 @@ https://marinecityhealthandfitness.com
 
 https://lighthousebiblenb.com
 
-http://presidentiallawncaresolutions.com/
+https://presidentiallawncaresolutions.com/
 
 <hr>
 
