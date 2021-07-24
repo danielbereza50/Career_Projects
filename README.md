@@ -502,7 +502,7 @@ framework: Divi
 
 Staging Solutions:
 
-http://starcarwashnj.com/
+https://starcarwashnj.com/
 
 Deployed Solutions:
 
