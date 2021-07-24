@@ -494,7 +494,7 @@ Buvana Marketing Services
 
 - Team BMS
 
-https://buvanamarketingservices.com
+https://www.nbprintdesign.com/
 
 framework: Divi
 
