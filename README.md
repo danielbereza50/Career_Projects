@@ -190,6 +190,9 @@ Woocommerce template structure:
 
 https://docs.woocommerce.com/document/template-structure/
 
+Woocommerce hook list:
+
+https://premmerce.com/woocommerce-hooks-guide/
 
 JavaScript - client-side and server-side
 
