@@ -127,7 +127,6 @@ https://codecanyon.net/tags/laravel
 
 1. Contract Work I did:
 
-
 Custom Themes + SEO work via
 * https://developers.google.com/speed/pagespeed/insights/
 * https://www.seoptimer.com
@@ -193,6 +192,16 @@ https://docs.woocommerce.com/document/template-structure/
 Woocommerce hook list:
 
 https://premmerce.com/woocommerce-hooks-guide/
+
+
+Web Servers:
+
+1. Apache
+
+2. Internet Information Services (IIS)
+
+3. nginx
+
 
 JavaScript - client-side and server-side
 
