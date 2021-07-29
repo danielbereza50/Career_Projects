@@ -493,9 +493,9 @@ https://hanna.ca/
 
 Company:
 
-Buvana Marketing Services
+Digital Meets Print
 
-- Team BMS
+- Team DMP
 
 https://portal.hostgator.com/login
 
