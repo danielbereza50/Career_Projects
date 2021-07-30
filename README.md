@@ -441,8 +441,6 @@ https://ourtown3d.com/newbaltimore
 
 https://ourtown3d.com/stclair
 
-https://inoacusa.212development.com/
-
 https://staging3.pickerplace.com/
 
 https://staging2.goodygreetings.com/
@@ -489,11 +487,11 @@ https://lighthousebiblenb.com
 
 https://presidentiallawncaresolutions.com/
 
+https://inoacusa.com/
+
 <hr>
 
 https://pickerplace.com/
-
-https://inoacusa.com/
 
 https://atlessdraincleaning.com/
 
