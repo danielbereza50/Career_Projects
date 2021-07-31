@@ -298,6 +298,8 @@ EDG eAdvertising Solutions
 
 Fully Secure Connections:
 
+https://www.godaddy.com/
+
 https://edgeadvertisingsolutions.com:2083
 
 https://www.howeyweb.com
@@ -346,8 +348,9 @@ Company:
 
 - Team 4Biz
 
-http://4bizgraphics.com
+https://www.networksolutions.com/
 
+http://4bizgraphics.com
 
 Staging Solutions:
 
@@ -507,6 +510,8 @@ Company:
 Digital Meets Print
 
 - Team DMP
+
+Unified Layer -
 
 https://portal.hostgator.com/login
 
