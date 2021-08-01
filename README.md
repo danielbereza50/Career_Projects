@@ -525,6 +525,8 @@ Staging Solutions:
 
 http://starcarwashnj.com/
 
+http://egsnewjersey.com/
+
 Deployed Solutions:
 
 <hr>
