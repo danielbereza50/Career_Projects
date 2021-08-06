@@ -161,7 +161,7 @@ Other Links:
 * https://dnschecker.org/
 * https://passwordsgenerator.net/
 * https://fontsfree.net/
-* https://redketchup.io/image-resizer
+* https://redketchup.io/bulk-image-resizer
 * https://loremipsum.io/
 * https://smallpdf.com/edit-pdf
 * https://zapier.com/
