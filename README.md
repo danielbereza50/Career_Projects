@@ -132,11 +132,10 @@ Custom Themes + SEO work via
 * https://www.seoptimer.com
 * https://wave.webaim.org/
 * https://analytics.google.com/analytics/web/
-
-
+------------------------------------------------------
 * https://search.google.com/search-console/welcome
 * https://www.bing.com/webmasters/
-
+------------------------------------------------------
 * https://search.google.com/test/mobile-friendly
 * https://www.google.com/recaptcha/admin/site/349560113
 * https://meet.google.com/
