@@ -135,6 +135,7 @@ Custom Themes + SEO work via
 ------------------------------------------------------
 * https://search.google.com/search-console/welcome
 * https://www.bing.com/webmasters/
+* https://webmaster.yandex.com/sites/add/
 ------------------------------------------------------
 * https://search.google.com/test/mobile-friendly
 * https://www.google.com/recaptcha/admin/site/349560113
