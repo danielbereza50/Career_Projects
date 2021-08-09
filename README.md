@@ -527,9 +527,9 @@ framework: Divi
 
 Staging Solutions:
 
-http://starcarwashnj.com/
+https://starcarwashnj.com/
 
-http://egsnewjersey.com/
+https://egsnewjersey.com/
 
 Deployed Solutions:
 
