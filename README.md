@@ -173,6 +173,7 @@ Other Links:
 * https://www.bizcardmaker.com/
 * https://www.speedtest.net/
 * https://copilot.github.com/
+* https://www.flaticon.com/
 
 
 Learning resources:
