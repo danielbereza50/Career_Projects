@@ -453,13 +453,14 @@ https://ourtown3d.com/stclair
 
 https://staging3.pickerplace.com/
 
+https://delirious-brass.flywheelstaging.com/test/
+
 http://staging2.atlessdraincleaning.com/
 
 https://staging4.midwestaerotech.com/
 
-https://delirious-brass.flywheelstaging.com/test/
-
 https://staging3.selfesteemshop.com/
+
 
 Deployed Solutions:
 
@@ -501,17 +502,18 @@ https://goodygreetings.com/
 
 <hr>
 
-https://selfesteemshop.com/
 
 https://pickerplace.com/
+
+https://hanna.ca/
+
+https://anothercastlegames.com/
 
 https://atlessdraincleaning.com/
 
 https://midwestaerotech.com/
 
-https://hanna.ca/
-
-https://anothercastlegames.com/
+https://selfesteemshop.com/
 
 <hr>
 
