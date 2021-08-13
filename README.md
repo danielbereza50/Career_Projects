@@ -453,8 +453,6 @@ https://ourtown3d.com/stclair
 
 https://staging3.pickerplace.com/
 
-https://staging2.goodygreetings.com/
-
 http://staging2.atlessdraincleaning.com/
 
 https://staging4.midwestaerotech.com/
@@ -498,6 +496,8 @@ https://lighthousebiblenb.com
 https://presidentiallawncaresolutions.com/
 
 https://inoacusa.com/
+
+https://goodygreetings.com/
 
 <hr>
 
