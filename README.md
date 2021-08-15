@@ -520,7 +520,7 @@ https://selfesteemshop.com/
 
 Company:
 
-Digital Meets Print
+Digital Meets Print, LLC
 
 - Team DMP
 
