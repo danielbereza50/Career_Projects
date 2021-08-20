@@ -367,7 +367,7 @@ http://www.canitllc.com/
 
 Deployed Solutions:
 
-http://puertovallartausa.net/
+https://eesc-ct.com/
 
 https://wolcottct.org
 
