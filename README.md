@@ -532,15 +532,15 @@ framework: Divi
 
 Staging Solutions:
 
-https://starcarwashnj.com/
-
 https://egsnewjersey.com/
-
-https://swiftsocceracademynj.com/
 
 https://adamsacrental.com/
 
 Deployed Solutions:
+
+https://starcarwashnj.com/
+
+https://swiftsocceracademynj.com/
 
 <hr>
 
