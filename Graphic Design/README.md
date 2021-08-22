@@ -4,6 +4,8 @@ Great article on modern web design:
 https://www.webfx.com/blog/web-design/modern-web-design/
 
 
+Mockups: 500 x 1500
+
 
 CSS transforms: 
 
