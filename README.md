@@ -381,7 +381,7 @@ http://essexautoclub.org
 
 http://greatbeginningsdaycarecenter.com
 
-http://urgentcarecentersct.com
+https://urgentcarecentersct.com
 
 <hr>
 
