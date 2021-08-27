@@ -361,8 +361,6 @@ http://4bizgraphics.com
 
 Staging Solutions:
 
-http://s854226310.onlinehome.us/
-
 http://www.canitllc.com/
 
 Deployed Solutions:
