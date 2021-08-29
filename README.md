@@ -244,6 +244,10 @@ https://medium.com/@rtheunissen/efficient-data-structures-for-php-7-9dda7af674cd
 
 Common Website hosts:
 
+* note - some hosting providers use two-factor authentication
+
+https://platform.cloudways.com/
+
 https://identity.wpengine.com/
 
 https://app.getflywheel.com/login
