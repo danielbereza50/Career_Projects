@@ -176,6 +176,7 @@ Other Links:
 * https://www.speedtest.net/
 * https://copilot.github.com/
 * https://www.flaticon.com/
+* https://www.blindtextgenerator.com/lorem-ipsum
 
 
 Learning resources:
