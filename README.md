@@ -392,6 +392,8 @@ https://urgentcarecentersct.com
 
 <hr>
 
+https://www.greaternewbritainchamber.com/
+
 http://www.newbritaindd.com/
 
 <hr>
