@@ -177,6 +177,7 @@ Other Links:
 * https://copilot.github.com/
 * https://www.flaticon.com/
 * https://www.blindtextgenerator.com/lorem-ipsum
+* https://pinetools.com/colorize-image
 
 
 Learning resources:
