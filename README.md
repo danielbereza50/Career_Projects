@@ -465,9 +465,9 @@ https://staging3.pickerplace.com/
 
 https://delirious-brass.flywheelstaging.com/test/
 
-https://staging3.selfesteemshop.com/
-
 http://jmgllc.212development.com/
+
+https://staging3.selfesteemshop.com/
 
 http://pfl.212development.com
 
