@@ -546,9 +546,7 @@ framework: Divi
 
 Staging Solutions:
 
-https://egsnewjersey.com/
-
-https://adamsacrental.com/
+https://www.adamsathleticclub.com/
 
 Deployed Solutions:
 
@@ -556,7 +554,10 @@ https://starcarwashnj.com/
 
 https://swiftsocceracademynj.com/
 
+https://egsnewjersey.com/
+
 <hr>
 
+https://adamsacrental.com/
 
 <hr>
