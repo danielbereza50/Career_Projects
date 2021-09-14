@@ -20,6 +20,8 @@ How to get to the bin folder:
 https://macpaw.com/how-to/access-bin-folder-mac
 
 
+/*   */
+
 
 Common commands that can be plugged-in to the terminal:
 
