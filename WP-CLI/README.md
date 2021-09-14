@@ -19,6 +19,8 @@ How to get to the bin folder:
 
 https://macpaw.com/how-to/access-bin-folder-mac
 
+How to build a react js app
+https://mailtrap.io/blog/react-contact-form/
 
 /*   */
 
