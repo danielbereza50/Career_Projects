@@ -178,6 +178,7 @@ Other Links:
 * https://www.flaticon.com/
 * https://www.blindtextgenerator.com/lorem-ipsum
 * https://pinetools.com/colorize-image
+* http://www.ajaxload.info/
 
 
 Learning resources:
