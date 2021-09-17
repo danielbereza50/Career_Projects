@@ -463,15 +463,13 @@ https://ourtown3d.com/newbaltimore
 
 https://ourtown3d.com/stclair
 
-https://staging3.pickerplace.com/
-
-https://delirious-brass.flywheelstaging.com/test/
-
 http://jmgllc.212development.com/
 
 https://staging3.selfesteemshop.com/
 
 http://pfl.212development.com
+
+http://brlc.212development.com/
 
 Deployed Solutions:
 
@@ -517,14 +515,13 @@ https://atlessdraincleaning.com/
 
 <hr>
 
-
 https://pickerplace.com/
-
-https://hanna.ca/
 
 https://anothercastlegames.com/
 
 https://selfesteemshop.com/
+
+https://www.brassringlearning.com/
 
 <hr>
 
