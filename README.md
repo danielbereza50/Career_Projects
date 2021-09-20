@@ -180,6 +180,7 @@ Other Links:
 * https://pinetools.com/colorize-image
 * http://www.ajaxload.info/
 * https://codesandbox.io/s/
+* https://infoheap.com/online-react-jsx-to-javascript/
 
 
 Learning resources:
