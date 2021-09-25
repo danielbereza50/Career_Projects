@@ -156,7 +156,7 @@ Other Links:
 * http://pajhome.org.uk/crypt/md5/
 * https://whatismyipaddress.com/ - IPv4
 * https://www.whatsmyip.org/
-* https://stock.adobe.com/
+* https://stock.adobe.com/search/free
 * https://phoenixnap.com/kb/how-to-flush-dns-cache
 * https://tinypng.com/
 * http://beautifytools.com/php-beautifier.php
