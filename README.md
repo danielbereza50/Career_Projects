@@ -285,6 +285,8 @@ https://www.wix.com/
 
 https://wpx.net/clientarea/
 
+https://account.squarespace.com
+
 <hr>
 
 Company:
