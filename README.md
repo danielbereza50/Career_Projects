@@ -564,13 +564,15 @@ framework: Divi
 
 Staging Solutions:
 
+https://www.7dayspediatrics.com/
+
 https://www.adamsathleticclub.com/
 
-https://www.7dayspediatrics.com/
+https://njmintel.com/
 
 https://www.kwakwanicapital.com/
 
-https://njmintel.com/
+https://www.thebackyardexperiencellc.com/
 
 Deployed Solutions:
 
