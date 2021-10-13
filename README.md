@@ -572,7 +572,7 @@ https://www.adamsathleticclub.com/
 
 https://njmintel.com/
 
-https://www.kwakwanicapital.com/
+https://kwakwanifunding.com/
 
 https://www.thebackyardexperiencellc.com/
 
@@ -587,5 +587,7 @@ https://egsnewjersey.com/
 <hr>
 
 https://adamsacrental.com/
+
+https://www.kwakwanicapital.com/
 
 <hr>
