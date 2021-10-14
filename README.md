@@ -574,8 +574,6 @@ https://njmintel.com/
 
 https://kwakwanifunding.com/
 
-https://www.thebackyardexperiencellc.com/
-
 Deployed Solutions:
 
 https://starcarwashnj.com/
@@ -589,5 +587,7 @@ https://egsnewjersey.com/
 https://adamsacrental.com/
 
 https://www.kwakwanicapital.com/
+
+https://www.thebackyardexperiencellc.com/
 
 <hr>
