@@ -382,6 +382,8 @@ http://www.canitllc.com/
 
 http://newbritaindd.org/
 
+https://www.greaternewbritainchamber.org/
+
 Deployed Solutions:
 
 https://eesc-ct.com/
