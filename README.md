@@ -491,8 +491,6 @@ http://pfl.212development.com
 
 http://brlc.212development.com/
 
-https://staging3.julieswreathboutique.com
-
 http://rvadventure.212development.com/
 
 Deployed Solutions:
@@ -536,6 +534,8 @@ https://goodygreetings.com/
 https://midwestaerotech.com/
 
 https://atlessdraincleaning.com/
+
+https://julieswreathboutique.com/
 
 <hr>
 
