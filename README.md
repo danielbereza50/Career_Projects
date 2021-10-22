@@ -128,6 +128,10 @@ https://codecanyon.net/tags/laravel
 
 https://account.envato.com/google/authenticate?to=codecanyon
 
+https://themeforest.net/
+
+https://www.templatemonster.com/wordpress-themes.php
+
 
 1. Contract Work I did:
 
