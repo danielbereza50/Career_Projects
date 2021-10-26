@@ -416,38 +416,6 @@ http://www.newbritaindd.com/
 
 <hr>
 
-Company:
-
-CounselingWise
-
-- Team Page1Pros
-
-https://login.siteground.com/
-
-https://wpx.net/clientarea/
-
-https://www.staging.counselingwise.com/
-
-https://counselingwise.com
-
-
-Staging Solutions:
-
-https://cwdevel2.com/clauidawagner/
-
-
-Deployed Solutions:
-
-https://therapybloglibrary.com
-
-https://mauihacks.com
-
-https://ouranimalconnection.com/
-
-https://www.olivebranchtherapygroup.com/
-
-<hr>
-
 <hr>
 
 Company:
