@@ -416,8 +416,6 @@ http://www.newbritaindd.com/
 
 <hr>
 
-<hr>
-
 Company:
 
 212 Creative, LLC 
