@@ -307,6 +307,7 @@ https://goviralmarketing.com
 
 Staging Solutions:
 
+https://dev.goviralmarketing.com/ef-2020-report/
 
 Deployed Solutions:
 
