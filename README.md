@@ -311,11 +311,13 @@ https://dev.goviralmarketing.com/ef-2020-report/
 
 Deployed Solutions:
 
-http://transitionallifecounselingandconsultation.com
-
 https://sjfmc.org
 
+http://transitionallifecounselingandconsultation.com
+
 http://acertainwork.org
+
+<hr>
 
 <hr>
 
