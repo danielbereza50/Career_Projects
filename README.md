@@ -498,8 +498,6 @@ https://goldentouchconcierge.com/
 
 https://homeproshowcase.com/
 
-https://lessonsinanutshell.com/
-
 https://marinecityhealthandfitness.com
 
 https://lighthousebiblenb.com
@@ -516,17 +514,20 @@ https://atlessdraincleaning.com/
 
 https://julieswreathboutique.com/
 
-<hr>
-
 https://pickerplace.com/
 
 https://anothercastlegames.com/
+
+<hr>
+
 
 https://selfesteemshop.com/
 
 https://www.brassringlearning.com/
 
 https://www.rvadventure-usa.com/
+
+https://lessonsinanutshell.com/
 
 <hr>
 
