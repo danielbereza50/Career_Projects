@@ -609,14 +609,6 @@ https://login.ionos.com/
 
 https://www.ladybugsgrace.com/
 
-framework: Divi
-
-Staging Solutions:
-
-
-
-Deployed Solutions:
-
 
 <hr>
 
