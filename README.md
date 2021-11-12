@@ -613,7 +613,7 @@ https://login.ionos.com/
 
 https://www.ladybugsgrace.com/
 
-https://www.ladybugsgrace.com/?affiliates=2
+https://www.ladybugsgrace.com/?ref=18
 
 https://konnectservices.net
 
