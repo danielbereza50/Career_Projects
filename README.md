@@ -450,8 +450,6 @@ framework: Divi
 
 Staging Solutions:
 
-http://testsite.212development.com/adapp
-
 https://ourtown3d.com/newbaltimore
 
 https://ourtown3d.com/stclair
@@ -525,6 +523,8 @@ https://julieswreathboutique.com/
 https://pickerplace.com/
 
 https://anothercastlegames.com/
+
+https://c2c-solutions.com/adapp
 
 <hr>
 
