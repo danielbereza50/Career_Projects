@@ -528,7 +528,6 @@ https://anothercastlegames.com/
 
 <hr>
 
-
 https://selfesteemshop.com/
 
 https://www.brassringlearning.com/
@@ -536,6 +535,8 @@ https://www.brassringlearning.com/
 https://www.rvadventure-usa.com/
 
 https://lessonsinanutshell.com/
+
+https://c2c-solutions.com/innovation-toolbox/trimming-technique-assistant/
 
 <hr>
 
