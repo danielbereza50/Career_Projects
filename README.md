@@ -530,7 +530,6 @@ https://pickerplace.com/
 
 https://anothercastlegames.com/
 
-https://c2c-solutions.com/adapp
 
 <hr>
 
