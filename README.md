@@ -142,6 +142,7 @@ Custom Themes + SEO work via
 * https://rainstreamweb.com/
 * https://www.semrush.com/
 * https://login.buffer.com/login
+* https://cloudconvert.com/png-to-webp
 * https://wave.webaim.org/
 * https://analytics.google.com/analytics/web/
 ------------------------------------------------------
