@@ -140,7 +140,8 @@ Custom Themes + SEO work via
 * https://developers.google.com/speed/pagespeed/insights/
 * https://www.seoptimer.com
 * https://rainstreamweb.com/
-* https://www.semrush.com/
+* https://www.semrush.com/login/?src=header&redirect_to=%2F
+* https://my.yoast.com/login
 * https://login.buffer.com/login
 * https://cloudconvert.com/png-to-webp
 * https://wave.webaim.org/
