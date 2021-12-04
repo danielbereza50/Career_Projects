@@ -1,8 +1,23 @@
 When ever doing UX from scratch, use the following start to the code:
 
-    <div class = "container">
+<style>
+    
+    .grid-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+    .grid-item {
+    width: 32%;
+    height: auto;
+}
+</style>
 
-    <div class = "wrapper">
+    <div class = "grid-wrapper">
+
+    <div class = "grid-item">
 
     <!-- remaining divs go here -->
 
