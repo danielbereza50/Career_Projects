@@ -18,7 +18,7 @@ When ever doing UX from scratch, use the following start to the code:
 
     <div class = "flex-item">
 
-    <!-- remaining divs go here -->
+    <!-- stuff goes here -->
 
     </div>
 
