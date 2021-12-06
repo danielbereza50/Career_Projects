@@ -424,6 +424,8 @@ http://greatbeginningsdaycarecenter.com
 
 https://urgentcarecentersct.com
 
+https://mbmanor.org/
+
 <hr>
 
 https://www.greaternewbritainchamber.com/
