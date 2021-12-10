@@ -140,6 +140,10 @@ https://www.jqueryscript.net/
 
 Custom Themes + SEO work via
 * https://developers.google.com/speed/pagespeed/insights/
+* https://analytics.google.com/analytics/web/
+* https://tagmanager.google.com/#/home
+* https://search.google.com/search-console/welcome
+
 * https://www.wordtracker.com
 * https://ahrefs.com/backlink-checker
 * https://www.seoptimer.com
@@ -149,9 +153,8 @@ Custom Themes + SEO work via
 * https://login.buffer.com/login
 * https://cloudconvert.com/png-to-webp
 * https://wave.webaim.org/
-* https://analytics.google.com/analytics/web/
+
 ------------------------------------------------------
-* https://search.google.com/search-console/welcome
 * https://www.bing.com/webmasters/
 * https://webmaster.yandex.com/sites/add/
 * https://www.seomandarin.com/baidu-webmaster-tools
