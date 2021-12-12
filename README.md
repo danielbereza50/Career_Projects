@@ -143,6 +143,9 @@ Custom Themes + SEO work via
 * https://analytics.google.com/analytics/web/
 * https://tagmanager.google.com/#/home
 * https://search.google.com/search-console/welcome
+* https://drive.google.com/drive/my-drive
+* https://console.developers.google.com/
+* https://console.cloud.google.com/home/dashboard
 
 * https://www.wordtracker.com
 * https://ahrefs.com/backlink-checker
@@ -167,8 +170,6 @@ Custom Themes + SEO work via
 * https://gtmetrix.com/
 
 Other Links:
-* https://drive.google.com/drive/my-drive
-* https://console.developers.google.com/
 * https://www.cloudways.com/blog/post-smtp-mailer-fork-of-wordpress-postman-smtp-plugin/?id=339490
 * https://support.google.com/webmasters/answer/6065812
 * https://ahrefs.com/blog/why-is-my-website-not-showing-up-on-google/
