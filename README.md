@@ -503,6 +503,8 @@ http://lms.212development.com/
 
 http://c2ctestapp.212development.com/trimmingapp
 
+http://hk2.212development.com/
+
 Deployed Solutions:
 
 https://twinsurance.net
