@@ -7,7 +7,7 @@ Need a:
 
 1. Client Id
 
-2. Client Secret
+2. Client Secret (Private Key)
 
 3. Application Token
 
