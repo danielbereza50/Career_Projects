@@ -11,4 +11,6 @@ Need a:
 
 3. Application Token
 
-4. SDK to connect
+4. Encryption Token
+
+5. SDK to connect
