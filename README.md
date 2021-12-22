@@ -204,6 +204,7 @@ Other Links:
 * https://codesandbox.io/s/
 * https://infoheap.com/online-react-jsx-to-javascript/
 * https://gridbyexample.com/examples/
+* https://www.veed.io/video-compressor
 
 
 Learning resources:
