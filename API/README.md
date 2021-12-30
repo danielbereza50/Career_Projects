@@ -6,6 +6,8 @@ https://console.plivo.com/accounts/login/
 
 https://www.twilio.com/login
 
+https://developer.aylien.com/login
+
 Need a: 
 
 1. Client Id
