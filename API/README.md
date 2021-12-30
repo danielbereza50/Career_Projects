@@ -8,6 +8,14 @@ https://www.twilio.com/login
 
 https://developer.aylien.com/login
 
+project file header:
+
+example:
+
+require __DIR__ . '/vendor/autoload.php';
+use Twilio\Rest\Client;
+
+
 Need a: 
 
 1. Client Id
