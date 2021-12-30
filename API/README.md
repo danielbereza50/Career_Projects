@@ -16,6 +16,9 @@ require __DIR__ . '/vendor/autoload.php';
 
 use Twilio\Rest\Client;
 
+terminal command:  
+
+composer require {folder}
 
 Need a: 
 
