@@ -191,7 +191,7 @@ Other Links:
 * https://beautifytools.com/scss-compiler.php
 * https://paiza.io/en/projects/new
 * https://www.freeformatter.com/html-formatter.html
-* https://www.pdf2go.com/edit-pdf
+* https://documentcloud.adobe.com/us/en/
 * https://dnschecker.org/
 * https://passwordsgenerator.net/
 * https://fontsfree.net/
