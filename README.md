@@ -659,6 +659,8 @@ https://eyebenders.com/
 
 Staging Solutions:
 
+http://liftconnection.org/
+
 Deployed Solutions:
 
 <hr>
