@@ -420,7 +420,7 @@ https://www.greaternewbritainchamber.org/
 
 https://3h3.3ea.myftpupload.com/
 
-http://murphyscure.4bizgraphics.biz/
+http://murphyscure.4bizgraphics.com/
 
 donsagarino.com
 
