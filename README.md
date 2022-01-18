@@ -659,7 +659,7 @@ https://eyebenders.com/
 
 Staging Solutions:
 
-http://liftconnection.org/
+https://liftconnection.org/
 
 https://ncbrews.eyebenders.org/
 
