@@ -474,6 +474,8 @@ https://bitbucket.org/212creative
 
 https://templates.212creative.com/
 
+https://shop.212creative.com/templates/
+
 https://jdwebsitedevelopment.com
 
 https://shop.212creative.com
