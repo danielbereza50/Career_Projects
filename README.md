@@ -422,9 +422,9 @@ https://3h3.3ea.myftpupload.com/
 
 http://murphyscure.4bizgraphics.com/
 
-http://newbritaindd.4bizgraphics.com
+http://newbritaindd.4bizgraphics.com/
 
-donsagarino.com
+http://donsagarino.com/
 
 Deployed Solutions:
 
