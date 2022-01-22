@@ -503,17 +503,15 @@ https://legaldir.212development.com/lawfirms-directory/
 
 http://pfl.212development.com
 
-http://brlc.212development.com/
-
 https://innovativenutritionproducts.com/
 
 http://lms.212development.com/
 
-http://hk2.212development.com/
-
-http://c2ctestapp.212development.com/trimmingapp
+http://hk20.212development.com/
 
 http://toilms.212development.com/
+
+http://c2ctestapp.212development.com/trimmingapp
 
 https://staging3.selfesteemshop.com/
 
@@ -567,6 +565,8 @@ https://pickerplace.com/
 
 https://anothercastlegames.com/
 
+https://www.brassringlearning.com/
+
 https://lessonsinanutshell.com/
 
 <hr>
@@ -577,11 +577,7 @@ https://www.huronpointe.org/
 
 https://www.rvadventure-usa.com/
 
-https://www.brassringlearning.com/
-
 https://c2c-solutions.com/innovation-toolbox/trimming-technique-assistant/
-
-https://spartanwealth.com/
 
 <hr>
 
