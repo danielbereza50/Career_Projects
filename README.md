@@ -513,15 +513,14 @@ http://hk2.212development.com/
 
 http://c2ctestapp.212development.com/trimmingapp
 
-https://lin2.212development.com/
-
-http://harmless.212development.com/
+http://toilms.212development.com/
 
 http://rvadventure.212development.com/
 
 https://staging3.selfesteemshop.com/
 
-http://toilms.212development.com/
+http://harmless.212development.com/
+
 
 Deployed Solutions:
 
@@ -569,20 +568,19 @@ https://pickerplace.com/
 
 https://anothercastlegames.com/
 
+https://lessonsinanutshell.com/
 
 <hr>
 
 https://selfesteemshop.com/
 
-https://www.brassringlearning.com/
+https://www.huronpointe.org/
 
 https://www.rvadventure-usa.com/
 
-https://lessonsinanutshell.com/
+https://www.brassringlearning.com/
 
 https://c2c-solutions.com/innovation-toolbox/trimming-technique-assistant/
-
-https://www.huronpointe.org/
 
 https://spartanwealth.com/
 
