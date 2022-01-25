@@ -445,7 +445,7 @@ http://greatbeginningsdaycarecenter.com
 
 https://urgentcarecentersct.com
 
-https://mbmanor.org/
+http://monsignorbojnowskimanor.org/
 
 <hr>
 
