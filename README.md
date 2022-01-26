@@ -663,11 +663,8 @@ Staging Solutions:
 
 https://liftconnection.org/
 
-https://ncbrews.eyebenders.org/
 
 Deployed Solutions:
-
-https://levridge.org/lift/
 
 https://www.ncbrewsmusic.com/
 
