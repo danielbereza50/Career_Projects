@@ -77,6 +77,8 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
 https://digital.com/web-hosting/who-is/
 
+https://whois.domaintools.com/
+
 <div>WP Core Functions:</div>
 <div>https://developer.wordpress.org/reference/functions/</div>
 <br>
