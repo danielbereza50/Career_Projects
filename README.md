@@ -514,6 +514,8 @@ http://hk20.212development.com/
 
 http://toilms.212development.com/
 
+http://testsite.212development.com/adapp
+
 http://c2ctestapp.212development.com/trimmingapp
 
 https://staging3.selfesteemshop.com/
@@ -525,6 +527,8 @@ http://rvadventure.212development.com/
 https://gch.212development.com/
 
 https://staging2.lessonsinanutshell.com/
+
+
 
 Deployed Solutions:
 
