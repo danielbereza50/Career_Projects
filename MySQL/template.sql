@@ -23,6 +23,13 @@ INSERT INTO 'databasename'.'wp_usermeta' ('umeta_id', 'user_id', 'meta_key', 'me
 VALUES (NULL, '4', 'wp_user_level', '10');
 
 
+DELETE FROM wp_woocommerce_order_itemmeta;
+DELETE FROM wp_woocommerce_order_items;
+DELETE FROM wp_comments WHERE comment_type = 'order_note';
+DELETE FROM wp_postmeta WHERE post_id IN ( SELECT ID FROM wp_posts WHERE post_type = 'shop_order' );
+DELETE FROM wp_posts WHERE post_type = 'shop_order';
+
+
 
 
 
