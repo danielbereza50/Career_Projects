@@ -518,8 +518,6 @@ http://testsite.212development.com/adapp
 
 http://c2ctestapp.212development.com/trimmingapp
 
-https://staging3.selfesteemshop.com/
-
 http://harmless.212development.com/
 
 http://rvadventure.212development.com/
@@ -527,7 +525,6 @@ http://rvadventure.212development.com/
 https://gch.212development.com/
 
 https://staging2.lessonsinanutshell.com/
-
 
 
 Deployed Solutions:
@@ -580,15 +577,16 @@ https://www.brassringlearning.com/
 
 https://lessonsinanutshell.com/
 
+https://selfesteemshop.com/
+
 <hr>
 
-https://selfesteemshop.com/
+https://c2c-solutions.com/innovation-toolbox/trimming-technique-assistant/
 
 https://www.huronpointe.org/
 
 https://www.rvadventure-usa.com/
 
-https://c2c-solutions.com/innovation-toolbox/trimming-technique-assistant/
 
 <hr>
 
