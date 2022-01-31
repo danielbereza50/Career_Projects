@@ -214,8 +214,7 @@ Other Links:
 * https://gridbyexample.com/examples/
 * https://www.veed.io/video-compressor
 * https://mxtoolbox.com/
-* https://www.pdfaid.com/extract-images-doc.aspx
-
+* https://products.aspose.app/words/parser
 
 Learning resources:
 
