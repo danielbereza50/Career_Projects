@@ -618,13 +618,15 @@ https://nlxmiddlesexnj.com
 
 ////////////////////////////////////////
 
+https://spiceisleflavasinc.com/
+
 https://www.adamsathleticclub.com/
+
+https://disabilityalliesforyou.org/
 
 https://njmintel.com/
 
 https://kwakwanifunding.com/
-
-https://disabilityalliesforyou.org/
 
 https://heartsnhand.org/
 
@@ -633,8 +635,6 @@ https://backyardexperiencellc.com
 https://3tscouriers.com/
 
 http://santllc.com/
-
-https://spiceisleflavasinc.com/
 
 Deployed Solutions:
 
