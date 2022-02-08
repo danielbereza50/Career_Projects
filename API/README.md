@@ -30,17 +30,35 @@ Parameters are take right from the url:
 
 https://danielbereza.quickbase.com/db/br5n39gmu
 
-example request with key, value pairs:
+example request for create a table:
 
-{
-  "to": "br5n39gmu",
-  "data":[
-    {
-     "6": {"value":"hello"},
-     "7": {"value":5}
-    }],
-    "fieldsToReturn":[6,7]
+https://developer.quickbase.com/operation/createTable
+
+var headers = {
+  	'QB-Realm-Hostname': 'danielbereza.quickbase.com',
+	'User-Agent': 'mydemo',
+	'Authorization': 'QB-USER-TOKEN b6tday_p2sq_0_d3y8zjeb8buiv9euy5msbjjj2d3',
+    'Content-Type': 'application/json'
 }
+var body = {
+  "name": "My table",
+  "description": "my first table",
+  "singleRecordName": "record",
+  "pluralRecordName": "records"
+}
+
+const xmlHttp = new XMLHttpRequest();
+xmlHttp.open('POST', 'https://api.quickbase.com/v1/tables?appId=br5n59r26', true);
+for (const key in headers) {
+  xmlHttp.setRequestHeader(key, headers[key]);
+}
+xmlHttp.onreadystatechange = function() {
+  if (xmlHttp.readyState === XMLHttpRequest.DONE) {
+    console.log(xmlHttp.responseText);
+  }
+};
+
+xmlHttp.send(JSON.stringify(body));
 
 
 
