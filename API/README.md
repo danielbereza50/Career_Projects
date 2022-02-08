@@ -22,7 +22,7 @@ QB-Realm-Hostname:
 
 User-Agent:
 
-Authorization:y
+Authorization:
 
 /////////////////////////////////////////////
 
