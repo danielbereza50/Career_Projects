@@ -30,7 +30,7 @@ Parameters are take right from the url:
 
 https://danielbereza.quickbase.com/db/br5n39gmu
 
-example request:
+example request with key, value pairs:
 
 {
   "to": "br5n39gmu",
