@@ -28,7 +28,7 @@ Authorization: QB-USER-TOKEN b6tday_p2sq_0_d3y8zjeb8buiv9euy5msbjjj2d3
 
 Parameters are take fright rom the url:
 
-https://danielbereza.quickbase.com/db/br5n59r26
+https://danielbereza.quickbase.com/db/br5n39gmu
 
 example request:
 
