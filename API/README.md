@@ -16,6 +16,14 @@ https://login.quickbase.com/db/main?a=signin
 
 https://developer.quickbase.com/
 
+appId:
+
+QB-Realm-Hostname:
+
+User-Agent:
+
+Authorization:y
+
 /////////////////////////////////////////////
 
 project file header:
