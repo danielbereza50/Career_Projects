@@ -30,6 +30,8 @@ Parameters are take right from the url:
 
 https://danielbereza.quickbase.com/db/br5n39gmu
 
+take request 'body' out of quickbase and plugin to the code variable on the site
+
  
 /////////////////////////////////////////////
 
