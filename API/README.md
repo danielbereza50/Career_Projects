@@ -10,8 +10,13 @@ https://developer.aylien.com/login
 
 https://developers.facebook.com/tools/debug/
 
+/////////////////////////////////////////////
+
 https://login.quickbase.com/db/main?a=signin
 
+https://developer.quickbase.com/
+
+/////////////////////////////////////////////
 
 project file header:
 
