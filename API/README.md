@@ -16,14 +16,16 @@ https://login.quickbase.com/db/main?a=signin
 
 https://developer.quickbase.com/
 
-appId:
+example:
 
-QB-Realm-Hostname:
+appId: br5n39gmu
 
-User-Agent:
+QB-Realm-Hostname: danielbereza.quickbase.com
 
-Authorization:
+User-Agent: mydemo
 
+Authorization: QB-USER-TOKEN b6tday_p2sq_0_d3y8zjeb8buiv9euy5msbjjj2d3 
+ 
 /////////////////////////////////////////////
 
 project file header:
