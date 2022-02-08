@@ -26,7 +26,7 @@ User-Agent: mydemo
 
 Authorization: QB-USER-TOKEN b6tday_p2sq_0_d3y8zjeb8buiv9euy5msbjjj2d3 
 
-Parameters are take fright rom the url:
+Parameters are take right from the url:
 
 https://danielbereza.quickbase.com/db/br5n39gmu
 
