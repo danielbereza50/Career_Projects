@@ -605,6 +605,8 @@ https://www.nbprintdesign.com/
 
 https://digitalmeetsprint.com/
 
+https://nlxmiddlesexnj.com/
+
 framework: Divi
 
 Staging Solutions:
@@ -614,8 +616,6 @@ https://www.7dayspediatrics.com/
 https://lakenelsonmemorialpark.com/
 
 https://www.vitalabstract.com/
-
-https://nlxmiddlesexnj.com/
 
 ////////////////////////////////////////
 
