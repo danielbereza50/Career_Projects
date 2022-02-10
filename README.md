@@ -187,6 +187,7 @@ Other Links:
 * https://whatismyipaddress.com/ - IPv4
 * https://www.whatsmyip.org/
 * https://stock.adobe.com/search/free
+* https://www.elegantthemes.com/blog/resources/elegant-icon-font
 * https://phoenixnap.com/kb/how-to-flush-dns-cache
 * https://tinypng.com/
 * http://beautifytools.com/php-beautifier.php
