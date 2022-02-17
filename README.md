@@ -688,9 +688,8 @@ https://eyebenders.com/
 
 Staging Solutions:
 
-https://www.omitttradeschool.com/
+http://eyebenders.org/
 
-https://omittinnovativesolutions.org/
 
 Deployed Solutions:
 
@@ -701,5 +700,6 @@ https://liftconnection.org/
 
 <hr>
 
+https://www.omitttradeschool.com/
 
 
