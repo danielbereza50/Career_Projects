@@ -688,7 +688,7 @@ https://eyebenders.com/
 
 Staging Solutions:
 
-http://eyebenders.org/
+http://omitttradeschool.eyebenders.org/
 
 
 Deployed Solutions:
