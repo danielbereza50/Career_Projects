@@ -223,11 +223,17 @@ Web Host Increase Limits:
 MultiPHP INI Editor:
 
 max_execution_time: 180
+
 max_input_time: 600 
+
 max_input_vars: 5000
+
 memory_limit: 512M
+
 post_max_size: 128M
+
 session.gc_maxlifetime: 1440
+
 upload_max_filesize: 512M
 
 
