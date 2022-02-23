@@ -539,6 +539,8 @@ http://toilms.212development.com/
 
 http://testsite.212development.com/adapp
 
+https://staging2.lessonsinanutshell.com/
+
 http://c2ctestapp.212development.com/trimmingapp
 
 http://harmless.212development.com/
@@ -547,8 +549,7 @@ http://rvadventure.212development.com/
 
 https://gch.212development.com/
 
-https://staging2.lessonsinanutshell.com/
-
+https://beeandblooms.212development.com/
 
 Deployed Solutions:
 
