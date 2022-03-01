@@ -679,8 +679,6 @@ https://spiceisleflavasinc.com/
 
 https://www.adamsathleticclub.com/
 
-https://disabilityalliesforyou.org/
-
 <hr>
 
 https://adamsacrental.com/
@@ -688,8 +686,6 @@ https://adamsacrental.com/
 https://www.kwakwanicapital.com/
 
 https://www.thebackyardexperiencellc.com/
-
-https://www.disabilityallies.com/
 
 https://hhtnj.net/
 
