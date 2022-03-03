@@ -22,7 +22,7 @@ function embed_python( $attributes )
 {
  $data = shortcode_atts(
         [
-            'file' => 'main.py'
+            'file' => ''
         ],
         $attributes
     );
