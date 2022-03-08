@@ -740,6 +740,7 @@ https://www.ncbrewsmusic.com/
 
 https://liftconnection.org/
 
+https://lochnorman.com/
 
 <hr>
 
@@ -748,8 +749,6 @@ https://www.omitttradeschool.com/
 https://omittinnovativesolutions.org/
 
 http://omitttrainingacademy.com/
-
-http://lochnorman.com/
 
 http://ohfp.org/
 
