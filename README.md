@@ -730,8 +730,6 @@ Staging Solutions:
 
 http://omitttradeschool.eyebenders.org/
 
-http://ln.eyebenders.org/
-
 http://ohfp.eyebenders.org/
 
 Deployed Solutions:
