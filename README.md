@@ -531,29 +531,21 @@ https://legaldir.212development.com/lawfirms-directory/
 
 http://pfl.212development.com
 
-https://innovativenutritionproducts.com/
-
-http://lms.212development.com/
-
-http://hk20.212development.com/
-
-http://toilms.212development.com/
-
 http://testsite.212development.com/adapp
 
 https://staging2.lessonsinanutshell.com/
 
 http://c2ctestapp.212development.com/trimmingapp
 
+http://toilms.212development.com/
+
 http://harmless.212development.com/
-
-http://rvadventure.212development.com/
-
-https://gch.212development.com/
 
 https://beeandblooms.212development.com/
 
 https://staging2.jgmpropertygroup.com/
+
+https://gch.212development.com/
 
 Deployed Solutions:
 
@@ -607,13 +599,15 @@ https://lessonsinanutshell.com/
 
 https://selfesteemshop.com/
 
+https://www.rvadventure-usa.com/
+
 <hr>
 
 https://c2c-solutions.com/innovation-toolbox/trimming-technique-assistant/
 
 https://www.huronpointe.org/
 
-https://www.rvadventure-usa.com/
+https://www.gracecentersofhope.org/
 
 
 <hr>
