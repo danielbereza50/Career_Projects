@@ -553,6 +553,8 @@ https://gch.212development.com/
 
 https://beeandblooms.212development.com/
 
+https://staging2.jgmpropertygroup.com/
+
 Deployed Solutions:
 
 https://twinsurance.net
