@@ -609,12 +609,7 @@ https://staff.innisfail.ca/
 
 https://c2c-solutions.com/innovation-toolbox/trimming-technique-assistant/
 
-https://www.huronpointe.org/
-
-https://hh.huronpointe.org
-
 https://www.gracecentersofhope.org/
-
 
 <hr>
 
@@ -641,25 +636,17 @@ framework: Divi
 
 Staging Solutions:
 
-https://www.7dayspediatrics.com/
-
-https://www.vitalabstract.com/
-
-https://claudiasproperties.com/
-
 http://awmartinrestoration.com
 
 https://rnspizzagrill.com
 
-http://leadspowerbase.com/
-
 http://oldetimeautorepair.com/
+
+http://corbansolutions.net/
 
 http://santllc.com/
 
 https://lakenelsonmemorialpark.com/
-
-http://corbansolutions.net/
 
 ////////////////////////////////////////
 
@@ -681,15 +668,13 @@ https://swiftsocceracademynj.com/
 
 https://egsnewjersey.com/
 
-https://chickenholidaymilltownnj.com/
-
 https://spiceisleflavasinc.com/
 
 https://www.adamsathleticclub.com/
 
-<hr>
+https://claudiasproperties.com/
 
-https://adamsacrental.com/
+<hr>
 
 https://www.kwakwanicapital.com/
 
@@ -697,11 +682,7 @@ https://www.thebackyardexperiencellc.com/
 
 https://hhtnj.net/
 
-https://www.networkleadexchange.com/
-
 https://www.corbansolutions.com/
-
-http://claudia-ryan.agent.weidel.com/
 
 https://awmartin.com/
 
