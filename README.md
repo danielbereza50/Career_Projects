@@ -537,10 +537,6 @@ https://staging2.lessonsinanutshell.com/
 
 http://c2ctestapp.212development.com/trimmingapp
 
-http://toilms.212development.com/
-
-http://harmless.212development.com/
-
 https://beeandblooms.212development.com/
 
 https://gch.212development.com/
