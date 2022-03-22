@@ -30,7 +30,7 @@ How to properly include plugin files:
 include __DIR__.'/functions.php';
 
 
-echo plugin_dir_url( __FILE__ ) . 'images/HPSA_logo.png'; 
+echo plugin_dir_url( __FILE__ ) . 'images/'; 
 
 
 How to 'hack' a plugin
