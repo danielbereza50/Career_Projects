@@ -25,6 +25,14 @@
 -----------------------
 
 
+How to properly include plugin files:
+
+include __DIR__.'/functions.php';
+
+
+echo plugin_dir_url( __FILE__ ) . 'images/HPSA_logo.png'; 
+
+
 How to 'hack' a plugin
 
 1. Change the plugin version number to 999.999.999 in the plugin header 
