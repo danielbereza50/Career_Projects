@@ -10,8 +10,6 @@
     License URI: Licence URl
 */
 
-// https://developer.wordpress.org/resource/dashicons/
-
 function create_staff_cpt()
 {
     $labels = array(
@@ -48,6 +46,7 @@ function create_staff_cpt()
             'author',
         ) ,
         'has_archive' => true,
+        'publicly_queryable' => false,
     );
     register_post_type('staff', $args);
 }
@@ -90,7 +89,7 @@ function my_rem_editor_from_post_type() {
  */
 function hcf_register_meta_boxes() {
     add_meta_box( 
-		'dep-1', __( 'Department Information', 'dep' ), 'show_your_fields_meta_box', 'staff' 
+		'dep-1', __( 'Staff Member Information', 'dep' ), 'show_your_fields_meta_box', 'staff' 
 	);
 }
 add_action( 'add_meta_boxes', 'hcf_register_meta_boxes' );
@@ -103,31 +102,34 @@ add_action( 'add_meta_boxes', 'hcf_register_meta_boxes' );
 function show_your_fields_meta_box( $post ) {
     global $post;  
     $meta = get_post_meta( $post->ID, 'your_fields', true ); ?>
-
-
 <input type="hidden" name="your_meta_box_nonce" value="<?php echo wp_create_nonce( basename(__FILE__) ); ?>">
 <p>
     	<label for="your_fields[name]">Name</label>
     	<br>
-    	<input type="text" name="your_fields[name]" id="your_fields[name]" class="regular-text" value="<?php echo $meta['name']; ?>" required>
+    	<input type="text" name="your_fields[name]" id="your_fields[name]" class="regular-text" value="<?php if(!empty($meta['name'])){ 
+		echo $meta['name']; 
+	} ?>" required>
     </p>
-
 <p>
 <label for="your_fields[postion]">Postion</label>
     	<br>
-    	<input type="text" name="your_fields[postion]" id="your_fields[postion]" class="regular-text" value="<?php echo $meta['postion']; ?>" required>
+    	<input type="text" name="your_fields[postion]" id="your_fields[postion]" class="regular-text" value="<?php if(!empty($meta['postion'])){ 
+		echo $meta['postion']; 
+	} ?>" required>
     </p>
-
 <p>
 <label for="your_fields[email]">Email</label>
     	<br>
-    	<input type="text" name="your_fields[email]" id="your_fields[email]" class="regular-text" value="<?php echo $meta['email']; ?>">
+    	<input type="text" name="your_fields[email]" id="your_fields[email]" class="regular-text" value="<?php if(!empty($meta['email'])){ 
+		echo $meta['email']; 
+	} ; ?>">
     </p>
-
 <p>
     	<label for="your_fields[bio]">Bio</label>
     	<br>
-    	<textarea name="your_fields[bio]" id="your_fields[bio]" rows="5" cols="30" style="width:500px;" required><?php echo $meta['bio']; ?></textarea>
+    	<textarea name="your_fields[bio]" id="your_fields[bio]" rows="5" cols="30" style="width:500px;" required><?php if(!empty($meta['bio'])){ 
+		echo $meta['bio']; 
+	} ;?></textarea>
     </p>
 
 <?php 
@@ -198,21 +200,21 @@ function departments_categories ($atts) {
 	?>
 	<div class="staff_member">
 		<div class="staff_headshot"> 
-       <?php echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
+       <?php echo get_the_post_thumbnail( $post->ID, 'medium' ); ?>
 		</div>
 		<div class="staff_name"> 
 		<?php
           echo $meta['name'];
 			?> 
 			<?php
-         if(!empty($meta['email'])){ ?>
-            <a href="mailto:<?php echo $meta['email']; ?>">
-            <span class='et-pb-icon'>&#xe010;</span>
-            </a><?php 
-            }else{  
-             //
-            }
-            ?>
+		 if(!empty($meta['email'])){ ?>
+			<a href="mailto:<?php echo $meta['email']; ?>">
+			<span class='et-pb-icon'>&#xe010;</span>
+			</a><?php 
+			}else{  
+			 //
+			}
+			?>
 		</div>
 		<div class="staff_position"> 
 		<?php
@@ -224,9 +226,9 @@ function departments_categories ($atts) {
         <?php echo get_the_post_thumbnail( $post->ID, 'thumbnail' ); ?>
         <?php echo $meta['bio'];  ?>
      <div class="staff_hide_bio" >Hide Bio</div>
-        </div>
-        <!--<div class="staff_bio"> 
-      </div>-->
+		</div>
+		<!--<div class="staff_bio"> 
+	  </div>-->
 	</div>
 	<?php endwhile; ?>	 
 	<!-- loop the staff member container --> 
@@ -242,78 +244,5 @@ function departments_categories ($atts) {
 	return $html;
 }
 add_shortcode( 'staff_member','departments_categories' );
-?>
-
-<script>
-
-    // A $( document ).ready() block.
-jQuery( document ).ready(function($) {
-    
-    console.log( "ready!" );
-    
-    jQuery('.staff_show_bio').click(function(){
-        var $depCov = jQuery(this).next('.bio-display');
-        
-        $depCov.addClass( "visible" );
-        
-    });
-
-    jQuery('.staff_hide_bio').click(function(){
-    
-        jQuery( ".bio-display" ).removeClass( "visible" );
-    });
-
-});
-    
-
-
-</script>
-
-
-
-<style>
-
-
-.staff_show_bio {
-  background: #E02B20;
-  color: #fff;
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 10px;
-  border-radius: 20px;
-    cursor:pointer;
-}
-.staff_hide_bio {
-  position: absolute;
-  bottom: 3px;
-  width: 100px;
-  left: calc(50% - 50px);
-  background: #E02B20;
-  border-radius: 20px;
-    cursor:pointer;
-}
-
-.bio-display{
-    position:absolute;
-    bottom:0;
-    top:0;
-    left:0;
-    right:0;
-    background:#456181!important;
-    color:#fff;
-    padding:0%;
-    max-height:0px;
-    max-width:0px;
-    overflow:hidden;
-    transition:all 300ms ease-in-out;
-    font-size:0px}
-.bio-display.visible{
-    padding:2%;
-    max-height:100%;max-width:100%;
-    overflow-y:auto;
-    font-size:13px
-}
-
-</style>
 
 
