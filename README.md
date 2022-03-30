@@ -11,6 +11,11 @@ A portfolio of past projects, build instructions and platforms are specified at 
 <div>Operating Systems:</div>
 <div>Mac, Windows, Linux</div>
 <br>
+
+Mac command to bypass content protect:
+
+CMD + OPTION + I
+
 WordPress Cookbooks: 
 
 * Documentation: https://www.wpbeginner.com/wp-tutorials/how-to-move-live-wordpress-site-to-local-server/
