@@ -158,10 +158,10 @@ Custom Themes + SEO work via
 ////////////////////////////////////////////////////////
 
 * https://www.wordtracker.com
+* https://www.semrush.com/login/?src=header&redirect_to=%2F
 * https://ahrefs.com/backlink-checker
 * https://www.seoptimer.com
 * https://rainstreamweb.com/
-* https://www.semrush.com/login/?src=header&redirect_to=%2F
 * https://my.yoast.com/login
 * https://login.buffer.com/login
 * https://cloudconvert.com/png-to-webp
