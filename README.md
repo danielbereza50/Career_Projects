@@ -612,9 +612,9 @@ https://hh.huronpointe.org
 
 https://staff.innisfail.ca/
 
-<hr>
+https://c2c-solutions.com/trimmingapp
 
-https://c2c-solutions.com/innovation-toolbox/trimming-technique-assistant/
+<hr>
 
 https://www.gracecentersofhope.org/
 
