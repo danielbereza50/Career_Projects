@@ -659,8 +659,6 @@ https://lakenelsonmemorialpark.com/
 
 https://www.vitalabstract.com
 
-https://www.motopowerbattery.com/
-
 ////////////////////////////////////////
 
 https://njmintel.com/
