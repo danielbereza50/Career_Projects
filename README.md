@@ -729,8 +729,6 @@ http://omitttradeschool.eyebenders.org/
 
 http://ohfp.eyebenders.org/
 
-http://ifml.eyebenders.org/
-
 Deployed Solutions:
 
 https://www.ncbrewsmusic.com/
@@ -738,6 +736,8 @@ https://www.ncbrewsmusic.com/
 https://liftconnection.org/
 
 https://lochnorman.com/
+
+http://www.investorfriendlymoneylender.com/
 
 <hr>
 
@@ -748,6 +748,4 @@ https://omittinnovativesolutions.org/
 http://omitttrainingacademy.com/
 
 http://ohfp.org/
-
-http://www.investorfriendlymoneylender.com/
 
