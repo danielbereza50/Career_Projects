@@ -167,6 +167,7 @@ Custom Themes + SEO work via
 * https://ahrefs.com/backlink-checker
 * https://www.seoptimer.com
 * https://rainstreamweb.com/
+* https://www.alignable.com
 * https://my.yoast.com/login
 * https://login.buffer.com/login
 * https://cloudconvert.com/png-to-webp
