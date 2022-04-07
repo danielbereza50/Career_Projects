@@ -557,6 +557,10 @@ http://brynmorgan.212staging.net/
 
 https://aps.212staging.net/
 
+https://munictpl.212staging.net/
+
+http://testsite.212development.com/valcalcapp
+
 Deployed Solutions:
 
 https://twinsurance.net
