@@ -3,7 +3,7 @@ When ever doing UX from scratch, use the following start to the code:
 <style>
     
     .flex-wrapper {
-    
+    <br>
     display: flex;
     
     flex-wrap: wrap;
