@@ -11,6 +11,7 @@ When ever doing UX from scratch, use the following start to the code:
     justify-content: space-between; 
     
     align-items: center;
+    
     }
     
     .flex-item {
