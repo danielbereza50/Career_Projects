@@ -2,25 +2,9 @@ When ever doing UX from scratch, use the following start to the code:
 
 <style>
     
-    .flex-wrapper {
-    <br>
-    display: flex;
-    <br>
-    flex-wrap: wrap;
-    <br>
-    justify-content: space-between; 
-    <br>
-    align-items: center;
-    <br>
-    }
+    .flex-wrapper {display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center;}
     
-    .flex-item {
-    <br>
-    width: 32%;
-    <br>
-    height: auto;
-    <br>
-    }
+    .flex-item {width: 32%;height: auto;}
     
     
     @media screen and (max-width:980px){width: 50%;height: auto;}
