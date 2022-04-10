@@ -11,6 +11,11 @@ A portfolio of past projects, build instructions and platforms are specified at 
 <div>Operating Systems:</div>
 <div>Mac, Windows, Linux</div>
 <br>
+
+Mac command to bypass content protect:
+
+CMD + OPTION + I
+
 WordPress Cookbooks: 
 
 * Documentation: https://www.wpbeginner.com/wp-tutorials/how-to-move-live-wordpress-site-to-local-server/
@@ -158,10 +163,11 @@ Custom Themes + SEO work via
 ////////////////////////////////////////////////////////
 
 * https://www.wordtracker.com
+* https://www.semrush.com/login/?src=header&redirect_to=%2F
 * https://ahrefs.com/backlink-checker
 * https://www.seoptimer.com
 * https://rainstreamweb.com/
-* https://www.semrush.com/login/?src=header&redirect_to=%2F
+* https://www.alignable.com
 * https://my.yoast.com/login
 * https://login.buffer.com/login
 * https://cloudconvert.com/png-to-webp
@@ -322,6 +328,8 @@ https://www.networksolutions.com/domain-name-registration/index.jsp
 
 https://login.ionos.com/
 
+https://mail.ionos.com/
+
 https://login.siteground.com/users?lang=en
 
 https://id.cpanel.net/
@@ -480,6 +488,8 @@ http://www.newbritaindd.com/
 
 http://murphyscure.com/
 
+https://tboxusa.com/
+
 <hr>
 
 Company:
@@ -533,6 +543,8 @@ http://testsite.212development.com/adapp
 
 https://staging2.lessonsinanutshell.com/
 
+https://harmless.212development.com/
+
 http://c2ctestapp.212development.com/trimmingapp
 
 https://beeandblooms.212development.com/
@@ -540,6 +552,14 @@ https://beeandblooms.212development.com/
 https://gch.212development.com/
 
 http://dm.212development.com/
+
+http://brynmorgan.212staging.net/
+
+https://aps.212staging.net/
+
+https://munictpl.212staging.net/
+
+http://testsite.212development.com/valcalcapp
 
 Deployed Solutions:
 
@@ -599,9 +619,9 @@ https://hh.huronpointe.org
 
 https://staff.innisfail.ca/
 
-<hr>
+https://c2c-solutions.com/trimmingapp
 
-https://c2c-solutions.com/innovation-toolbox/trimming-technique-assistant/
+<hr>
 
 https://www.gracecentersofhope.org/
 
@@ -641,6 +661,8 @@ http://corbansolutions.net/
 http://santllc.com/
 
 https://lakenelsonmemorialpark.com/
+
+https://www.vitalabstract.com
 
 ////////////////////////////////////////
 
@@ -719,6 +741,8 @@ https://www.ncbrewsmusic.com/
 https://liftconnection.org/
 
 https://lochnorman.com/
+
+http://www.investorfriendlymoneylender.com/
 
 <hr>
 
