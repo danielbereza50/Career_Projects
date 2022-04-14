@@ -458,8 +458,6 @@ https://3h3.3ea.myftpupload.com/
 
 http://donsagarino.com/
 
-http://newbritaindd.org/
-
 https://tboxusa.net/
 
 Deployed Solutions:
@@ -482,11 +480,11 @@ https://urgentcarecentersct.com
 
 http://monsignorbojnowskimanor.org/
 
-<hr>
-
 https://www.greaternewbritainchamber.com/
 
 http://www.newbritaindd.com/
+
+<hr>
 
 http://murphyscure.com/
 
