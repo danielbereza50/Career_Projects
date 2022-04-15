@@ -563,6 +563,8 @@ http://testsite.212development.com/valcalcapp
 
 https://mcb.212staging.net/
 
+https://provost.212staging.net/
+
 Deployed Solutions:
 
 https://twinsurance.net
@@ -626,6 +628,8 @@ https://c2c-solutions.com/trimmingapp
 <hr>
 
 https://www.gracecentersofhope.org/
+
+https://provost.ca/
 
 <hr>
 
