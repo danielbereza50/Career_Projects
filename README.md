@@ -482,7 +482,7 @@ https://urgentcarecentersct.com
 
 http://monsignorbojnowskimanor.org/
 
-https://www.greaternewbritainchamber.com/
+https://greaternewbritainchamber.com/
 
 http://www.newbritaindd.com/
 
