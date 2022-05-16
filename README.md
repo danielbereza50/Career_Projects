@@ -571,6 +571,8 @@ https://provost.212staging.net/
 
 https://tnt.212staging.net/
 
+https://talentbureau.212staging.net/
+
 Deployed Solutions:
 
 https://twinsurance.net
@@ -640,6 +642,8 @@ https://www.gracecentersofhope.org/
 https://provost.ca/
 
 https://dmtreeservice.com/
+
+https://talentbureau.com/
 
 <hr>
 
