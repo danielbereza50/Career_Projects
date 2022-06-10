@@ -59,7 +59,8 @@ ORDER  BY p.`ID` ASC;
 
 
 
-
+-- remove shortcodes from post content
+UPDATE wp_posts SET post_content = REPLACE(post_content, '[shortcodename]', '' ) ;
 
 
 
