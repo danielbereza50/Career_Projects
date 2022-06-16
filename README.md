@@ -245,6 +245,18 @@ session.gc_maxlifetime: 1440
 
 upload_max_filesize: 512M
 
+SSH step-by-step:
+
+ssh root@[ip address]
+
+password: [Password]
+
+cd /home/[project folder]
+
+ls
+
+cd
+
 
 Learning resources:
 
