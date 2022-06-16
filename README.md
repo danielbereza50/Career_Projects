@@ -247,15 +247,21 @@ upload_max_filesize: 512M
 
 SSH step-by-step:
 
+ssh = secure shell
+
 ssh root@[ip address]
 
 password: [Password]
 
 cd /home/[project folder]
 
-ls
+ls - list
 
-cd
+cd - change directory
+
+pwd - prrint working directory
+
+nano
 
 
 Learning resources:
