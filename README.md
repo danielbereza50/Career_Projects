@@ -263,7 +263,7 @@ cd - change directory
 
 pwd - print working directory
 
-nano
+nano - text editor on ubantu
 
 //////////////////////////////
 
