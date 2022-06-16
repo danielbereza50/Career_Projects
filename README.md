@@ -245,6 +245,8 @@ session.gc_maxlifetime: 1440
 
 upload_max_filesize: 512M
 
+//////////////////////////////
+
 SSH step-by-step:
 
 ssh = secure shell
@@ -259,10 +261,11 @@ ls - list
 
 cd - change directory
 
-pwd - prrint working directory
+pwd - print working directory
 
 nano
 
+//////////////////////////////
 
 Learning resources:
 
