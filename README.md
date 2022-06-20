@@ -225,6 +225,7 @@ Other Links:
 * https://products.aspose.app/words/parser
 * https://online-video-cutter.com/
 * https://www.desmos.com/scientific
+* https://www.omnicalculator.com/other/aspect-ratio
 
 gmail queries: older_than:3y
 
