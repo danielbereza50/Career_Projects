@@ -63,6 +63,8 @@ ORDER  BY p.`ID` ASC;
 UPDATE wp_posts SET post_content = REPLACE(post_content, '[shortcodename]', '' ) ;
 
 
+-- update post authors
+UPDATE wp_posts SET post_author=id_new_author WHERE post_author=id_old_author;
 
 
 
