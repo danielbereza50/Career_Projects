@@ -66,7 +66,7 @@ UPDATE wp_posts SET post_content = REPLACE(post_content, '[shortcodename]', '' )
 -- update post authors
 UPDATE wp_posts SET post_author=id_new_author WHERE post_author=id_old_author;
 
--- delete unused product categories from db
+-- delete all unused taxonomies from db
 DELETE FROM wp_terms WHERE term_id IN (SELECT term_id FROM wp_term_taxonomy WHERE count = 0)
 
 
