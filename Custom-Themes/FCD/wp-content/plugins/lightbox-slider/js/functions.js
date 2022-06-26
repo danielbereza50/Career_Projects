@@ -1,4 +1,0 @@
-function driver () {
-	function myFunction() {
-    
-}
