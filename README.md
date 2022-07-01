@@ -375,3 +375,7 @@ https://www.wix.com/
 https://wpx.net/clientarea/
 
 https://account.squarespace.com
+
+https://628147789741.signin.aws.amazon.com/console
+
+https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1
