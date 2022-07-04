@@ -250,26 +250,6 @@ upload_max_filesize: 512M
 
 //////////////////////////////
 
-SSH step-by-step:
-
-ssh = secure shell
-
-ssh root@[ip address]
-
-password: [Password]
-
-cd /home/[project folder]
-
-ls - list
-
-cd - change directory
-
-pwd - print working directory
-
-nano - text editor on ubantu
-
-//////////////////////////////
-
 Learning resources:
 
 https://www.khanacademy.org/computing/computer-programming
