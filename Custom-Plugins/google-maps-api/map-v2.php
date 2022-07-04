@@ -172,7 +172,7 @@ function google_map(){
         // Create a map object, and include the MapTypeId to add
         // to the map type control.
         const map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat:39.449123, lng: -76.631273 },
+          center: {lat:x, lng: y},
           zoom: 15,
           mapTypeControlOptions: {
             mapTypeIds: [
@@ -186,7 +186,7 @@ function google_map(){
         });
         
         
-    var myLatLng = {lat:39.449123, lng: -76.631273};
+    var myLatLng = {lat:x, lng: y};
   	
     var marker = new google.maps.Marker({
       position: myLatLng,
@@ -195,8 +195,8 @@ function google_map(){
     
   var contentString = '<div id="content">' +
     '<div id="siteNotice">' +
-   '<div>DBT of Baltimore</div>' +
-   '<div><a href = "https://www.google.com/maps/dir/?api=1&destination=2300%20York%20Rd,%20Lutherville-Timonium,%20MD%2021093,%20USA" target = "_blank">Directions</a></div>' +
+   '<div>Business</div>' +
+   '<div><a href = "" target = "_blank">Directions</a></div>' +
     '</div>' +
     '</div>';
     
@@ -218,7 +218,7 @@ function google_map(){
 
     <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC7_oIqPwDf5nSWHcF2ig1vGjVT5nPx5uQ&callback=initMap&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key={KEY_VALUE}&callback=initMap&libraries=&v=weekly"
       async
     ></script>
   <?php

@@ -41,7 +41,7 @@ jQuery(function($) {
 // Asynchronously Load the map API 
 var script = document.createElement('script');
 //script.src = "//maps.googleapis.com/maps/api/js?sensor=false&callback=initialize";
-script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC7_oIqPwDf5nSWHcF2ig1vGjVT5nPx5uQ&callback=initialize"
+script.src = "https://maps.googleapis.com/maps/api/js?key={KEY_VALUE}&callback=initialize"
 document.body.appendChild(script);
 });
 function initialize() {
@@ -62,28 +62,28 @@ map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 map.setTilt(45);
 // Multiple Markers
 var markers = [
-['Doctors Treatment Center, Plainville', 41.6607491,-72.8647859],
-['Doctors Treatment Center, Granby', 41.9338457,-72.7913954]
+['', x,y],
+['', x,y]
 ]
 ;
 // Info Window Content
 var infoWindowContent = [
 [
 '<div class="info_content">'+
-'<a href = "https://www.google.com/maps/dir//41.6607491,-72.8647859/@41.660749,-72.864786,16z?hl=en-US" target = "_blank">' + 
+'<a href = "" target = "_blank">' + 
 '<b>Click anywhere in this model for directions<b>' +
-'<h5>Plainville</h5>' +
-'<p>240 East St Plainville, CT 06062 Phone: (860)747-4541 Fax: (860)793-1218</p>' + 
+'<h5></h5>' +
+'<p></p>' + 
 '</a>'+ 
 '</div>'
 ],
 
 [
 '<div class="info_content">' +
-'<a href = "https://www.google.com/maps/dir//41.9338457,-72.7892014/@41.933846,-72.789201,16z?hl=en-US" target = "_blank">' + 
+'<a href = "" target = "_blank">' + 
 '<b>Click anywhere in this model for directions<b>' +
-'<h5>Granby</h5>' +
-'<p>7 Mill Pond Rd. Granby, CT 06035 Phone: (860) 653-2382 Fax: (860) 653-6235</p>' +
+'<h5></h5>' +
+'<p></p>' +
 '</a>' +
 '</div>'
 
