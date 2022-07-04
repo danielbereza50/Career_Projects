@@ -1,11 +1,11 @@
 <?php
 /*
-    Plugin Name: ADA Compliance Functions
-    Plugin URI:  https://counselingwise.com
+    Plugin Name: 
+    Plugin URI: 
     Description: This will help me the website more accessible to the disabled.  
     Version:     100.0.0
-    Author:      Counseling Wise
-    Author URI:  https://counselingwise.com
+    Author:      
+    Author URI:  
     License:     GPL2
     License URI: Licence URl
 */

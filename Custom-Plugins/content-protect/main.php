@@ -1,11 +1,11 @@
 <?php
 /*
     Plugin Name: Content Protect
-    Plugin URI:  https://www.counselingwise.com/
+    Plugin URI:  
     Description: Disbales copy / paste for specific paid-for content.  
     Version:     100.0.0
-    Author:      Page1Pros 
-    Author URI:  https://www.counselingwise.com/
+    Author:      
+    Author URI:  
     License:     GPL2
     License URI: Licence URl
 */

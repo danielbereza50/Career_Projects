@@ -1,11 +1,11 @@
 <?php
 /*
     Plugin Name: Video Slider
-    Plugin URI:  https://212creative.com/
+    Plugin URI:  
     Description: A jQuery video slider
     Version:     100.0.0
-    Author:      212 Creative, LLC
-    Author URI:  https://212creative.com/
+    Author:      
+    Author URI:  
     License:     GPL2
     License URI: Licence URl
 */

@@ -1,11 +1,11 @@
 <?php
 /*
-    Plugin Name: GCH - Custom code
-    Plugin URI:  https://212creative.com/
+    Plugin Name: 
+    Plugin URI:  
     Description: Added website functionality. 
     Version:     100.0.0
-    Author:      212creative
-    Author URI:  https://212creative.com/
+    Author:      
+    Author URI:  
     License:     GPL2
     License URI: Licence URl
 */
