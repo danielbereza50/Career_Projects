@@ -157,6 +157,7 @@ Custom Themes + SEO work via
 * https://tagmanager.google.com/#/home
 * https://search.google.com/search-console/welcome
 * https://drive.google.com/drive/my-drive
+* https://myaccount.google.com/permissions
 * https://console.developers.google.com/
 * https://console.cloud.google.com/home/dashboard
 
