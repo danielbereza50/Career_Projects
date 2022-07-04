@@ -157,6 +157,7 @@ Custom Themes + SEO work via
 * https://tagmanager.google.com/#/home
 * https://search.google.com/search-console/welcome
 * https://drive.google.com/drive/my-drive
+* https://myaccount.google.com/permissions
 * https://console.developers.google.com/
 * https://console.cloud.google.com/home/dashboard
 
@@ -247,26 +248,6 @@ post_max_size: 128M
 session.gc_maxlifetime: 1440
 
 upload_max_filesize: 512M
-
-//////////////////////////////
-
-SSH step-by-step:
-
-ssh = secure shell
-
-ssh root@[ip address]
-
-password: [Password]
-
-cd /home/[project folder]
-
-ls - list
-
-cd - change directory
-
-pwd - print working directory
-
-nano - text editor on ubantu
 
 //////////////////////////////
 

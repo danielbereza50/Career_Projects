@@ -2,13 +2,29 @@
 A portfolio of past projects, build instructions and platforms are specified at the start of each branch in order to ensure proper compilation.  Everything is situated within its proper branch which is accessed through the drop down.
 
 
+SSH step-by-step:
+
+ssh = secure shell
+
+ssh root@[ip address]
+
+password: [Password]
+
+cd /home/[project folder]
+
+ls - list
+
+pwd - print working directory
+
+nano - text editor on ubantu
+
+
+
 mkdir -  make a new directory
 
 cat - to view a file's contents
 
 cd - change directory
-
-nano - edit a file
 
 on a mac do control + X to exit nano
 
