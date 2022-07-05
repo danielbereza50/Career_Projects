@@ -228,6 +228,7 @@ Other Links:
 * https://www.desmos.com/scientific
 * https://www.omnicalculator.com/other/aspect-ratio
 * https://www.canva.com/
+* https://www.image-map.net/
 
 gmail queries: older_than:3y
 
