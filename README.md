@@ -229,6 +229,7 @@ Other Links:
 * https://www.omnicalculator.com/other/aspect-ratio
 * https://www.canva.com/
 * https://www.image-map.net/
+* https://onlinetexttools.com/extract-text-from-html
 
 gmail queries: older_than:3y
 
