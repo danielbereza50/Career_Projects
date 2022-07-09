@@ -42,7 +42,7 @@ aws configure
 1. AWS Access Key ID
 2. AWS Secret Access Key 
 3. Default region name [US East]: us-east-2
-4. Default output format [JSON]: 
+4. Default output format [JSON]: json
 
 aws s3 sync s3://<your_source_s3_bucket> <your_local_path>
 
