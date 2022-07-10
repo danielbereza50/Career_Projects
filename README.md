@@ -362,6 +362,6 @@ https://account.squarespace.com
 
 https://www.smarterasp.net/index
 
-https://628147789741.signin.aws.amazon.com/console
+https://aws.amazon.com/account/
 
 https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1
