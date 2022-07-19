@@ -228,6 +228,10 @@ Other Links:
 * https://www.desmos.com/scientific
 * https://www.omnicalculator.com/other/aspect-ratio
 * https://www.canva.com/
+* https://www.image-map.net/
+* https://onlinetexttools.com/extract-text-from-html
+* https://brandfolder.com/workbench/extract-text-from-image
+* https://codepen.io/jpgninja/full/RMNdNM/
 
 gmail queries: older_than:3y
 
@@ -357,6 +361,8 @@ https://wpx.net/clientarea/
 
 https://account.squarespace.com
 
-https://628147789741.signin.aws.amazon.com/console
+https://www.smarterasp.net/index
+
+https://aws.amazon.com/account/
 
 https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1

@@ -70,5 +70,19 @@ UPDATE wp_posts SET post_author=id_new_author WHERE post_author=id_old_author;
 DELETE FROM wp_terms WHERE term_id IN (SELECT term_id FROM wp_term_taxonomy WHERE count = 0)
 
 
+SELECT t.*, tt.*
+FROM rmb_terms AS t 
+INNER JOIN rmb_term_taxonomy AS tt ON tt.term_id = t.term_id 
+INNER JOIN rmb_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id
+WHERE tt.taxonomy IN ('product_cat') 
+AND tr.object_id IN (11892)
 
+
+
+SELECT ID, `post_date` ,  `post_title` ,  `post_content` ,  `guid` FROM  `rmb_posts` as post
+INNER JOIN rmb_term_relationships rs ON rs.object_id = post.ID 
+WHERE  `post_type` =  "post" 
+AND  `post_status` =  "publish"
+AND rs.term_taxonomy_id  = 1 
+ORDER BY post_date DESC LIMIT 5
 
