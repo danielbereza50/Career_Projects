@@ -23,3 +23,15 @@ When ever doing UX from scratch, use the following start to the code:
     </div>
 
     </div>
+
+
+perserve image aspect ratio:
+
+    aspect-ratio: 16/9;
+    
+	width: 200px;
+    
+    height: 200px;
+    
+	object-fit: cover;
+
