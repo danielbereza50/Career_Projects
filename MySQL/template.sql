@@ -59,9 +59,9 @@ ORDER  BY p.`ID` ASC;
 
 
 
--- remove shortcodes from post content
+-- remove text strings from post content, examples:
 UPDATE wp_posts SET post_content = REPLACE(post_content, '[shortcodename]', '' ) ;
-
+UPDATE wp_posts SET post_content = REPLACE(post_content, '1 Minute Read |', '' ) ;
 
 -- update post authors
 UPDATE wp_posts SET post_author=id_new_author WHERE post_author=id_old_author;
