@@ -268,6 +268,11 @@ Joombla - https://downloads.joomla.org/us/
 
 Drupal - https://www.drupal.org/download
 
+Zen Cart - https://www.zen-cart.com/index.php
+
+Open Cart -  https://www.opencart.com/
+
+
 
 Woocommerce template structure: 
 
@@ -285,6 +290,11 @@ Web Servers:
 2. Internet Information Services (IIS)
 
 3. nginx
+
+
+Public Folder / File Permission
+
+776
 
 
 JavaScript - client-side and server-side
