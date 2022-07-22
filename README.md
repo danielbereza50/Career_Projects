@@ -270,6 +270,9 @@ Drupal - https://www.drupal.org/download
 
 Zen Cart - https://www.zen-cart.com/index.php
 
+debug: /public_html/store/logs/myDEBUG-1608266247-976821.log
+
+
 Open Cart -  https://www.opencart.com/
 
 
