@@ -9,7 +9,7 @@ function rss_feed(){
 <?php 
  
 // Get a SimplePie feed object from the specified feed source.
-$rss = fetch_feed( 'https://medlineplus.gov/feeds/whatsnew.xml' );
+$rss = fetch_feed( 'https://domain.com/feeds/whatsnew.xml' );
  
 if ( ! is_wp_error( $rss ) ) : // Checks that the object is created correctly
  
@@ -46,7 +46,6 @@ add_shortcode('feed', 'rss_feed');
 
 add_shortcode('articles', 'get_blog_articles');
 function get_blog_articles(){
-  // https://digitalmeetsprint.com/wp-json/wp/v2/posts
   ob_start();
   
   // Enter the name of your blog here followed by /wp-json/wp/v2/posts and add filters like this one that limits the result to 2 posts.
