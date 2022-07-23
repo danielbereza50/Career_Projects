@@ -1,0 +1,54 @@
+#cookiebarBox .container {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+}
+.cookieok {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font-weight: 600;
+  line-height: 2.5em;
+  height: 2.5em;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom-width: 0 !important;
+  cursor: pointer;
+  max-width: 200px;
+  margin: 0 auto;
+}
+#cookiebarBox {
+  position: fixed;
+  bottom: 0;
+  left: 5px;
+  right: 5px;
+  z-index: 200;
+}
+#cookiebarBox .container a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px dotted white;
+}
+.cookieok {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #e8f0f3;
+  color: #186782 !important;
+  font-weight: 600;
+  line-height: 2.5em;
+  height: 2.5em;
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom-width: 0 !important;
+  cursor: pointer;
+  max-width: 200px;
+  margin: 0 auto;
+}
