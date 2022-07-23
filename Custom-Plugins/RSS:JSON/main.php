@@ -50,7 +50,7 @@ function get_blog_articles(){
   ob_start();
   
   // Enter the name of your blog here followed by /wp-json/wp/v2/posts and add filters like this one that limits the result to 2 posts.
-  $response = wp_remote_get( 'https://digitalmeetsprint.com/wp-json/wp/v2/posts?per_page=99' );
+  $response = wp_remote_get( 'https://domain.com/wp-json/wp/v2/posts?per_page=99' );
 
   // Exit if error.
   if ( is_wp_error( $response ) ) {
