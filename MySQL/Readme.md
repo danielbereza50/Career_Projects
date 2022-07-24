@@ -69,6 +69,17 @@ How to:
              
          ),
         );
+	
+	$query = new WP_Query( $args1 );
+	
+	
+	if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+	
+	
+	
+	<?php endwhile; 
+	endif; ?>
+	
 
         $args2 = array(
     
