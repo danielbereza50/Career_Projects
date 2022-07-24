@@ -161,8 +161,7 @@ more MySQL examples:
 		echo ':';
 	}
    
-   
- 
+
    
 global $wpdb;
 
