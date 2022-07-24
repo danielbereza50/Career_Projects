@@ -163,46 +163,46 @@ more MySQL examples:
    
 
    
-global $wpdb;
+	global $wpdb;
 
-$uploadDir = wp_upload_dir();
-$uploadDir = $uploadDir['baseurl'];
+	$uploadDir = wp_upload_dir();
+	$uploadDir = $uploadDir['baseurl'];
 
-$sql = "
-SELECT 
-    post.ID,
-    post.post_title,
-    post.post_date,
-    post.category_name,
-    post.category_slug,
-    post.category_id,
-    CONCAT( '".$uploadDir."','/', thumb.meta_value) as thumbnail,
-    post.post_type
-FROM (
-    SELECT  p.ID,   
-          p.post_title, 
-          p.post_date,
-          p.post_type,
-          MAX(CASE WHEN pm.meta_key = '_thumbnail_id' then pm.meta_value ELSE NULL END) as thumbnail_id,
-      term.name as category_name,
-      term.slug as category_slug,
-      term.term_id as category_id
-    FROM ".$wpdb->prefix."posts as p 
-    LEFT JOIN ".$wpdb->prefix."postmeta as pm ON ( pm.post_id = p.ID)
-    LEFT JOIN ".$wpdb->prefix."term_relationships as tr ON tr.object_id = p.ID
-    LEFT JOIN ".$wpdb->prefix."terms as term ON tr.term_taxonomy_id = term.term_id
-    WHERE 1 ".$where." 
-	AND p.post_status = 'publish'
-	AND p.post_type='speaker'
-    GROUP BY p.ID ORDER BY p.post_date DESC
-  ) as post
-  LEFT JOIN ".$wpdb->prefix."postmeta AS thumb 
-    ON thumb.meta_key = '_wp_attached_file' 
-    AND thumb.post_id = post.thumbnail_id";
+	$sql = "
+	SELECT 
+	    post.ID,
+	    post.post_title,
+	    post.post_date,
+	    post.category_name,
+	    post.category_slug,
+	    post.category_id,
+	    CONCAT( '".$uploadDir."','/', thumb.meta_value) as thumbnail,
+	    post.post_type
+	FROM (
+	    SELECT  p.ID,   
+		  p.post_title, 
+		  p.post_date,
+		  p.post_type,
+		  MAX(CASE WHEN pm.meta_key = '_thumbnail_id' then pm.meta_value ELSE NULL END) as thumbnail_id,
+	      term.name as category_name,
+	      term.slug as category_slug,
+	      term.term_id as category_id
+	    FROM ".$wpdb->prefix."posts as p 
+	    LEFT JOIN ".$wpdb->prefix."postmeta as pm ON ( pm.post_id = p.ID)
+	    LEFT JOIN ".$wpdb->prefix."term_relationships as tr ON tr.object_id = p.ID
+	    LEFT JOIN ".$wpdb->prefix."terms as term ON tr.term_taxonomy_id = term.term_id
+	    WHERE 1 ".$where." 
+		AND p.post_status = 'publish'
+		AND p.post_type='speaker'
+	    GROUP BY p.ID ORDER BY p.post_date DESC
+	  ) as post
+	  LEFT JOIN ".$wpdb->prefix."postmeta AS thumb 
+	    ON thumb.meta_key = '_wp_attached_file' 
+	    AND thumb.post_id = post.thumbnail_id";
 
-$posts = $wpdb->get_results($sql); 
-	
-//print_r($posts);	
+	$posts = $wpdb->get_results($sql); 
+
+	//print_r($posts);	
 	
 	foreach ( $posts as $post ) {
 		echo $post->thumbnail;
