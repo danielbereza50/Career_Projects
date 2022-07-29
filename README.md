@@ -154,7 +154,7 @@ Payment Gateway Reminders:
 
 
   1. Verfication code needed for api credentials
-  2. Required billing input fields on web form
+  2. Required billing input fields on web form (map the following fields in a stream)
 
      a) Email 	
 
