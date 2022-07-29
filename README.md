@@ -172,6 +172,22 @@ Payment Gateway Reminders:
 
      h) Phone 
 
+.htaccess reminders:
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    RewriteCond %{HTTPS}        =on   [OR]
+    RewriteCond %{HTTP_HOST}    !^domain\.com$
+    RewriteRule ^(.*)$          "http://domain.com/$1" [R=301,L]
+
+    RewriteRule ^index\.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
+</IfModule>
+
 
 1. Contract Work I did:
 
