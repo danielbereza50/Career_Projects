@@ -175,6 +175,7 @@ Payment Gateway Reminders:
 .htaccess reminders:
 
 <IfModule mod_rewrite.c>
+  
       RewriteEngine On
   
       RewriteBase /
