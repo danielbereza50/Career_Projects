@@ -149,6 +149,30 @@ https://www.templatemonster.com/wordpress-themes.php
 
 https://www.jqueryscript.net/
 
+
+Payment Gateway Reminders:
+
+
+  1. Verfication code needed for api credentials
+  2. Required billing input fields on web form
+
+     a) Email 	
+
+     b) Address 	
+
+     c) Address 2 	
+
+     d) City 	
+
+     e) State 	
+
+     f) Zip 	
+
+     g) Country 	
+
+     h) Phone 
+
+
 1. Contract Work I did:
 
 Custom Themes + SEO work via
