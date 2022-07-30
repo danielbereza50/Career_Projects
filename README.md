@@ -195,6 +195,17 @@ Payment Gateway Reminders:
       RewriteRule . /index.php [L]
 </IfModule>
 
+JS for different OS's
+
+
+For desktop:
+
+onClick="function()" 
+
+For iPad and iPhone:
+
+ontouchstart="function()"
+
 
 1. Contract Work I did:
 
