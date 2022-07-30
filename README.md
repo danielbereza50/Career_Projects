@@ -195,8 +195,9 @@ Payment Gateway Reminders:
       RewriteRule . /index.php [L]
 </IfModule>
 
-JS for different OS's
+https://www.lambdatest.com/
 
+JS for different OS's
 
 For others:
 
@@ -240,7 +241,6 @@ Custom Themes + SEO work via
 * https://search.google.com/test/mobile-friendly
 * https://www.google.com/recaptcha/admin/site/349560113
 * https://meet.google.com/
-* https://www.lambdatest.com/
 * https://www.syncedlocalmarketing.com/
 * https://gtmetrix.com/
 
