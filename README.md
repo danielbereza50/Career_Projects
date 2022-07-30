@@ -198,11 +198,11 @@ Payment Gateway Reminders:
 JS for different OS's
 
 
-For desktop:
+For others:
 
 onClick="function()" 
 
-For iPad and iPhone:
+For iOS:
 
 ontouchstart="function()"
 
