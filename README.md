@@ -290,6 +290,7 @@ Other Links:
 * https://onlinetexttools.com/extract-text-from-html
 * https://brandfolder.com/workbench/extract-text-from-image
 * https://codepen.io/jpgninja/full/RMNdNM/
+* https://cornercase.info/common-divi-icons/
 
 gmail queries: older_than:3y
 
