@@ -77,12 +77,11 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 <div>Computer Networks:</div>
 <div>*If pointing over from another remote host, be sure to swap put the "A" Records of the website. </div>
 
+    DNS Server examples:
 
-DNS Server examples:
-ns1.domain.net
+    ns1.domain.net
 
-ns2.domain.net
-
+    ns2.domain.net
 
 
 <div>The other DNS records are:</div>
