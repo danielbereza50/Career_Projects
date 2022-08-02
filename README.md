@@ -83,9 +83,9 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
     000.000.000.000
     
-Propegation Checker:
+    Propegation Checker:
 
-https://www.whatsmydns.net/
+    https://www.whatsmydns.net/
 
 <div>The other DNS records are:</div>
 <div>AAAA, CNAME, MX, NS, SOA, and TXT</div>
