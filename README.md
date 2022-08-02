@@ -81,7 +81,7 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
     Site IP
 
-    35.208.214.8
+    00.000.000.0
 
 <div>The other DNS records are:</div>
 <div>AAAA, CNAME, MX, NS, SOA, and TXT</div>
