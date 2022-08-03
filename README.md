@@ -62,6 +62,10 @@ define( 'DB_PASSWORD', 'the_user_password' );
 
 define( 'DB_HOST', 'localhost' );
 
+/* or */
+
+define( 'DB_HOST', 'db5001328699.hosting-data.io' );
+
 Import the .sql file from the root directory of the theme's folder, and then import via phpmyadmin (Unix Socket) and file upload, zip format perferred
 
 Update your db with : 
