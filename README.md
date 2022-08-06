@@ -375,7 +375,7 @@ Web Servers:
 
 1. Apache
 
-2. Internet Information Services (IIS)
+2. Internet Information Services (IIS) - Windows Server
 
 3. nginx
 
