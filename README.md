@@ -342,7 +342,14 @@ upload_max_filesize: 512M
     PHP Time Zones:
 
     https://www.php.net/manual/en/timezones.php
+    
+    example: 
+    
+    $date = new DateTime("now", new DateTimeZone('time_zone') );
+	  
+    $full_date = $date->format('Y-m-d H:i:s');
 
+    echo $full_date;
 
 //////////////////////////////
 
