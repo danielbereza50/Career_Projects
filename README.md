@@ -338,6 +338,12 @@ session.gc_maxlifetime: 1440
 
 upload_max_filesize: 512M
 
+
+PHP Time Zones:
+
+https://www.php.net/manual/en/timezones.php
+
+
 //////////////////////////////
 
 Learning resources:
