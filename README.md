@@ -350,6 +350,15 @@ upload_max_filesize: 512M
     $full_date = $date->format('Y-m-d H:i:s');
 
     echo $full_date;
+    
+    How to format object output:
+    example:
+    
+    $obj = new WP_Query( $args ); 
+	
+     echo '<pre>';
+        print_r($obj);
+     echo '/<pre>';
 
 //////////////////////////////
 
