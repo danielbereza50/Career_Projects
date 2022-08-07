@@ -354,7 +354,7 @@ upload_max_filesize: 512M
     How to format object output:
     example:
     
-    $obj = new WP_Query( $args ); 
+    $obj = new my_class(); 
 	
      echo '<pre>';
         print_r($obj);
