@@ -317,6 +317,7 @@ Other Links:
 * https://brandfolder.com/workbench/extract-text-from-image
 * https://codepen.io/jpgninja/full/RMNdNM/
 * https://cornercase.info/common-divi-icons/
+* https://www.elegantthemes.com/blog/resources/elegant-icon-font
 
 gmail queries: older_than:3y
 
