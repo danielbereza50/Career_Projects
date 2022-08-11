@@ -318,6 +318,7 @@ Other Links:
 * https://codepen.io/jpgninja/full/RMNdNM/
 * https://cornercase.info/common-divi-icons/
 * https://www.elegantthemes.com/blog/resources/elegant-icon-font
+* https://www.sodawebmedia.com/insights/how-to-create-a-wordpress-account-via-mysql/
 
 gmail queries: older_than:3y
 
