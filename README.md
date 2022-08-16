@@ -320,6 +320,11 @@ Other Links:
 * https://www.elegantthemes.com/blog/resources/elegant-icon-font
 * https://www.sodawebmedia.com/insights/how-to-create-a-wordpress-account-via-mysql/
 
+How to change account settings:
+
+reseller WHM > Account functions > Modify an account : and updated Max SQL Databases limit to 5. 
+
+
 gmail queries: older_than:3y
 
 Web Host Increase Limits:
