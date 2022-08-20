@@ -45,7 +45,7 @@ How to:
    
   
    
- great example of combining two or more queries and the resulting SQL:
+ great example of combining two or more queries and the resulting SQL using the WP_query class:
  
  taken from : https://stackoverflow.com/questions/23555109/wordpress-combine-queries
  
@@ -69,6 +69,17 @@ How to:
              
          ),
         );
+	
+	$query = new WP_Query( $args1 );
+	
+	
+	if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+	
+	
+	
+	<?php endwhile; 
+	endif; ?>
+	
 
         $args2 = array(
     
@@ -99,7 +110,7 @@ How to:
 
        $results = new WP_Combine_Queries( $args );
  
-       SQL:
+       SQL(without the WP_query class):
        
        SELECT SQL_CALC_FOUND_ROWS * FROM ( 
        
@@ -137,6 +148,80 @@ How to:
             LIMIT 1000
         ) 
        ) as combined LIMIT 0, 10 
+   
+   
+   
+more MySQL examples:
+
+	global $wpdb;    
+	$results = $wpdb->get_results( "SELECT * 
+                    FROM wp_posts, wp_postmeta
+                    WHERE wp_posts.ID = wp_postmeta.post_ID
+                    AND wp_postmeta.meta_key NOT LIKE '\_%'   
+                    AND wp_posts.post_type='speaker' 
+                    AND wp_posts.post_status = 'publish';");
+	
+	//print_r($results);
+	
+	foreach ( $results as $result ) {
+		echo $result->post_title;
+		echo '<br>';
+		echo $result->meta_value;   
+		echo ': <br>';
+		echo $result->meta_key;   
+		echo ':';
+	}
+   
+
+   
+	global $wpdb;
+
+	$uploadDir = wp_upload_dir();
+	$uploadDir = $uploadDir['baseurl'];
+
+	$sql = "
+	SELECT 
+	    post.ID,
+	    post.post_title,
+	    post.post_date,
+	    post.category_name,
+	    post.category_slug,
+	    post.category_id,
+	    CONCAT( '".$uploadDir."','/', thumb.meta_value) as thumbnail,
+	    post.post_type
+	FROM (
+	    SELECT  p.ID,   
+		  p.post_title, 
+		  p.post_date,
+		  p.post_type,
+		  MAX(CASE WHEN pm.meta_key = '_thumbnail_id' then pm.meta_value ELSE NULL END) as thumbnail_id,
+	      term.name as category_name,
+	      term.slug as category_slug,
+	      term.term_id as category_id
+	    FROM ".$wpdb->prefix."posts as p 
+	    LEFT JOIN ".$wpdb->prefix."postmeta as pm ON ( pm.post_id = p.ID)
+	    LEFT JOIN ".$wpdb->prefix."term_relationships as tr ON tr.object_id = p.ID
+	    LEFT JOIN ".$wpdb->prefix."terms as term ON tr.term_taxonomy_id = term.term_id
+	    WHERE 1 ".$where." 
+		AND p.post_status = 'publish'
+		AND p.post_type='speaker'
+	    GROUP BY p.ID ORDER BY p.post_date DESC
+	  ) as post
+	  LEFT JOIN ".$wpdb->prefix."postmeta AS thumb 
+	    ON thumb.meta_key = '_wp_attached_file' 
+	    AND thumb.post_id = post.thumbnail_id";
+
+	$posts = $wpdb->get_results($sql); 
+
+	//print_r($posts);	
+	
+	foreach ( $posts as $post ) {
+		echo $post->thumbnail;
+		echo $result->post_title;
+	}
+   
+   
+   
    
    
    

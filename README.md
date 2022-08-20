@@ -62,6 +62,10 @@ define( 'DB_PASSWORD', 'the_user_password' );
 
 define( 'DB_HOST', 'localhost' );
 
+/* or */
+
+define( 'DB_HOST', 'db.hosting-data.io' );
+
 Import the .sql file from the root directory of the theme's folder, and then import via phpmyadmin (Unix Socket) and file upload, zip format perferred
 
 Update your db with : 
@@ -77,8 +81,24 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 <div>Computer Networks:</div>
 <div>*If pointing over from another remote host, be sure to swap put the "A" Records of the website. </div>
 
+    Example:
+
+    Site IP
+
+    000.000.000.000
+    
+    Propegation Checker:
+
+    https://www.whatsmydns.net/
+
 <div>The other DNS records are:</div>
 <div>AAAA, CNAME, MX, NS, SOA, and TXT</div>
+
+    DNS Server examples:
+
+    ns1.domain.net
+
+    ns2.domain.net
 
 https://digital.com/web-hosting/who-is/
 
@@ -149,6 +169,71 @@ https://www.templatemonster.com/wordpress-themes.php
 
 https://www.jqueryscript.net/
 
+
+Payment Gateway Reminders:
+
+
+  1. Verfication code needed for api credentials
+  2. Required billing input fields on web form (map the following fields in a stream)
+
+     a) Email 	
+
+     b) Address 	
+
+     c) Address 2 	
+
+     d) City 	
+
+     e) State 	
+
+     f) Zip 	
+
+     g) Country 	
+
+     h) Phone 
+
+.htaccess reminders:
+
+<IfModule mod_rewrite.c>
+  
+      RewriteEngine On
+  
+      RewriteBase /
+
+      RewriteCond %{HTTPS}        =on   [OR]
+  
+      RewriteCond %{HTTP_HOST}    !^domain\.com$
+  
+      RewriteRule ^(.*)$          "http://domain.com/$1" [R=301,L]
+
+      RewriteRule ^index\.php$ - [L]
+  
+      RewriteCond %{REQUEST_FILENAME} !-f
+  
+      RewriteCond %{REQUEST_FILENAME} !-d
+  
+      RewriteRule . /index.php [L]
+</IfModule>
+
+https://www.lambdatest.com/
+
+JS for different OS's
+
+For others:
+
+onClick="function()" 
+
+For iOS:
+
+ontouchstart="function()"
+
+Import resources via CDN examples:
+
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
+
+
 1. Contract Work I did:
 
 Custom Themes + SEO work via
@@ -182,7 +267,6 @@ Custom Themes + SEO work via
 * https://search.google.com/test/mobile-friendly
 * https://www.google.com/recaptcha/admin/site/349560113
 * https://meet.google.com/
-* https://www.lambdatest.com/
 * https://www.syncedlocalmarketing.com/
 * https://gtmetrix.com/
 
@@ -232,6 +316,25 @@ Other Links:
 * https://onlinetexttools.com/extract-text-from-html
 * https://brandfolder.com/workbench/extract-text-from-image
 * https://codepen.io/jpgninja/full/RMNdNM/
+* https://cornercase.info/common-divi-icons/
+* https://www.elegantthemes.com/blog/resources/elegant-icon-font
+* https://www.sodawebmedia.com/insights/how-to-create-a-wordpress-account-via-mysql/
+
+		How to change account settings:
+
+		reseller WHM > Account functions > Modify an account : and updated Max SQL Databases limit to 5. 
+		
+
+		How to add custom fonts to divi:
+
+		https://www.villeteikko.com/custom-fonts-divi/
+		
+		
+
+		Upload .otf file:
+
+		https://www.fontsquirrel.com/tools/webfont-generator
+
 
 gmail queries: older_than:3y
 
@@ -252,6 +355,28 @@ post_max_size: 128M
 session.gc_maxlifetime: 1440
 
 upload_max_filesize: 512M
+
+
+    PHP Time Zones:
+
+    https://www.php.net/manual/en/timezones.php
+    
+    example: 
+    
+    $date = new DateTime("now", new DateTimeZone('time_zone') );
+	  
+    $full_date = $date->format('Y-m-d H:i:s');
+
+    echo $full_date;
+    
+    How to format object output:
+    example:
+    
+    $obj = new my_class(); 
+	
+     echo '<pre>';
+        print_r($obj);
+     echo '/<pre>';
 
 //////////////////////////////
 
@@ -290,7 +415,7 @@ Web Servers:
 
 1. Apache
 
-2. Internet Information Services (IIS)
+2. Internet Information Services (IIS) - Windows Server
 
 3. nginx
 
