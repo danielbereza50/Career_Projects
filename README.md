@@ -324,6 +324,14 @@ Other Links:
 
 		reseller WHM > Account functions > Modify an account : and updated Max SQL Databases limit to 5. 
 
+		How to add custom fonts to divi:
+
+		https://www.villeteikko.com/custom-fonts-divi/
+
+		Upload .otf file:
+
+		https://www.fontsquirrel.com/tools/webfont-generator
+
 
 gmail queries: older_than:3y
 
