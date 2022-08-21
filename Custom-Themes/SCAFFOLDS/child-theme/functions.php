@@ -3,7 +3,7 @@
 // Recommended way to include parent theme styles.
 //  (Please see http://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme)
 //  
-function divi__child_theme_enqueue_styles() {
+function parent__child_theme_enqueue_styles() {
   wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style',
         get_stylesheet_directory_uri() . '/style.css',
@@ -16,7 +16,7 @@ function divi__child_theme_enqueue_styles() {
     wp_enqueue_script( 'custom-js','https://code.jquery.com/jquery-2.2.4.min.js',NULL,true );
     wp_enqueue_script( 'custom-parent-js',get_stylesheet_directory_uri().'/custom-parent.js',array('jquery'), $custom_js, true);
 }
-add_action( 'wp_enqueue_scripts', 'divi__child_theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'parent__child_theme_enqueue_styles' );
 //
 // Your code goes below
 //
