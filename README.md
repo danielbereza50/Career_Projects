@@ -319,6 +319,7 @@ Other Links:
 * https://cornercase.info/common-divi-icons/
 * https://www.elegantthemes.com/blog/resources/elegant-icon-font
 * https://www.sodawebmedia.com/insights/how-to-create-a-wordpress-account-via-mysql/
+* https://login.mailchimp.com/
 
 		How to change account settings:
 
