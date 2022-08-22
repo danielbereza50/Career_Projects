@@ -234,6 +234,11 @@ Import resources via CDN examples:
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
 
 
+Download any here:
+
+https://cdnjs.com/libraries
+
+
 1. Contract Work I did:
 
 Custom Themes + SEO work via
