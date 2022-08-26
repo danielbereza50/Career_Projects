@@ -326,6 +326,11 @@ Other Links:
 * https://www.sodawebmedia.com/insights/how-to-create-a-wordpress-account-via-mysql/
 * https://login.mailchimp.com/
 
+		Mailchimp
+		
+		Login -> Email Templates -> Edit Arrow -> Create Campaign
+
+
 		How to change account settings:
 
 		reseller WHM > Account functions > Modify an account : and updated Max SQL Databases limit to 5. 
@@ -334,7 +339,6 @@ Other Links:
 		How to add custom fonts to divi:
 
 		https://www.villeteikko.com/custom-fonts-divi/
-		
 		
 
 		Upload .otf file:
