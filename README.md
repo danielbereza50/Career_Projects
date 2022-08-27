@@ -234,6 +234,11 @@ Import resources via CDN examples:
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
 
 
+	***Download any here:
+
+	https://cdnjs.com/libraries
+
+
 1. Contract Work I did:
 
 Custom Themes + SEO work via
@@ -319,6 +324,12 @@ Other Links:
 * https://cornercase.info/common-divi-icons/
 * https://www.elegantthemes.com/blog/resources/elegant-icon-font
 * https://www.sodawebmedia.com/insights/how-to-create-a-wordpress-account-via-mysql/
+* https://login.mailchimp.com/
+
+		Mailchimp
+		
+		Login -> Email Templates -> Edit Arrow -> Create Campaign
+
 
 		How to change account settings:
 
@@ -328,7 +339,6 @@ Other Links:
 		How to add custom fonts to divi:
 
 		https://www.villeteikko.com/custom-fonts-divi/
-		
 		
 
 		Upload .otf file:
