@@ -6,15 +6,45 @@ get_header();?>
 
 
 <!--Start Coding Here -->
+<div class = "first-section-container">
+
+	<div class = "first-section-item">
+	</div>	
+
+</div>
+
+<div class = "second-section-container">
 
 
+	<div class = "second-section-item">
+	</div>	
 
-<?php  
-// bring in the WYSSYWIG content
-$content = apply_filters('the_content', $post->post_content);
-echo $content;
-?>
 
+</div>
+
+<div class = "third-section-container">
+
+	<div class = "third-section-item">
+	</div>	
+
+
+</div>
+
+<div class = "fourth-section-container">
+
+	<div class = "fourth-section-item">
+	</div>	
+
+
+</div>
+
+<div class = "fifth-section-container">
+
+	<div class = "fifth-section-item">
+	</div>	
+
+
+</div>
 
 
 <?php 
