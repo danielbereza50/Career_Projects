@@ -192,6 +192,22 @@ Payment Gateway Reminders:
 
      h) Phone 
 
+
+Popular Payment Gateways:
+
+	https://www.paypal.com/signin
+  
+        https://venmo.com/account/sign-in
+	
+	https://login.authorize.net/
+	
+	https://www.clover.com/dashboard/login
+	
+	https://dashboard.stripe.com/login
+	
+	https://squareup.com/login?return_to=%2Fhelp%2Fus%2Fen%2Farticle%2F5062-sign-in-and-out-of-square-point-of-sale
+	
+
 .htaccess reminders:
 
 <IfModule mod_rewrite.c>
