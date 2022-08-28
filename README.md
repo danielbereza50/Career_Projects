@@ -197,7 +197,7 @@ Popular Payment Gateways:
 
 	https://www.paypal.com/signin
   
-       https://venmo.com/account/sign-in
+  	https://venmo.com/account/sign-in
 	
 	https://login.authorize.net/
 	
