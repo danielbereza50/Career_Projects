@@ -293,6 +293,18 @@ Custom Themes + SEO work via
 
 Other Links:
 * https://www.cloudways.com/blog/post-smtp-mailer-fork-of-wordpress-postman-smtp-plugin/?id=339490
+
+How to:
+	1. Create new project here: https://console.cloud.google.com/
+	2. Install Gmail API
+	3. Default email server: smtp.gmail.com
+	3. Get credentials for the following
+		a)  Authorized JavaScript origins 
+		b)  Authorized redirect URIs 
+		c)  Client ID
+		d)  Client secret
+
+
 * https://support.google.com/webmasters/answer/6065812
 * https://ahrefs.com/blog/why-is-my-website-not-showing-up-on-google/
 * http://pajhome.org.uk/crypt/md5/
