@@ -295,9 +295,13 @@ Other Links:
 * https://www.cloudways.com/blog/post-smtp-mailer-fork-of-wordpress-postman-smtp-plugin/?id=339490
 
 How to:
+	
 	1. Create new project here: https://console.cloud.google.com/
+	
 	2. Install Gmail API
+	
 	3. Default email server: smtp.gmail.com
+	
 	3. Get credentials for the following
 		a)  Authorized JavaScript origins 
 		b)  Authorized redirect URIs 
