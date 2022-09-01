@@ -40,6 +40,6 @@ perserve image aspect ratio:
 	
 	plugin in font family as the first value after loading .otf or .ttf file into project folder:
 	
-	font-family: 'Neon Blitz',Helvetica,Arial,Lucida,sans-serif
+	font-family: 'Neon Blitz',Helvetica,Arial,Lucida,sans-serif;
 
 
