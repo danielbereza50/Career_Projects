@@ -34,4 +34,11 @@ perserve image aspect ratio:
     height: 200px;
     
 	object-fit: cover;
+	
+	
+	
+	
+	plugin in font family as the first value after loading .otf or .ttf file into project folder:
+	font-family: 'Neon Blitz',Helvetica,Arial,Lucida,sans-serif!Important
+
 
