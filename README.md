@@ -249,6 +249,16 @@ Import resources via CDN examples:
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
 
+       WP Example:
+       
+       action-> wp_enqueue_scripts
+	
+	// Fancybox Stylesheet
+	wp_enqueue_style( 'fancybox-style', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css' );
+
+	/// Fancybox Script
+	wp_enqueue_script( 'fancybox', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js', array(), '3.5.7', true );
+	
 
 	***Download any here:
 
