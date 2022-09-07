@@ -18,6 +18,9 @@ ssh [username]@[ip address]
 password: [Password]
 
 
+scp -r [username]@[address]:/path/to/remote /path/to/local
+
+
 cd /home/[project folder]
 
 ls - list
