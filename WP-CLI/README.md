@@ -10,6 +10,14 @@ ssh root@[ip address]
 
 password: [Password]
 
+
+example:
+
+ssh [username]@[ip address]
+
+password: [Password]
+
+
 cd /home/[project folder]
 
 ls - list
