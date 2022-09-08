@@ -14,13 +14,10 @@ SET meta_value = replace(meta_value,'oldurl.com','newurl.com');
 
 
 INSERT INTO `db`.`wphc_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) 
-
 VALUES ('10', 'john', MD5('T%Iyg(GViXfmmtbYxZ)9ycQE'), 'Your Name', 'test@example.com', 'http://www.example.com/', '2022-09-01 00:00:00', '', '0', 'Your Name');
-  
   
 INSERT INTO `db`.`wphc_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) 
 VALUES (20, '10', 'wp_capabilities', 'a:1:{s:13:"administrator";s:1:"1";}');
-  
   
 INSERT INTO `db`.`wphc_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) 
 VALUES (21, '10', 'wp_user_level', '10');
