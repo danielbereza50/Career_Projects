@@ -70,6 +70,9 @@ UPDATE wp_posts SET post_author=id_new_author WHERE post_author=id_old_author;
 DELETE FROM wp_terms WHERE term_id IN (SELECT term_id FROM wp_term_taxonomy WHERE count = 0)
 
 
+REPAIR TABLE wphc_actionscheduler_claims
+DELETE FROM wphc_actionscheduler_logs where log_date_gmt < '2022-09-08 00:50:38'
+
 SELECT t.*, tt.*
 FROM rmb_terms AS t 
 INNER JOIN rmb_term_taxonomy AS tt ON tt.term_id = t.term_id 
