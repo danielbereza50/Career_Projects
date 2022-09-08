@@ -409,6 +409,11 @@ session.gc_maxlifetime: 1440
 
 upload_max_filesize: 512M
 
+	Regular Expression Redirect:
+
+	^/product/(.*)
+	https://www.domain.com/page
+
 
     PHP Time Zones:
 
