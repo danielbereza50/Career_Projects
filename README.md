@@ -308,6 +308,7 @@ Other Links:
 		-> SMTP Project
 		-> APIs and Services -> Credentials
 		-> Web Client 1 -> Edit
+		-> Add URIs
 
 How to:
 	
