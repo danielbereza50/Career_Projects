@@ -304,10 +304,10 @@ Custom Themes + SEO work via
 Other Links:
 * https://www.cloudways.com/blog/post-smtp-mailer-fork-of-wordpress-postman-smtp-plugin/?id=339490
 
-	-> https://console.cloud.google.com/home/dashboard
-	-> SMTP Project
-	-> APIs and Services -> Credentials
-	-> Web CLient 1 -> Edit
+		-> https://console.cloud.google.com/home/dashboard
+		-> SMTP Project
+		-> APIs and Services -> Credentials
+		-> Web Client 1 -> Edit
 
 How to:
 	
