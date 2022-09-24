@@ -169,6 +169,10 @@ https://www.templatemonster.com/wordpress-themes.php
 
 https://www.jqueryscript.net/
 
+	Test Credit Card Numbers:
+
+	https://developer.paypal.com/api/nvp-soap/payflow/payflow-pro/payflow-pro-testing/
+
 
 Payment Gateway Reminders:
 
