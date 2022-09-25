@@ -11,7 +11,11 @@ download ASP.NET here: https://visualstudio.microsoft.com/vs/mac/
 
 open in Visual Studio
 
-How to view database: https://database.guide/how-to-install-sql-server-on-a-mac/
+            How to view database: https://database.guide/how-to-install-sql-server-on-a-mac/
+
+            Download Azure Data Studio:
+
+https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16
 
 *My installation is pointing here: https://localhost:5001 
 
