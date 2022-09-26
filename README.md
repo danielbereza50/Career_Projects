@@ -16,16 +16,27 @@ Drupal Cookbooks:
 
 list of terminal commands:
 
-      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-      brew install php
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    brew install php
+  
+    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+    php composer-setup.php
+    php -r "unlink('composer-setup.php');"
 
-      composer create-project drupal/recommended-project drupal 
+    *Note, after installing composer, move to here for global use on the machine: 
+    mv composer.phar /usr/local/bin/composer
+    https://getcomposer.org/doc/00-intro.md
+    https://stackoverflow.com/questions/11333230/how-to-run-composer-from-anywhere
 
-	cd drupal && php -d memory_limit=256M web/core/scripts/drupal quick-start demo_umami
+    composer create-project drupal/recommended-project drupal 
+
+    cd drupal && php -d memory_limit=256M web/core/scripts/drupal quick-start demo_umami
+
+
 
 
 db config file is /web/sites/default/settings.php
-
 
 Development server:
 http://localhost:8888/drupal/blog/web/
