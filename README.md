@@ -44,20 +44,32 @@ db config file is /web/sites/default/settings.php
         SET pass='$S$Eno1EhlPNMqE2RfDOBT13tzGCAdN9PgKqJFGI.4sBSj1XgJfPH68' 
         WHERE uid = 4;
 
-
         newpasswd
 
         DELETE FROM drupal_cache_entity WHERE cid = 'values:user:4' 
 
         UPDATE `drupal_user__roles` SET `entity_id` = '4' WHERE `drupal_user__roles`.`deleted` = 0 AND `drupal_user__roles`.`entity_id` = 1 AND `drupal_user__roles`.`langcode` = 'en' AND `drupal_user__roles`.`delta` = 0; 
 
-
-
         How to update Druapl core:
 
         in root folder:
 
         composer update "drupal/core-*" --with-all-dependencies
+
+
+        how to turn on error reporting:
+        
+        login to admin -> configuration ->loggin and errors
+        
+        
+        how to clear the cache;
+        
+        login to admin -> configuration ->Performance
+        
+        
+        
+        
+        
 
 Development server:
 http://localhost:8888/drupal/blog/web/
