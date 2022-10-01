@@ -40,7 +40,7 @@ db config file is /web/sites/default/settings.php
 
         how to reset user login:
 
-        UPDATE users_field_data 
+        UPDATE drupal_users_field_data 
         SET pass='$S$Eno1EhlPNMqE2RfDOBT13tzGCAdN9PgKqJFGI.4sBSj1XgJfPH68' 
         WHERE uid = 4;
 
