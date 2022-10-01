@@ -49,10 +49,15 @@ db config file is /web/sites/default/settings.php
 
         DELETE FROM drupal_cache_entity WHERE cid = 'values:user:4' 
 
-
-
         UPDATE `drupal_user__roles` SET `entity_id` = '4' WHERE `drupal_user__roles`.`deleted` = 0 AND `drupal_user__roles`.`entity_id` = 1 AND `drupal_user__roles`.`langcode` = 'en' AND `drupal_user__roles`.`delta` = 0; 
 
+
+
+        How to update Druapl core:
+
+        in root folder:
+
+        composer update "drupal/core-*" --with-all-dependencies
 
 Development server:
 http://localhost:8888/drupal/blog/web/
