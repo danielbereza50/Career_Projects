@@ -68,7 +68,9 @@ db config file is /web/sites/default/settings.php
         
         
         
-        
+        *note - 
+          a) modules use controller files
+          b) themes use twig templates
         
 
 Development server:
