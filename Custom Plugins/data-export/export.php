@@ -159,10 +159,15 @@ group by
 group by
     p.ID";
 
+		$table_head = array( 'Order ID', 'Order Date', 'Order Item Name', 'Billing Email', 'Billing First Name', 'Billing Last Name', 'Billing Address 1', 'Billing Address 2', 'Billing City', 'Billing State', 'Billing Postcode', 'Order Total', 'First', 'Last', 'Grade','Homeroom', 'Schools', ' ', ' ', ' ', ' ', ' ', ' ');
+		
 		$values = $wpdb->get_results($query);
 		
 		if (count($values)>0) {
-
+			
+			$csv_output .= implode( $table_head, ',' );
+			$csv_output .= "\n";
+			
 			foreach ($values as $key => $value) {
 
 				foreach ($value as $k => $v) {
