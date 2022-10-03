@@ -2,10 +2,6 @@
 
 class CSVExport
 {
-
-	/**
-	* Constructor
-*/
 	public function __construct()
 	{
 		if(isset($_GET['download_report']))
@@ -77,9 +73,45 @@ public function generate_csv()
 {
 	global $wpdb;
 	$csv_output = '';
-	$query = "SELECT * FROM wp32_posts WHERE post_type LIKE 'shop_subscription'";
+	$query = "SELECT p.ID as order_id,
+    p.post_date, 
+    oi.order_item_name,
+
+    max( CASE WHEN pm.meta_key = '_billing_email' and p.ID = pm.post_id THEN pm.meta_value END ) as billing_email,
+    max( CASE WHEN pm.meta_key = '_billing_first_name' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_first_name,
+    max( CASE WHEN pm.meta_key = '_billing_last_name' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_last_name,
+    max( CASE WHEN pm.meta_key = '_billing_address_1' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_address_1,
+    max( CASE WHEN pm.meta_key = '_billing_address_2' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_address_2,
+    max( CASE WHEN pm.meta_key = '_billing_city' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_city,
+    max( CASE WHEN pm.meta_key = '_billing_state' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_state,
+    max( CASE WHEN pm.meta_key = '_billing_postcode' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_postcode,
+    
+    max( CASE WHEN pm.meta_key = '_order_total' and p.ID = pm.post_id THEN pm.meta_value END ) as order_total,
+    
+    max( CASE WHEN ot.meta_key = 'Enter student/staff first name' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as First,
+    max( CASE WHEN ot.meta_key = 'Enter student/staff last name' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as Last,
+    max( CASE WHEN ot.meta_key = 'Enter Grade (or N/A)' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as Grade,
+    max( CASE WHEN ot.meta_key = 'Homeroom/Homebase' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as Homeroom,
+    max( CASE WHEN ot.meta_key = 'Schools/Offices' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as Schools
+
+
+    FROM wpbx_posts p 
+    join wpbx_postmeta pm on p.ID = pm.post_id
+	
+    join wpbx_woocommerce_order_items oi on p.ID = oi.order_id
+    join wpbx_woocommerce_order_itemmeta ot on oi.order_item_id = ot.order_item_id 
+
+    where
+    post_type = 'shop_order'
+    AND
+    oi.order_item_type = 'line_item' 
+
+group by
+    p.ID";
+	
 	$result = $wpdb->get_results($query);
 
+	//print_r($result);
 
 	$i = 0;
 	if (count($result) > 0) {
@@ -91,25 +123,59 @@ public function generate_csv()
 		//print_r($csv_output);
 	}
 
-	$query = "SELECT * FROM wp32_posts WHERE post_type LIKE 'shop_subscription'";
-	$values = $wpdb->get_results($query);
+	$query = "SELECT p.ID as order_id,
+    p.post_date, 
+    oi.order_item_name,
 
-	if (count($values)>0) {
-		foreach ($values as $key => $value) {
-			foreach ($value as $k => $v) {
-			
-				$csv_output .= $v.",";
-				
+    max( CASE WHEN pm.meta_key = '_billing_email' and p.ID = pm.post_id THEN pm.meta_value END ) as billing_email,
+    max( CASE WHEN pm.meta_key = '_billing_first_name' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_first_name,
+    max( CASE WHEN pm.meta_key = '_billing_last_name' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_last_name,
+    max( CASE WHEN pm.meta_key = '_billing_address_1' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_address_1,
+    max( CASE WHEN pm.meta_key = '_billing_address_2' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_address_2,
+    max( CASE WHEN pm.meta_key = '_billing_city' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_city,
+    max( CASE WHEN pm.meta_key = '_billing_state' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_state,
+    max( CASE WHEN pm.meta_key = '_billing_postcode' and p.ID = pm.post_id THEN pm.meta_value END ) as _billing_postcode,
+    
+    max( CASE WHEN pm.meta_key = '_order_total' and p.ID = pm.post_id THEN pm.meta_value END ) as order_total,
+    
+    max( CASE WHEN ot.meta_key = 'Enter student/staff first name' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as First,
+    max( CASE WHEN ot.meta_key = 'Enter student/staff last name' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as Last,
+    max( CASE WHEN ot.meta_key = 'Enter Grade (or N/A)' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as Grade,
+    max( CASE WHEN ot.meta_key = 'Homeroom/Homebase' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as Homeroom,
+    max( CASE WHEN ot.meta_key = 'Schools/Offices' and oi.order_item_id = ot.order_item_id THEN ot.meta_value END ) as Schools
+
+
+    FROM wpbx_posts p 
+    join wpbx_postmeta pm on p.ID = pm.post_id
+    
+	join wpbx_woocommerce_order_items oi on p.ID = oi.order_id
+    join wpbx_woocommerce_order_itemmeta ot on oi.order_item_id = ot.order_item_id 
+
+    where
+    post_type = 'shop_order'
+    AND
+    oi.order_item_type = 'line_item' 
+
+group by
+    p.ID";
+
+		$values = $wpdb->get_results($query);
+		
+		if (count($values)>0) {
+
+			foreach ($values as $key => $value) {
+
+				foreach ($value as $k => $v) {
+					$csv_output .= $v.",";			
+				}
+				$csv_output .= "\n";
 			}
-			$csv_output .= "\n";
 		}
 	}
 
-}
+	return $csv_output;
 
-return $csv_output;
-
-}
+	}
 }
 
 $csvExport = new CSVExport();
