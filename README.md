@@ -172,6 +172,12 @@ https://www.jqueryscript.net/
 	Test Credit Card Numbers:
 
 	https://developer.paypal.com/api/nvp-soap/payflow/payflow-pro/payflow-pro-testing/
+	
+	https://www.simplify.com/commerce/docs/testing/test-card-numbers
+	
+	09/99
+
+	999
 
 
 Payment Gateway Reminders:
