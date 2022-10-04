@@ -175,9 +175,13 @@ https://www.jqueryscript.net/
 	
 	https://www.simplify.com/commerce/docs/testing/test-card-numbers
 	
+	5555 5555 5555 4444
+	
 	09/99
 
 	999
+	
+	06010
 
 
 Payment Gateway Reminders:
