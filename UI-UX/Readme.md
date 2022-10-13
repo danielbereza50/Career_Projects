@@ -38,13 +38,13 @@ When ever doing UX from scratch, use the following start to the code:
 
 perserve image aspect ratio:
 
-    aspect-ratio: 16/9;
+        https://web.dev/aspect-ratio/
     
 	width: 200px;
     
-    height: 200px;
+        height: 200px;
     
-	object-fit: cover;
+	object-fit: contain;
 	
 	
 	*Above the fold means within the viewport (not below the window height) 
