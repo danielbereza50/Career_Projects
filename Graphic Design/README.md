@@ -15,21 +15,8 @@ https://thoughtbot.com/blog/transitions-and-transforms
 
 CSS for custom cursor image:
 
-body  { cursor: default; cursor: url('/wp-content/uploads/2022/10/cursor-final.png'), auto }
-input { cursor: auto    } /* Use a custom cursor, except on: */
+*  { cursor: default; cursor: url('/wp-content/uploads/2022/10/cursor-final.png'), auto }
 
-input[list="datalist"],
-input[type="button"  ],
-input[type="checkbox"],
-input[type="radio"   ],
-input[type="color"   ],
-input[type="range"   ],
-input[type="reset"   ],
-input[type="file"    ],
-input[type="submit"  ],
-label:not([for=""]),
-a,button,select,keygen   { cursor: pointer } 
-[contenteditable="true"] { cursor: text    }
 
 image size: 128 x 128 max
 
