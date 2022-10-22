@@ -19,7 +19,7 @@
 				
 				$email_from = 'noreply@domain.com';
 				$email_subject = "Hello";
-				$email_body = "You have received a new request for Trimming App access:\n".
+				$email_body = "You have received a new request for access:\n".
 	                           "First Name: $first_name.\n".
 							   "Last Name: $last_name.\n".
 					 		   "Email: $email.\n".
