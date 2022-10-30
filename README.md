@@ -279,9 +279,8 @@ Import resources via CDN examples:
 	https://cdnjs.com/libraries
 
 
-1. Contract Work I did:
+Relevant Links:
 
-Custom Themes + SEO work via
 * https://developers.google.com/speed/pagespeed/insights/
 * https://analytics.google.com/analytics/web/
 * https://tagmanager.google.com/#/home
@@ -389,6 +388,7 @@ How to:
 * https://www.grammarcheck.net/editor/
 * https://login.mailchimp.com/
 * https://www.docfly.com/pdf-form-creator
+* https://www.figma.com/
 
 		Mailchimp
 		
