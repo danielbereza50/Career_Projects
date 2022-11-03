@@ -389,6 +389,7 @@ How to:
 * https://login.mailchimp.com/
 * https://www.docfly.com/pdf-form-creator
 * https://www.figma.com/
+* https://www.photopea.com/
 
 		Mailchimp
 		
