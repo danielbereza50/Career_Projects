@@ -221,6 +221,12 @@ Popular Payment Gateways:
 	
 	https://squareup.com/login?return_to=%2Fhelp%2Fus%2Fen%2Farticle%2F5062-sign-in-and-out-of-square-point-of-sale
 	
+	
+Shipping and Live Rates:
+
+	* https://www.shipstation.com/
+	* https://www.ups.com/us/en/global.page
+
 
 .htaccess reminders:
 
