@@ -41,6 +41,10 @@ on a mac do control + X to exit nano
 
 exit - to close the thread
 
+// in case of PHP version errors
+composer install --ignore-platform-reqs 
+
+
 
 AWS Walkthrough:
 
