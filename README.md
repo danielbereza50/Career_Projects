@@ -38,8 +38,6 @@ https://www.internships.com/
 
 https://www.guru.com/
 
-https://www.freelance.com/en/
-
 https://www.ifreelance.com/
 
 https://www.toptal.com/talent/apply
