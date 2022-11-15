@@ -94,6 +94,23 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 <div>The other DNS records are:</div>
 <div>AAAA, CNAME, MX, NS, SOA, and TXT</div>
 
+	Example MX Record:
+
+	Name
+	blank
+
+	TTL
+	24 hours
+
+
+	Priority
+	0
+
+	Destination:
+
+	url-com.mail.protection.outlook.com.
+
+
     DNS Server examples:
 
     ns1.domain.net
