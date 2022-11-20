@@ -1,0 +1,16 @@
+MAIL CHIMP
+
+URL: http://www.mailchimp.com/
+
+Here is the login info for your account: 
+
+Username -   Username
+
+Password -   Password
+
+API Key - Key
+
+
+
+
+
