@@ -1,0 +1,16 @@
+Hubspot
+
+URL: https://app.hubspot.com/login
+
+Here is the login info for your account: 
+
+Username -   Username
+
+Password -   Password
+
+API Key - Key
+
+
+
+
+
