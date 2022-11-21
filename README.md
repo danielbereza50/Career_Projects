@@ -317,7 +317,10 @@ Relevant Links:
 
 * https://www.wordtracker.com
 * https://www.semrush.com/login/?src=header&redirect_to=%2F
+
+* https://ahrefs.com/keyword-generator
 * https://ahrefs.com/backlink-checker
+
 * https://www.seoptimer.com
 * https://rainstreamweb.com/
 * https://www.alignable.com
