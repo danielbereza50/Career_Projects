@@ -4,16 +4,12 @@
 class class1
 {
     // Properties
-    private $var1;
-    private $var2;
-    private $var3;
+    //private $loop_count = 0;
 
     // Methods
-    public function __construct($var1,$var2,$var3)
+    public function __construct($loop_count)
     {
-      $this->var1 = $var1;
-      $this->var2 = $var2;
-      $this->var3 = $var3;
+      $this->loop_count = $loop_count;
       $this->init();
     }
     

@@ -1,8 +1,12 @@
 <?php 
 class ajax
 {
-    public function __construct()
+    // Properties
+    //private $loop_count = 0;
+
+    public function __construct($loop_count)
     {
+      //$this->loop_count = $loop_count;
       $this->init();
     }
     
