@@ -54,10 +54,8 @@ function admin_page_display2() {
 		//echo $date;
 		
 		// Sample Data:
-		// Stair Climber™ Universal Strap
-		// Keven Snyder
-		// 2021-05-05 04:58:24
-		// 2019-07-02 09:24:55
+		
+		
 		
 		if(!empty($date)){
 			$results = $wpdb->get_results(
