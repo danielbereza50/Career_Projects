@@ -401,6 +401,7 @@ How to:
 * https://mxtoolbox.com/
 * https://products.aspose.app/words/parser
 * https://online-video-cutter.com/
+* https://clideo.com/editor/
 * https://www.desmos.com/scientific
 * https://www.omnicalculator.com/other/aspect-ratio
 * https://www.canva.com/
