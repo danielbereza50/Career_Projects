@@ -364,6 +364,16 @@ How to:
 		d)  Client secret
 
 
+Or through web host:
+
+Create a new email account:
+
+SMTP Host: mail.domain.com
+SMTP Username: johndoe
+SMTP Email: password
+SMTP Port: 587
+
+
 * https://support.google.com/webmasters/answer/6065812
 * https://ahrefs.com/blog/why-is-my-website-not-showing-up-on-google/
 * http://pajhome.org.uk/crypt/md5/
