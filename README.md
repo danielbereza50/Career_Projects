@@ -362,6 +362,8 @@ How to:
 		b)  Authorized redirect URIs 
 		c)  Client ID
 		d)  Client secret
+		
+	4. Publish Gmail App -  OAuth consent screen 	
 
 
 Or through web host:
