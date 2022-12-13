@@ -366,14 +366,14 @@ How to:
 	4. Publish Gmail App -  OAuth consent screen 	
 
 
-Or through web host:
+	Or through web host:
 
-Create a new email account:
+	Create a new email account:
 
-SMTP Host: mail.domain.com
-SMTP Username: johndoe
-SMTP Email: password
-SMTP Port: 587
+	SMTP Host: mail.domain.com
+	SMTP Username: johndoe
+	SMTP Email: password
+	SMTP Port: 587
 
 
 * https://support.google.com/webmasters/answer/6065812
