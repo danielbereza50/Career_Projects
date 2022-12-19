@@ -322,6 +322,7 @@ Relevant Links:
 * https://ahrefs.com/backlink-checker
 
 * https://www.seoptimer.com
+* https://sumo.com/stories/power-words
 * https://rainstreamweb.com/
 * https://www.alignable.com
 * https://my.yoast.com/login
@@ -339,6 +340,11 @@ Relevant Links:
 * https://meet.google.com/
 * https://www.syncedlocalmarketing.com/
 * https://gtmetrix.com/
+
+
+	Convert files to web pages:
+	
+	* https://www.online-convert.com
 
 Other Links:
 * https://www.cloudways.com/blog/post-smtp-mailer-fork-of-wordpress-postman-smtp-plugin/?id=339490
@@ -362,6 +368,18 @@ How to:
 		b)  Authorized redirect URIs 
 		c)  Client ID
 		d)  Client secret
+		
+	4. Publish Gmail App -  OAuth consent screen 	
+
+
+	Or through web host:
+
+	Create a new email account:
+
+	SMTP Host: mail.domain.com
+	SMTP Username: johndoe
+	SMTP Email: password
+	SMTP Port: 587
 
 
 * https://support.google.com/webmasters/answer/6065812
@@ -401,6 +419,7 @@ How to:
 * https://mxtoolbox.com/
 * https://products.aspose.app/words/parser
 * https://online-video-cutter.com/
+* https://clideo.com/editor/
 * https://www.desmos.com/scientific
 * https://www.omnicalculator.com/other/aspect-ratio
 * https://www.canva.com/
