@@ -58,3 +58,27 @@ Need a:
 4. Encryption Key
 
 5. SDK to connect
+
+
+
+or connect to api via url in wordpress
+
+	$response = wp_remote_get( 'https://api.domain.com/api/v1/history/?key=<value>');
+	//$response = wp_remote_get( 'https://api.domain.com/api/v1/history?key=<value>');
+
+	$body     = wp_remote_retrieve_body( $response );
+	//var_dump(json_decode($body));
+	$json = json_decode($body, true);
+	//var_dump($body);
+	//$list = '[{"productId":"epIJp9","name":"Product A","amount":"5","identifier":"242"},{"productId":"a93fHL","name":"Product B","amount":"2","identifier":"985"}]';
+	$decoded_list = json_decode($body); 
+	//print_r($decoded_list);
+
+	echo '<div class = "api-wrapper">';
+		foreach($decoded_list as $json){
+			echo '<div class = "api-item">';
+			echo 'Transitioned On: ' . $json->TransitionedOn;
+			echo '</div>';
+		}
+	echo '</div>';
+
