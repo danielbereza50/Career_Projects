@@ -14,5 +14,6 @@ Regular expressions for a serialized string:
 
 =REGEXREPLACE(CV2, "^a:[0-9]:{s:[0-9]:", "")
 
-
 =REGEXREPLACE(CW2, ";i:[0-9];}}$", "")
+
+=REGEXREPLACE(CX7, ";}}", "")
