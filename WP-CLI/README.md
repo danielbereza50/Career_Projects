@@ -76,6 +76,19 @@ https://mailtrap.io/blog/react-contact-form/
 /*   */
 
 
+Siteground Walkthrough
+
+    https://www.siteground.com/kb/how_to_log_in_to_my_shared_account_via_ssh_in_mac_os/
+    
+    1. Create private key from siteground
+    2. Place folder on desktop
+    3. run these commands
+       -  chmod 600 desktop/private-key.txt
+       -  ssh-add desktop/private-key.txt    
+
+    4. ssh USER@HOST_NAME -pPORT
+  
+
 https://dev.to/julbrs/how-to-use-react-inside-a-wordpress-application-49i
 
 
