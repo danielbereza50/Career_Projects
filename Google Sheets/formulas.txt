@@ -2,3 +2,17 @@
 
 
 =CONCATENATE("https://talentbureau.212staging.net/images/SQ-","",B2, ".png")
+
+
+
+Regular expressions for a serialized string:
+
+
+=REGEXREPLACE(CT2, """(.*)""", "")
+
+=REGEXREPLACE(CU2, "^a:[0-9]:{s:[0-9].:", "")
+
+=REGEXREPLACE(CV2, "^a:[0-9]:{s:[0-9]:", "")
+
+
+=REGEXREPLACE(CW2, ";i:[0-9];}}$", "")
