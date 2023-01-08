@@ -92,7 +92,7 @@ ORDER BY post_date DESC LIMIT 5
 
 
 
-              // joins comments, posts, users and usermeta tables
+              -- joins comments, posts, users and usermeta tables
                 SELECT DISTINCT `post_title` AS Product, 
                    m1.meta_value AS 'First_Name',
                    m2.meta_value AS 'Last_Name',
