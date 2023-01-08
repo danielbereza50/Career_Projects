@@ -89,3 +89,31 @@ AND  `post_status` =  "publish"
 AND rs.term_taxonomy_id  = 1 
 ORDER BY post_date DESC LIMIT 5
 
+
+
+
+              // joins comments, posts, users and usermeta tables
+                SELECT DISTINCT `post_title` AS Product, 
+                   m1.meta_value AS 'First_Name',
+                   m2.meta_value AS 'Last_Name',
+                  `display_name` AS 'Customer_Name', 
+                  `comment_author_email` AS 'Customer_Email', 
+                  `comment_date` , 
+                  `comment_content` AS 'Comment' 
+
+                  FROM wp_comments as c
+
+                  INNER JOIN `wp_posts` as p ON c.comment_post_ID = p.ID 
+                  INNER JOIN `wp_users` as u ON c.comment_author = u.user_login
+
+                  INNER JOIN `wp_usermeta` as m1 ON c.user_id = m1.user_id
+                  INNER JOIN `wp_usermeta` as m2 ON c.user_id = m2.user_id
+
+
+                  WHERE c.comment_author != 'WooCommerce' 
+                  AND m1.meta_key = 'first_name'
+                   AND m2.meta_key = 'last_name'
+                  AND c.comment_approved = '1'
+                  AND c.comment_date >= '2023-01-01 05:44:43'
+                  ORDER BY c.`comment_date` DESC
+
