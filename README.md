@@ -245,6 +245,27 @@ Shipping and Live Rates:
 	* https://www.ups.com/us/en/global.page
 
 
+Credit Card String Patterns:
+
+	// http://www.thunderdata.com/category/using-phps-preg_match-to-parse-credit-card-data-from-magnetic-swipe-readers/
+	$swipe_pattern = '/^(%B)([0-9]{16})\^([a-zA-Z-s]*)\/([a-zA-Z-s]*)\s\^([0-9]{2})([0-9]{2})(.)*?$/';
+	// %B4444666734442743^JOHN/DOE ^2604444902003330000000131000000?;4400666733322743=26042033320033900100?
+	
+	if(isset($_POST['submit'])){
+		preg_match($swipe_pattern, $_POST['card_value'],  $match);
+		//if(preg_match($swipe_pattern, $_POST['card_value'],  $match)){
+			/*
+		    echo "Card: ", $match[2]; // 0 is the entire string
+			echo '<br>';
+			echo "First Name: ", $match[4]; 
+			echo '<br>';
+			echo "Last Name: ", $match[3]; 
+			echo '<br>';
+			echo "Expiration: ", $match[6]."".$match[5]; 
+			*/
+	    //}
+	}		
+
 .htaccess reminders:
 
 <IfModule mod_rewrite.c>
