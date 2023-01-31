@@ -46,9 +46,9 @@ jQuery(document).ready(function($) {
     var cookieExpiry = 1;
     var cookiePath = "/";
 
-    //document.getElementById("cookieBoxok").addEventListener('click', function () {
+    document.getElementById("cookieBoxok").addEventListener('click', function () {
         createCookie('seen-cookiePopup', 'yes', cookieExpiry, cookiePath);
-   // });
+    });
 
 
 
