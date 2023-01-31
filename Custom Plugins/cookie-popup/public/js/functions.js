@@ -46,18 +46,20 @@ jQuery(document).ready(function($) {
     var cookieExpiry = 1;
     var cookiePath = "/";
 
-    document.getElementById("cookieBoxok").addEventListener('click', function () {
+    //document.getElementById("cookieBoxok").addEventListener('click', function () {
         createCookie('seen-cookiePopup', 'yes', cookieExpiry, cookiePath);
-    });
-
+   // });
 
 
 
     var cookiePopup = readCookie('seen-cookiePopup');
+    
     if (cookiePopup != null && cookiePopup == 'yes') {
         cookiebarBox.style.display = 'none';
+       
+
     } else {
-        cookiebarBox.style.display = 'block';
+       cookiebarBox.style.display = 'block';
     }
 
 
