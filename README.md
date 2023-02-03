@@ -503,6 +503,9 @@ How to:
 * https://www.figma.com/
 * https://www.photopea.com/
 * https://wellsaidlabs.com/
+* https://fonts.google.com/
+
+
 
 		Mailchimp
 		
