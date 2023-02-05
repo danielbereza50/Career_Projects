@@ -117,3 +117,16 @@ ORDER BY post_date DESC LIMIT 5
                   AND c.comment_date >= '2023-01-01 05:44:43'
                   ORDER BY c.`comment_date` DESC
 
+
+
+
+SELECT order_id, post_date, oim.meta_value 
+FROM wp_posts AS p 
+JOIN wp_woocommerce_order_items AS oi ON p.ID = oi.order_id 
+JOIN wp_woocommerce_order_itemmeta AS oim ON oi.order_item_id = oim.order_item_id 
+WHERE oim.meta_key = 'Items' 
+AND oim.meta_value REGEXP '^\'lorum\' lorum ipsum™ - lorum ipsum &times' 
+OR oim.meta_value REGEXP '^\'lorum\' lorum ipsum™ - lorum ipsum &times'
+
+
+
