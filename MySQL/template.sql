@@ -128,7 +128,8 @@ WHERE oim.meta_key = 'Items'
 AND oim.meta_value REGEXP '^\'product\' title™ - lorum ipsum &times' 
 OR oim.meta_value REGEXP '^product title™ - lorum ipsum &times'
 
-
+// List of all zip codes and lat, long
+// https://gist.github.com/erichurst/7882666
 
 SELECT wp67_users.*,
 			um1.meta_value as role,
