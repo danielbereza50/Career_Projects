@@ -43,3 +43,37 @@ Google Ads Campaign:
 https://ads.google.com/intl/en_us/getstarted/
 
 https://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost
+
+
+https://www.semrush.com
+
+1. Volume
+2. Keyword difficulty(KD)
+3. Competition
+
+Keyword magic tool:
+
+Phrase Match or exact match
+
+cat's
+
+C's and T's
+
+blog article back to service page
+
+Title Insurance
+
+
+Information - Blog articles
+
+10 words in each
+
+
+10-20 keywords for each service
+
+title and tag services near me
+
+Target long-tail keywords
+
+
+
