@@ -507,11 +507,6 @@ How to:
 * https://products.aspose.app/cells/conversion/sql-to-excel
 
 
-List of all zip codes and lat, long
-
-https://gist.github.com/erichurst/7882666
-
-
 		Mailchimp
 		
 		Login -> Email Templates -> Edit Arrow -> Create Campaign
