@@ -147,3 +147,14 @@ AND um1.meta_value LIKE '%guide%'
 
 HAVING distance < 50 or distance < 0
 
+
+
+DELETE c.*
+FROM wp_comments as c                
+INNER JOIN `wp_posts` as p ON c.comment_post_ID = p.ID
+WHERE c.comment_type = 'review'
+AND p.post_title = 'Dang Pro V4 Upgrade Kit'
+
+
+
+
