@@ -72,6 +72,15 @@ db config file is /web/sites/default/settings.php
           a) modules use controller files
           b) themes use twig templates
         
+        How to update PHP for MAMP
+        
+        1. brew update 
+        2. brew upgrade php 
+        3. cd /usr/loca/Cellar/php 
+        4. copy folder to /MAMP/bin/PHP
+        5. cd /usr/local/lib/httpd
+        6. copy modules folder to new PHP version folder - example phpx.x.x
+        
 
 Development server:
 http://localhost:8888/drupal/blog/web/
