@@ -45,7 +45,7 @@ exit - to close the thread
 composer install --ignore-platform-reqs 
 
 
-3 Main servers:
+3 MAIN SERVERS:
 
 Web Server:
 
@@ -53,13 +53,11 @@ Web Server:
     UN: username
     PW: password
     Port: 21, 22
-
-
+    
 Database Server:
 
     IP:	pmaadap9om3.registeredsite.com
     Server Alias:	vuxmysql11 
-
 
 Mail Server:
 
@@ -68,7 +66,6 @@ Mail Server:
     Outgoing Server: mail.wandersproducts.com
     SMTP Port: 465
     Port: 587
-
 
 
 AWS Walkthrough:
