@@ -45,6 +45,29 @@ exit - to close the thread
 composer install --ignore-platform-reqs 
 
 
+3 Main servers:
+
+Web Server:
+    Host: ftp.domain.com
+    UN: username
+    PW: password
+    Port: 21, 22
+
+
+Database Server:
+    IP:	pmaadap9om3.registeredsite.com
+    Server Alias:	vuxmysql11 
+
+
+Mail Server:
+    Incoming Server: mail.wandersproducts.com
+    IMAP Port: 993 / POP3 Port: 995
+    Outgoing Server: mail.wandersproducts.com
+    SMTP Port: 465
+
+    Port: 587
+
+
 
 AWS Walkthrough:
 
