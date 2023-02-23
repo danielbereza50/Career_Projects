@@ -49,7 +49,7 @@ composer install --ignore-platform-reqs
 
 Web Server:
 
-    Host: ftp.domain.com
+    Host: ftp.domain.com / ip address
     UN: username
     PW: password
     Port: 21, 22
