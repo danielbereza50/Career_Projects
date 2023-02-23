@@ -56,16 +56,16 @@ Web Server:
     
 Database Server:
 
-    IP:	pmaadap9om3.registeredsite.com
-    Server Alias:	vuxmysql11 
+    IP:	something.domain.com
+    Server Alias:	test1 
    
-    mysql -u fcxspqewad -p pbfg85KUvN -h 104.131.119.179 fcxspqewad
+    mysql -u username -p password -h ipaddress  dbname
 
 Mail Server:
 
-    Incoming Server: mail.wandersproducts.com
+    Incoming Server: mail.domain.com
     IMAP Port: 993 / POP3 Port: 995
-    Outgoing Server: mail.wandersproducts.com
+    Outgoing Server: mail.domain.com
     SMTP Port: 465
     Port: 587
 
