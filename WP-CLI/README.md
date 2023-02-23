@@ -58,6 +58,8 @@ Database Server:
 
     IP:	pmaadap9om3.registeredsite.com
     Server Alias:	vuxmysql11 
+   
+    mysql -u fcxspqewad -p pbfg85KUvN -h 104.131.119.179 fcxspqewad
 
 Mail Server:
 
