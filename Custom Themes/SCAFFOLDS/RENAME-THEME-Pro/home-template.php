@@ -6,44 +6,59 @@ get_header();?>
 
 
 <!--Start Coding Here -->
-<div class = "first-section-container">
-
-	<div class = "item">
+<div class = "section-container-first">
+	<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "item">
+		</div>	
+		<div class = "item">
+		</div>	
 	</div>	
-
+	<!-- end of row-->
 </div>
 
-<div class = "second-section-container">
-
-
-	<div class = "item">
+<div class = "section-container-second">
+<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "item">
+		</div>	
+		<div class = "item">
+		</div>	
 	</div>	
-
-
+	<!-- end of row-->
 </div>
 
-<div class = "third-section-container">
-
-	<div class = "item">
+<div class = "section-container-third">
+<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "item">
+		</div>	
+		<div class = "item">
+		</div>	
 	</div>	
-
-
+	<!-- end of row-->
 </div>
 
-<div class = "fourth-section-container">
-
-	<div class = "item">
+<div class = "section-container-fourth">
+<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "item">
+		</div>	
+		<div class = "item">
+		</div>	
 	</div>	
-
-
+	<!-- end of row-->
 </div>
 
-<div class = "fifth-section-container">
-
-	<div class = "item">
+<div class = "section-container-fifth">
+<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "item">
+		</div>	
+		<div class = "item">
+		</div>	
 	</div>	
-
-
+	<!-- end of row-->
 </div>
 
 
