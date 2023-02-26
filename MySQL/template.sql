@@ -126,7 +126,7 @@ JOIN wp_woocommerce_order_items AS oi ON p.ID = oi.order_id
 JOIN wp_woocommerce_order_itemmeta AS oim ON oi.order_item_id = oim.order_item_id 
 WHERE oim.meta_key = 'Items' 
 AND oim.meta_value REGEXP '^\'product\' title™ - lorum ipsum &times' 
-OR oim.meta_value REGEXP '^product title™ - lorum ipsum &times'
+OR oim.meta_value REGEXP '^product title™ - lorum ipsum'
 
 // List of all zip codes and lat, long
 // https://gist.github.com/erichurst/7882666
