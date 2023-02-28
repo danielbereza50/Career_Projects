@@ -314,6 +314,17 @@ Credit Card String Patterns:
 
 .htaccess reminders:
 
+
+# How to force https connection 
+
+Before # BEGIN WordPress.
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+
+
 <IfModule mod_rewrite.c>
   
       RewriteEngine On
