@@ -393,18 +393,9 @@ Relevant Links:
 
 ////////////////////////////////////////////////////////
 
-* https://www.wordtracker.com
-* https://www.semrush.com/login/?src=header&redirect_to=%2F
-
-* https://ahrefs.com/keyword-generator
-* https://ahrefs.com/backlink-checker
-
-* https://www.seoptimer.com
-* https://sumo.com/stories/power-words
 * https://rainstreamweb.com/
 * https://www.alignable.com
 * https://my.yoast.com/login
-* https://login.buffer.com/login
 * https://cloudconvert.com/png-to-webp
 * https://wave.webaim.org/
 
