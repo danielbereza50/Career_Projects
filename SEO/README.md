@@ -75,5 +75,8 @@ title and tag services near me
 
 Target long-tail keywords
 
+* https://www.grammarcheck.net/editor/
+* https://www.thesaurus.com/
+* https://www.wordstream.com/keywords
 
 
