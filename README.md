@@ -509,6 +509,7 @@ How to:
 * https://www.elegantthemes.com/blog/resources/elegant-icon-font
 * https://www.sodawebmedia.com/insights/how-to-create-a-wordpress-account-via-mysql/
 * https://www.grammarcheck.net/editor/
+* https://www.thesaurus.com/
 * https://login.mailchimp.com/
 * https://www.docfly.com/pdf-form-creator
 * https://www.figma.com/
