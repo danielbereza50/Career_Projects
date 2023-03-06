@@ -79,4 +79,13 @@ Target long-tail keywords
 * https://www.thesaurus.com/
 * https://www.wordstream.com/keywords
 
+* https://www.semrush.com/login/?src=header&redirect_to=%2F
+
+* https://ahrefs.com/keyword-generator
+* https://ahrefs.com/backlink-checker
+
+* https://www.seoptimer.com
+* https://sumo.com/stories/power-words
+* https://login.buffer.com/login
+
 
