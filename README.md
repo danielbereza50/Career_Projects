@@ -472,6 +472,7 @@ How to:
 * https://redketchup.io/bulk-image-resizer
 * https://loremipsum.io/
 * https://smallpdf.com/edit-pdf
+* https://products.aspose.app/words/replace/pdf
 * https://zapier.com/
 * https://vimeo.com/
 * https://www.bizcardmaker.com/
