@@ -2,6 +2,7 @@
 add_action('wp_head', 'smooth_scroll');
 function smooth_scroll() { 
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
 	jQuery(document).ready(function(){
 // Select all links with hashes
