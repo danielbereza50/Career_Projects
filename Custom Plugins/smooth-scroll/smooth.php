@@ -42,6 +42,23 @@ jQuery('a[href*="#"]')
     }
   });
 	
+// stick header
+		
+$(window).scroll(function(){
+	  var sticky = $('.site-header');
+	  var logo = $('.custom-logo');
+		//console.log(logo);
+		  scroll = $(window).scrollTop();
+	  if (scroll >= 100){
+		  sticky.addClass('fixed');
+		  logo.addClass('small-width');
+	  }else{ 
+		  sticky.removeClass('fixed');
+		  logo.removeClass('small-width');
+	}}
+);
+		
+		
 });	
 </script>
 
@@ -101,6 +118,15 @@ function topFunction() {
 #myBtn:hover {
   background-color: #555;
 }
+.fixed {
+  position: fixed;
+  top:0; 
+	left:0;
+  width: 100%; 
+}
+.small-width{
+	max-width: 100px !important;
+}	
 </style>
 	
 <?php
