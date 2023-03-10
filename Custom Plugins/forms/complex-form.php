@@ -7,8 +7,8 @@ function simple_form(){
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <?php
         // Google reCAPTCHA API key configuration 
-        $siteKey     = '6LdsJuskAAAAAKXZ1RGZld5lMJFOmRK8xHKcu59W'; 
-        $secretKey     = '6LdsJuskAAAAANzbLprbnBDVVL19Ab6Ms84yHROC'; 
+        $siteKey     = ''; 
+        $secretKey     = ''; 
             /*
                     CREATE TABLE wpey_custom_form (
                     entry_id int NOT NULL AUTO_INCREMENT,
