@@ -65,7 +65,7 @@ function simple_form(){
                         echo 'Your request has been sent. These requests are typically reviewed within 24 hours. Thank you!';
                     echo '</div>';
             }else{
-                    echo '<div class = "recaptcha">Please check on the reCAPTCHA box.</div>'; 
+                    echo '<div class = "recaptcha" id = "custom_form">Please check on the reCAPTCHA box.</div>'; 
             }
         } ?>
         <div class = "form-container">
