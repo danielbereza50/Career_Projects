@@ -117,3 +117,50 @@ ORDER BY post_date DESC LIMIT 5
                   AND c.comment_date >= '2023-01-01 05:44:43'
                   ORDER BY c.`comment_date` DESC
 
+
+
+
+SELECT order_id, post_date, oim.meta_value 
+FROM wp_posts AS p 
+JOIN wp_woocommerce_order_items AS oi ON p.ID = oi.order_id 
+JOIN wp_woocommerce_order_itemmeta AS oim ON oi.order_item_id = oim.order_item_id 
+WHERE oim.meta_key = 'Items' 
+AND oim.meta_value REGEXP '^\'product\' title™ - lorum ipsum &times' 
+OR oim.meta_value REGEXP '^product title™ - lorum ipsum'
+
+// List of all zip codes and lat, long
+// https://gist.github.com/erichurst/7882666
+
+SELECT wp67_users.*,
+			um1.meta_value as role,
+	       	um2.meta_value as lat,
+	        um3.meta_value as lng,
+
+3959 * acos( cos( radians("42.3600825") ) * cos( radians( um2.meta_value ) ) * cos( radians ( um3.meta_value ) - radians("-71.0588801") )
+            + sin( radians("42.3600825") ) * sin( radians ( um2.meta_value ) ) )  as 'distance'
+	     
+FROM wp67_users
+LEFT JOIN wp67_usermeta AS um1 ON (um1.user_id = wp67_users.ID AND um1.meta_key='wp67_capabilities')
+LEFT JOIN wp67_usermeta AS um2 ON (um2.user_id = wp67_users.ID AND um2.meta_key='guide_lat')
+LEFT JOIN wp67_usermeta AS um3 ON (um3.user_id = wp67_users.ID AND um3.meta_key='guide_lng')
+AND um1.meta_value LIKE '%guide%'	
+
+HAVING distance < 50 or distance < 0
+
+
+SELECT c.*
+FROM wp_comments as c                
+INNER JOIN `wp_posts` as p ON c.comment_post_ID = p.ID
+WHERE c.comment_type = 'review'
+AND p.post_title = ''
+
+
+DELETE c.*
+FROM wp_comments as c                
+INNER JOIN `wp_posts` as p ON c.comment_post_ID = p.ID
+WHERE c.comment_type = 'review'
+AND p.post_title = ''
+
+
+
+

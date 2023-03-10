@@ -314,6 +314,17 @@ Credit Card String Patterns:
 
 .htaccess reminders:
 
+
+# How to force https connection 
+
+	Before # BEGIN WordPress.
+	RewriteEngine On
+	RewriteCond %{HTTPS} !=on
+	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+	Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+
+
 <IfModule mod_rewrite.c>
   
       RewriteEngine On
@@ -382,18 +393,9 @@ Relevant Links:
 
 ////////////////////////////////////////////////////////
 
-* https://www.wordtracker.com
-* https://www.semrush.com/login/?src=header&redirect_to=%2F
-
-* https://ahrefs.com/keyword-generator
-* https://ahrefs.com/backlink-checker
-
-* https://www.seoptimer.com
-* https://sumo.com/stories/power-words
 * https://rainstreamweb.com/
 * https://www.alignable.com
 * https://my.yoast.com/login
-* https://login.buffer.com/login
 * https://cloudconvert.com/png-to-webp
 * https://wave.webaim.org/
 
@@ -470,6 +472,7 @@ How to:
 * https://redketchup.io/bulk-image-resizer
 * https://loremipsum.io/
 * https://smallpdf.com/edit-pdf
+* https://products.aspose.app/words/replace/pdf
 * https://zapier.com/
 * https://vimeo.com/
 * https://www.bizcardmaker.com/
@@ -497,12 +500,15 @@ How to:
 * https://cornercase.info/common-divi-icons/
 * https://www.elegantthemes.com/blog/resources/elegant-icon-font
 * https://www.sodawebmedia.com/insights/how-to-create-a-wordpress-account-via-mysql/
-* https://www.grammarcheck.net/editor/
 * https://login.mailchimp.com/
 * https://www.docfly.com/pdf-form-creator
 * https://www.figma.com/
 * https://www.photopea.com/
 * https://wellsaidlabs.com/
+* https://fonts.google.com/
+* https://products.aspose.app/cells/conversion/sql-to-excel
+* https://developers.facebook.com/tools/debug/
+
 
 		Mailchimp
 		

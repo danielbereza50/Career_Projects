@@ -45,6 +45,30 @@ exit - to close the thread
 composer install --ignore-platform-reqs 
 
 
+3 MAIN SERVERS:
+
+Web Server:
+
+    Host: ftp.domain.com / ip address
+    UN: username
+    PW: password
+    Port: 21, 22
+    
+Database Server:
+
+    IP:	something.domain.com
+    Server Alias:	test1 
+   
+    mysql -u username -p password -h ipaddress  dbname
+
+Mail Server:
+
+    Incoming Server: mail.domain.com
+    IMAP Port: 993 / POP3 Port: 995
+    Outgoing Server: mail.domain.com
+    SMTP Port: 465
+    Port: 587
+
 
 AWS Walkthrough:
 
