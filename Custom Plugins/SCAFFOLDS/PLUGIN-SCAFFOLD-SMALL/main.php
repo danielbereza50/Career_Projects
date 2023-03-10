@@ -1,11 +1,11 @@
 <?php
 /*
     Plugin Name: Custom code
-    Plugin URI:  https://eyebenders.com/
+    Plugin URI:  
     Description: Added on functionality. 
     Version:     100.0.0
-    Author:      Eyebenders
-    Author URI:  https://eyebenders.com/
+    Author:      
+    Author URI:  
     License:     GPL2
     License URI: Licence URl
 */
