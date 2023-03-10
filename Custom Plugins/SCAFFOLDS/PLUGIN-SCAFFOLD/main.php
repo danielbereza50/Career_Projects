@@ -10,9 +10,9 @@
     License URI: Licence URl
 */
 
-# require_once __DIR__.'/includes/main-class.php';
-# require_once __DIR__.'/model/model-class.php';
-# require_once __DIR__.'/controller/controller-class.php';
+# require_once __DIR__.'/includes/class-main.php';
+# require_once __DIR__.'/model/class-model.php';
+# require_once __DIR__.'/controller/class-controller.php';
 
 # register_activation_hook(__FILE__, array($model_obj, 'activate')); 
 # add_action( 'rest_api_init', array($controller_obj,'route'));

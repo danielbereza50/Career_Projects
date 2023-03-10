@@ -4,7 +4,7 @@
 class class1
 {
     // Properties
-    //var $loop_count = 0;
+    //private $loop_count = 0;
 
     // Methods
     public function __construct($loop_count)

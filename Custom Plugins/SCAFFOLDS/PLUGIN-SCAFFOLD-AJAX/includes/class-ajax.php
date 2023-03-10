@@ -2,7 +2,7 @@
 class ajax
 {
     // Properties
-    //var $loop_count = 0;
+    //private $loop_count = 0;
 
     public function __construct($loop_count)
     {
