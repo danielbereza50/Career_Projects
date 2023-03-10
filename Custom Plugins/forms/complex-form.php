@@ -1,3 +1,5 @@
+<?php
+
 add_shortcode('contact_form', 'simple_form');
 function simple_form(){
     ob_start(); ?>
