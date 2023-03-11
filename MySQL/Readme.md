@@ -1,3 +1,42 @@
+PHP/MySQL outside of wordpress
+
+// Process Order and display paypal redirect link... autoredirect
+
+	$conn = mysqli_connect($db_server, $db_user, $db_pass, $db_database);
+	$sql = "SELECT * FROM customers ORDER BY customer_created DESC; 
+	";
+	// $sql2="SELECT COUNT(orders.ID) AS order_count FROM orders WHERE orders.customer_ID='".escape($customer['ID'])."'";
+	// $result2=mysqli_query($sql2);
+	// SELECT COUNT(orders.ID) AS order_count FROM orders WHERE orders.customer_ID=176
+
+	$result = mysqli_query($conn, $sql); 
+	while ($row = mysqli_fetch_assoc($result)) { 
+	    $uqID = $row["uqID"];
+	    $salt=runDecryptionProtocol($uqID);
+	    $customer_email=decrypt($row["email"],$salt);
+	    $customer_phone=decrypt($row["phone"],$salt);
+	    $date = date("F d, Y h:i:s A",strtotime($row['customer_created']));
+	    $ID = $row['ID'];
+	    $html =  '<a href="/dashboard/customers/manage/'.$ID.'";?>Edit</a>';
+
+	    if ($row['is_active'] == 1) {
+			$active_mark='<a href="javascript:;" data-url="/dashboard/control/customers/'.$row['ID'].'" data-post="is_active" data-value="0" class="ajax-post active toggle-icon"><i class="fas fa-check-circle green"></i>';
+	    } else {
+			$active_mark='<a href="javascript:;" data-url="/dashboard/control/customers/'.$customer['ID'].'" data-post="is_active" data-value="1" class="ajax-post inactive toggle-icon"><i class="far fa-check-circle green"></i>';
+	    }
+		echo "<tr>
+		     <td>". $row["company_name"] ."</td>
+		     <td>".($customer_email =='' ? $row["email"] : $customer_email) ."</td>
+		     <td>".($customer_phone =='' ? $row["phone"] : $customer_phone) ."</td>
+		     <td>".$row["billing_zipcode"]."</td>
+		     <td>".$active_mark."</td>
+		     <td>".$date."</td>
+		     <td>".$html."</td>
+		     "; 
+		echo "</tr>";
+	    }
+
+
 Structure has been used since WP version 3.8  
  
  
