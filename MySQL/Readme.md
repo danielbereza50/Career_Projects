@@ -2,12 +2,12 @@ PHP/MySQL outside of wordpress
 
 // Process Order and display paypal redirect link... autoredirect
 
-$customer_sql="INSERT INTO customers (first_name, last_name, billing_address1, billing_city, billing_state, billing_zipcode, phone, email, uname, upass, company_name, is_active,  site_ID, is_admin)
-VALUES ('".escape($_POST['billing_first_name'])."','".escape($_POST['billing_last_name'])."','".escape($_POST['billing_address_1'])."','".escape($_POST['billing_city'])."','".escape($_POST['billing_state'])."','".escape($_POST['billing_postcode'])."','".escape($_POST['billing_phone'])."','".escape($_POST['billing_email'])."','".escape($_POST['account_username'])."','".escape($_POST['account_password'])."','".escape($_POST['billing_address_1'])."', 1, 1, 1);";
-$customer_return=insert($customer_sql);
+	$customer_sql="INSERT INTO customers (first_name, last_name, billing_address1, billing_city, billing_state, billing_zipcode, phone, email, uname, upass, company_name, is_active,  site_ID, is_admin)
+	VALUES ('".escape($_POST['billing_first_name'])."','".escape($_POST['billing_last_name'])."','".escape($_POST['billing_address_1'])."','".escape($_POST['billing_city'])."','".escape($_POST['billing_state'])."','".escape($_POST['billing_postcode'])."','".escape($_POST['billing_phone'])."','".escape($_POST['billing_email'])."','".escape($_POST['account_username'])."','".escape($_POST['account_password'])."','".escape($_POST['billing_address_1'])."', 1, 1, 1);";
+	$customer_return=insert($customer_sql);
 
 
-mail('test@domain.com','A New Vendor Has Registered!',$information);
+	mail('test@domain.com','A New Vendor Has Registered!',$information);
 
 
 
