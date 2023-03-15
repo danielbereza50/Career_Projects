@@ -53,5 +53,10 @@
 			plugin in font family as the first value after loading .otf or .ttf file into project folder:
 
 			font-family: 'Neon Blitz',Helvetica,Arial,Lucida,sans-serif;
+			
+			h1, h2, h3, h4, h5, h6{}
+			body{}
+			
+			font-family: 'Muli',sans-serif !important;
 
 
