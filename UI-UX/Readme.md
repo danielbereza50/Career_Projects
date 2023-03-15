@@ -1,57 +1,57 @@
-When ever doing UX from scratch, use the following start to the code:
+		When ever doing UX from scratch, use the following start to the code:
 
-<style>
-.flex-wrapper {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-items: center;
-}
-.flex-item {
-		width: 32%;
-		height: auto;
-}
-@media screen and (max-width:980px){
-	.flex-item {
-		width: 50%;
-		height: auto;
-	}
-}
-@media screen and (max-width:768px){
-	.flex-item {
-		width: 100%;
-		height: auto;
-	}
-}
-</style>
+		<style>
+		.flex-wrapper {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: center;
+		}
+		.flex-item {
+				width: 32%;
+				height: auto;
+		}
+		@media screen and (max-width:980px){
+			.flex-item {
+				width: 50%;
+				height: auto;
+			}
+		}
+		@media screen and (max-width:768px){
+			.flex-item {
+				width: 100%;
+				height: auto;
+			}
+		}
+		</style>
 
-    <div class = "flex-wrapper">
+		    <div class = "flex-wrapper">
 
-    <div class = "flex-item">
+		    <div class = "flex-item">
 
-    <!-- stuff goes here -->
+		    <!-- stuff goes here -->
 
-    </div>
+		    </div>
 
-    </div>
+		    </div>
 
 
-perserve image aspect ratio:
+		perserve image aspect ratio:
 
-        https://web.dev/aspect-ratio/
-    
-	width: 200px;
-    
-        height: 200px;
-    
-	object-fit: contain;
-	
-	
-	*Above the fold means within the viewport (not below the window height) 
-	
-	
-	plugin in font family as the first value after loading .otf or .ttf file into project folder:
-	
-	font-family: 'Neon Blitz',Helvetica,Arial,Lucida,sans-serif;
+			https://web.dev/aspect-ratio/
+
+			width: 200px;
+
+			height: 200px;
+
+			object-fit: contain;
+
+
+			*Above the fold means within the viewport (not below the window height) 
+
+
+			plugin in font family as the first value after loading .otf or .ttf file into project folder:
+
+			font-family: 'Neon Blitz',Helvetica,Arial,Lucida,sans-serif;
 
 
