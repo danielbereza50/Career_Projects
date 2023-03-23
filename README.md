@@ -20,7 +20,7 @@ https://www.facebook.com/danielbereza
 
 https://www.linkedin.com/in/daniel-bereza/
 
-https://www.alignable.com/new-baltimore-mi/212-creative-llc
+
 
 <hr>
 
@@ -28,7 +28,7 @@ Job Boards:
 
 https://my.indeed.com/p/danielb-jgqr24p
 
-https://www.ziprecruiter.com/ 
+https://www.alignable.com/new-baltimore-mi/212-creative-llc
 
 https://www.fiverr.com/danielbereza50
 
