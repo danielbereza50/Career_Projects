@@ -8,8 +8,6 @@ https://stackoverflow.com/users/6249179/dan
 
 https://graphicdesign.stackexchange.com/users/151822/dan
 
-https://twitter.com/DanielBereza
-
 https://www.youtube.com/channel/UC_EvRpft1xnCek93bREtoEA?view_as=subscriber
 
 https://my.fusebox.fm/
@@ -19,6 +17,8 @@ https://soundcloud.com/daniel-bereza-723395149
 https://www.facebook.com/danielbereza
 
 https://www.linkedin.com/in/daniel-bereza/
+
+https://twitter.com/DanielBereza
 
 
 
