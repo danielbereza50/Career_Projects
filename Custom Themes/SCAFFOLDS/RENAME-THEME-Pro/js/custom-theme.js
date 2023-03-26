@@ -3,36 +3,6 @@ jQuery( document ).ready(function($) {
     
        console.log( "ready!" );
 
-	
-        // Multi-Toggle Navigation
-jQuery(function() {
-  jQuery('body').addClass('js');
-    var $menu = jQuery('#menu'),
-      $menulink = jQuery('.menu-link'),
-      $menuTrigger = jQuery('.has-subnav');
-
-  $menulink.click(function(e) {
-    e.preventDefault();
-    $menulink.toggleClass('active');
-    $menu.toggleClass('active');
-  });
-
-  $menuTrigger.click(function(e) {
-    e.preventDefault();
-    var $this = jQuery(this);
-    $this.toggleClass('active').next('ul').toggleClass('active');
-  });
-
-});
-
-// Remove "Active" Class from Menu on Resize
-jQuery(window).resize(function() {
-  var viewportWidth = jQuery(window).width();
-    if (viewportWidth > 925) {
-      jQuery("#menu").removeClass("active");
-    }
-});
-
 	    var stickyOffset = jQuery('.sticky').offset().top;
          
          jQuery(window).scroll(function(){
@@ -48,8 +18,22 @@ jQuery(window).resize(function() {
           else sticky.addClass('fixed');
                  
          });  
-	
 
+	   $('.hamburger-menu').on('click', function() {
+			$('.bar').toggleClass('animate');
+		$('.mobile-menu').toggleClass('active');
+			 return false;
+		})
+	  $('.has-children').on ('click', function() {
+			   $(this).children('ul').slideToggle('slow', 'swing');
+		   $('.icon-arrow').toggleClass('open');
+	  });
+	
+	
+	
+	
+	
+	
 	
 	
 	

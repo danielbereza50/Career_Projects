@@ -6,15 +6,60 @@ get_header();?>
 
 
 <!--Start Coding Here -->
+<div class = "section-container-first">
+	<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "flex-item">
+		</div>	
+		<div class = "flex-item">
+		</div>	
+	</div>	
+	<!-- end of row-->
+</div>
 
+<div class = "section-container-second">
+<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "flex-item">
+		</div>	
+		<div class = "flex-item">
+		</div>	
+	</div>	
+	<!-- end of row-->
+</div>
 
+<div class = "section-container-third">
+<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "flex-item">
+		</div>	
+		<div class = "flex-item">
+		</div>	
+	</div>	
+	<!-- end of row-->
+</div>
 
-<?php  
-// bring in the WYSSYWIG content
-$content = apply_filters('the_content', $post->post_content);
-echo $content;
-?>
+<div class = "section-container-fourth">
+<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "flex-item">
+		</div>	
+		<div class = "flex-item">
+		</div>	
+	</div>	
+	<!-- end of row-->
+</div>
 
+<div class = "section-container-fifth">
+<!-- start of row-->
+	<div class = "flex-wrapper">
+		<div class = "flex-item">
+		</div>	
+		<div class = "flex-item">
+		</div>	
+	</div>	
+	<!-- end of row-->
+</div>
 
 
 <?php 

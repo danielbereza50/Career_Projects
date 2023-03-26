@@ -13,7 +13,8 @@
       <?php wp_head(); ?>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
    </head>
-   <body <?php body_class(); ?>>
+   <body <?php body_class(); ?>> 
+	  <?php //echo get_template_directory_uri() . '/images/layer_47.png' ?>
       <div class="wrapper">
       <div class="sticky">
          <div class = "pre-header">
@@ -23,38 +24,26 @@
                <div class = "headertxt3"><a style="color: #959595;" href="mailto:">Email: </a></div>
             </div>
             <div class = "hide">
-               <div class = "navHolder1">
-                  <div class="main" id="siteheader">
-                     <a href="#menu" class="menu-link active"><span></span> Menu</a>
-                     <div id="menu" class="menu">
-                        <ul class="level-1">
-                           <li><a href="/">test</a></li>
-                           <li><a href="/">test</a></li>
-                           <li>
-                              <a href="/">test</a><span class="has-subnav">&#x25BC;</span>
-                              <ul class="level-2">
-                                 <li><a href="/">test</a></li>
-                                 <li><a href="/">test</a></li>
-                                 <li><a href="/">test</a></li>
-                              </ul>
-                           </li>
-                           <li>
-                              <a href="/">test</a><span class="has-subnav">&#x25BC;</span>
-                              <ul class="level-2">
-                                 <li><a href="/">test</a></li>
-                                 <li><a href="/">test</a></li>
-                              </ul>
-                           </li>
-                           <li><a href="/">test</a></li>
-                        </ul>
-                        <?php 
-                           //wp_nav_menu(array( 'theme_location' => 'main2-menu',
-                             //                'menu_class'     => 'main2-menu',     
-                               //        )); 
-                            ?>
-                     </div>
-                  </div>
-               </div>
+			<div class="hamburger-menu">
+			<div class="bar"></div>	
+		</div>
+		<nav class="mobile-menu">
+			<ul>
+			  <li><a href="index.html">Home</a></li>
+				
+			  <li class="has-children">About <span class="icon-arrow"></span>
+				<ul class="children">
+				  <li><a href="submenu1.html">Submenu #1</a></li>
+				  <li><a href="submenu2.html">Submenu #2</a></li>
+				  <li><a href="submenu3.html">Submenu #3</a></li>
+				</ul>
+			  </li>
+				
+			  <li><a href="blog.html">Blog</a></li>
+			  <li><a href="contact.html">Contact</a></li>				
+			</ul>    
+		</nav>
+				<!-- end of nav holder -->
                <div class="headertxt2"><a style="color: #959595;" href="tel:410-583-2367">Tel: 410-583-52367</a></div>
             </div>
             <!-- End of jQuery hamburger plugin -->
