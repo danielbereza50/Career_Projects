@@ -161,6 +161,40 @@ INNER JOIN `wp_posts` as p ON c.comment_post_ID = p.ID
 WHERE c.comment_type = 'review'
 AND p.post_title = ''
 
+    SELECT u.ID,
+	    firstname.meta_value as first_name, 
+	    lastname.meta_value as last_name, 
+	    billing_address_1.meta_value as billing_address_1, 
+	    billing_city.meta_value as billing_city, 
+	    billing_state.meta_value as billing_state, 
+	    billing_postcode.meta_value as billing_postcode, 
+	    billing_country.meta_value as billing_country, 
+	    billing_email.meta_value as billing_email, 
+	    billing_phone.meta_value as billing_phone, 
+	    wp67_capabilities.meta_value as wp67_capabilities
 
+    FROM wp67_users u
+    
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'first_name') as firstname ON u.ID = firstname.user_id
+    
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'last_name') as lastname ON u.ID = lastname.user_id
+  
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'billing_address_1') as billing_address_1 ON u.ID = billing_address_1.user_id
+
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'billing_city') as billing_city ON u.ID = billing_city.user_id
+
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'billing_state') as billing_state ON u.ID = billing_state.user_id
+
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'billing_postcode') as billing_postcode ON u.ID = billing_postcode.user_id
+
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'billing_country') as billing_country ON u.ID = billing_country.user_id
+
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'billing_email') as billing_email ON u.ID = billing_email.user_id
+
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'billing_phone') as billing_phone ON u.ID = billing_phone.user_id
+
+    INNER JOIN (SELECT user_id, meta_value FROM wp67_usermeta WHERE meta_key = 'wp67_capabilities' AND wp67_usermeta.meta_value LIKE '%guide%') as wp67_capabilities ON u.ID = wp67_capabilities.user_id
+
+    ORDER BY u.user_registered DESC
 
 
