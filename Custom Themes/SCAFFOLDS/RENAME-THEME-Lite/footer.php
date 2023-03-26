@@ -13,8 +13,8 @@
         </div>
        <div class = "navHolder2">
                <?php 
-                  wp_nav_menu(array( 'theme_location' => 'footer1-menu',
-                                     'menu_class'     => 'footer1-menu',     
+                  wp_nav_menu(array( 'theme_location' => 'main-menu',
+                                     'menu_class'     => 'main-menu',     
                               )); 
                   ?>
             </div>
@@ -26,8 +26,8 @@
         </div>
             <div class = "navHolder3">
                <?php 
-                  wp_nav_menu(array( 'theme_location' => 'footer2-menu',
-                                     'menu_class'     => 'footer2-menu',     
+                  wp_nav_menu(array( 'theme_location' => 'main-menu',
+                                     'menu_class'     => 'main-menu',     
                               )); 
                   ?>
             </div>
@@ -39,8 +39,8 @@
         </div>
             <div class = "navHolder3">
                <?php 
-                  wp_nav_menu(array( 'theme_location' => 'footer3-menu',
-                                     'menu_class'     => 'footer3-menu',     
+                  wp_nav_menu(array( 'theme_location' => 'main-menu',
+                                     'menu_class'     => 'main-menu',     
                               )); 
                   ?>
             </div>
