@@ -72,4 +72,4 @@
             </div>
          </div>
       </div>
-      <!-- Smart Slider -->
+      <!-- end of page header -->
