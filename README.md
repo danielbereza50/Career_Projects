@@ -450,6 +450,24 @@ How to:
 	SMTP Email: password
 	SMTP Port: 587
 
+	Example SPF and DKIM records:
+
+	SPF:
+
+	Name:
+	domain.com.
+
+	value:
+	v=spf1 +ip4:xx.xx.xx.xx +include:spf.a2hosting.com +include:secureserver.net -all
+
+	DKIM:
+	Name:
+	default._domainkey.domain.com.
+
+	value:
+	v=DKIM1; k=rsa; p=xxxxxxxxxxxxx;
+
+
 
 * https://support.google.com/webmasters/answer/6065812
 * https://ahrefs.com/blog/why-is-my-website-not-showing-up-on-google/
