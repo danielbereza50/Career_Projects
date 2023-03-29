@@ -62,3 +62,38 @@
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+	Motion Effects(elementor examples):
+
+	Horizontal Scroll
+
+	Direction
+	To Left
+
+	Speed
+	1
+
+	Viewport
+	0% - 60%
+
+	Vertical Scroll
+
+	Direction
+	Down
+
+	Speed
+	1
+
+	Viewport
+	41% - 71%
+
+
+
+
+
+
+
+
