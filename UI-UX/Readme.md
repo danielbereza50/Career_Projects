@@ -68,7 +68,7 @@
 
 	Motion Effects(elementor examples):
 
-	Horizontal Scroll
+	HORIZONTAL SCROLL
 
 	Direction
 	To Left
@@ -79,7 +79,7 @@
 	Viewport
 	0% - 60%
 
-	Vertical Scroll
+	VERTICAL SCROLL
 
 	Direction
 	Down
