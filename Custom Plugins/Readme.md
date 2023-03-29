@@ -27,7 +27,7 @@
 	Basic function structure
 
 	// returns a string value
-	// [display_add_to_cart_button ID=""]
+	// usage: [display_add_to_cart_button ID=""]
 	add_shortcode('display_add_to_cart_button', 'custom_add_to_cart_button');
 	function custom_add_to_cart_button($atts){
 	
