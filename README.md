@@ -450,7 +450,7 @@ How to:
 	SMTP Email: password
 	SMTP Port: 587
 
-	Example SPF and DKIM records:
+	Example SPF, DKIM, MX, CNAME records:
 
 	SPF:
 
@@ -466,6 +466,20 @@ How to:
 
 	value:
 	v=DKIM1; k=rsa; p=xxxxxxxxxxxxx;
+	
+	Type:
+	CNAME
+
+	value:
+	domain.com
+	
+	Type:
+	MX
+	
+	Value:
+	Priority: 0
+	Destination: mail.omittinnovativesolutions.org
+
 
 
 
