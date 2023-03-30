@@ -450,7 +450,9 @@ How to:
 	SMTP Email: password
 	SMTP Port: 587
 
-	Example SPF, DKIM, MX, CNAME records:
+
+	* https://mxtoolbox.com/
+	Example SPF, DKIM, MX, CNAME, DMARC records:
 
 	SPF:
 
@@ -480,6 +482,12 @@ How to:
 	Priority: 0
 	Destination: mail.omittinnovativesolutions.org
 
+
+	DMARC:
+	
+	 _dmarc.domain.org.
+
+	v=DMARC1; p=none; fo=1; rua=mailto:info@domain.org 
 
 
 
@@ -518,7 +526,6 @@ How to:
 * https://infoheap.com/online-react-jsx-to-javascript/
 * https://gridbyexample.com/examples/
 * https://www.veed.io/video-compressor
-* https://mxtoolbox.com/
 * https://products.aspose.app/words/parser
 * https://online-video-cutter.com/
 * https://clideo.com/editor/
