@@ -450,7 +450,9 @@ How to:
 	SMTP Email: password
 	SMTP Port: 587
 
-
+	web form from email address:
+	admin@domain.com
+	
 	* https://mxtoolbox.com/
 	Example SPF, DKIM, MX, CNAME, DMARC records:
 
