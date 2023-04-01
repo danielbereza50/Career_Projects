@@ -23,6 +23,7 @@ function simple_form(){
                 ); 
             */
             global $wpdb;
+    
             $first_name = $_POST['first_name'];
             $last_name = $_POST['last_name'];
             $email = $_POST['email'];
