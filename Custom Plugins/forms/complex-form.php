@@ -12,11 +12,13 @@ function simple_form(){
             /*
                     CREATE TABLE wpey_custom_form (
                     entry_id int NOT NULL AUTO_INCREMENT,
+                    
                     FirstName varchar(255) NOT NULL,
                     LastName varchar(255) NOT NULL,
                     Email varchar(255),
                     Phone varchar(255),
                     Message varchar(255),
+                    
                     PRIMARY KEY (entry_id)
                 ); 
             */
