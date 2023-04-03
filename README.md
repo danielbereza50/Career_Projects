@@ -27,6 +27,11 @@ WordPress Cookbooks:
 
 * note - IP address followed by port number for MySQL server in config
 
+	PHP Compiler Online:
+
+	https://www.w3schools.com/php/phptryit.asp?filename=tryphp_compiler
+
+
 Example: 
 
 /** MySQL hostname */
