@@ -12,6 +12,11 @@ A portfolio of past projects, build instructions and platforms are specified at 
 <div>Mac, Windows, Linux</div>
 <br>
 
+	Use AI for WordPress:
+
+	https://chat.openai.com/chat
+
+
 Mac command to bypass content protect:
 
 CMD + OPTION + I
