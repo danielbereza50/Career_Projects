@@ -14,6 +14,10 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 	Use AI for WordPress:
 
+
+	sample question:
+	wordpress gutenburg wp.blocks.registerBlockType to create a new gutebnurg block with vanilla javascript that allows me to change text color
+	
 	https://chat.openai.com/chat
 
 
