@@ -2,6 +2,8 @@
 A portfolio of past projects, build instructions and platforms are specified at the start of each branch in order to ensure proper compilation.  Everything is situated within its proper branch which is accessed through the drop down.   
 
 
+Home url: http://localhost:5000/
+
 
 1. Install Node.js and npm on your Mac.
 
