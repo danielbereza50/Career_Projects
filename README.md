@@ -8,7 +8,13 @@ The MERN stack is a popular technology stack for building modern web application
 
    MongoDB: a NoSQL database that stores data in JSON-like documents. It is known for its scalability, flexibility, and ease of use.
    
- 
+      // create a new collection and insert a document
+      db.collection("users").insertOne({
+        name: "John Doe",
+        email: "johndoe@example.com",
+        age: 30
+      });
+
  
 
 
