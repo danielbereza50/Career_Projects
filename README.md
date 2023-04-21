@@ -45,6 +45,7 @@ Note that the steps for installing Node.js and npm on a Mac may vary depending o
 The MERN stack is a popular technology stack for building modern web applications. It is an acronym for four technologies:
 
    MongoDB: a NoSQL database that stores data in JSON-like documents. It is known for its scalability, flexibility, and ease of use.
+   - https://www.mongodb.com/try/download/community
    
       // create a new collection and insert a document
       db.collection("users").insertOne({
@@ -55,6 +56,7 @@ The MERN stack is a popular technology stack for building modern web application
 
  
    Express.js: a web application framework for Node.js that provides features for building robust and scalable APIs.
+   - https://expressjs.com/
    
       // create a simple API endpoint
       app.get("/api/users", (req, res) => {
@@ -67,6 +69,7 @@ The MERN stack is a popular technology stack for building modern web application
 
 
    React: a JavaScript library for building user interfaces. It is fast, efficient, and makes it easy to build reusable UI components.
+  - https://reactjs.org/
    
       // create a simple component that displays a message
       import React from "react";
@@ -77,6 +80,7 @@ The MERN stack is a popular technology stack for building modern web application
 
    
    Node.js: a JavaScript runtime that allows you to build scalable and high-performance applications on the server-side.
+   -https://nodejs.org/
    
       // create a simple HTTP server
       const http = require("http");
