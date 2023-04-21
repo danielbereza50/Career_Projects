@@ -6,13 +6,13 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 The MERN stack is a popular technology stack for building modern web applications. It is an acronym for four technologies:
 
-    MongoDB: a NoSQL database that stores data in JSON-like documents. It is known for its scalability, flexibility, and ease of use.
+   MongoDB: a NoSQL database that stores data in JSON-like documents. It is known for its scalability, flexibility, and ease of use.
 
-    Express.js: a web application framework for Node.js that provides features for building robust and scalable APIs.
+   Express.js: a web application framework for Node.js that provides features for building robust and scalable APIs.
 
-    React: a JavaScript library for building user interfaces. It is fast, efficient, and makes it easy to build reusable UI components.
+   React: a JavaScript library for building user interfaces. It is fast, efficient, and makes it easy to build reusable UI components.
 
-    Node.js: a JavaScript runtime that allows you to build scalable and high-performance applications on the server-side.
+   Node.js: a JavaScript runtime that allows you to build scalable and high-performance applications on the server-side.
 
 Together, these technologies provide a powerful toolset for building full-stack web applications. MongoDB serves as the backend database, Express.js provides a framework for building APIs, React is used for the frontend user interface, and Node.js is used for the server-side logic.
 
