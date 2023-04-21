@@ -8,49 +8,49 @@ The MERN stack is a popular technology stack for building modern web application
 
    MongoDB: a NoSQL database that stores data in JSON-like documents. It is known for its scalability, flexibility, and ease of use.
    
-   // create a new collection and insert a document
-   db.collection("users").insertOne({
-     name: "John Doe",
-     email: "johndoe@example.com",
-     age: 30
-   });
+      // create a new collection and insert a document
+      db.collection("users").insertOne({
+        name: "John Doe",
+        email: "johndoe@example.com",
+        age: 30
+      });
 
 
    Express.js: a web application framework for Node.js that provides features for building robust and scalable APIs.
    
-   // create a simple API endpoint
-   app.get("/api/users", (req, res) => {
-     const users = [
-       { name: "John Doe", email: "johndoe@example.com" },
-       { name: "Jane Smith", email: "janesmith@example.com" }
-     ];
-     res.json(users);
-   });
+      // create a simple API endpoint
+      app.get("/api/users", (req, res) => {
+        const users = [
+          { name: "John Doe", email: "johndoe@example.com" },
+          { name: "Jane Smith", email: "janesmith@example.com" }
+        ];
+        res.json(users);
+      });
 
    React: a JavaScript library for building user interfaces. It is fast, efficient, and makes it easy to build reusable UI components.
    
-   // create a simple component that displays a message
-   import React from "react";
+      // create a simple component that displays a message
+      import React from "react";
 
-   function HelloWorld() {
-     return <h1>Hello, World!</h1>;
-   }
+      function HelloWorld() {
+        return <h1>Hello, World!</h1>;
+      }
 
    
    Node.js: a JavaScript runtime that allows you to build scalable and high-performance applications on the server-side.
    
-   // create a simple HTTP server
-   const http = require("http");
+      // create a simple HTTP server
+      const http = require("http");
 
-   const server = http.createServer((req, res) => {
-     res.writeHead(200, { "Content-Type": "text/html" });
-     res.write("<h1>Hello, World!</h1>");
-     res.end();
-   });
+      const server = http.createServer((req, res) => {
+        res.writeHead(200, { "Content-Type": "text/html" });
+        res.write("<h1>Hello, World!</h1>");
+        res.end();
+      });
 
-   server.listen(3000, () => {
-     console.log("Server running on port 3000");
-   });
+      server.listen(3000, () => {
+        console.log("Server running on port 3000");
+      });
 
    
 Together, these technologies provide a powerful toolset for building full-stack web applications. MongoDB serves as the backend database, Express.js provides a framework for building APIs, React is used for the frontend user interface, and Node.js is used for the server-side logic.
