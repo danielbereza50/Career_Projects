@@ -15,6 +15,10 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	Use AI for WordPress:
 
 
+	basic question structure:
+	
+	{programming language} {requirements} where to include the files
+
 	sample question:
 	wordpress gutenburg wp.blocks.registerBlockType to create a new gutebnurg block
 	with vanilla javascript that allows me to change text color
