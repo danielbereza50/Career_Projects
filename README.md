@@ -24,6 +24,10 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	with vanilla javascript that allows me to change text color
 	
 	https://chat.openai.com/chat
+	
+	*note, most plugins can usually be a single class file with 3-4 methods
+
+
 
 
 Mac command to bypass content protect:
