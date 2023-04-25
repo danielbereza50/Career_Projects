@@ -10,3 +10,8 @@ https://www.papmall.com/
 
 
 Elementor -> Settings -> Experiments -> Import Export Template Kit
+
+
+Designers usually give a landing page and an interior page mockup, might be psd or pdf file
+
+

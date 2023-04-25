@@ -271,6 +271,32 @@ more MySQL examples:
    
    
    
-   
-   
+	// if the value is a serilaized string, use LIKE or REGEX
+	// sample:
 
+
+	SELECT DISTINCT p.post_title, p.post_content, p.post_name
+					 FROM {$wpdb->posts} p
+					 INNER JOIN {$wpdb->postmeta} pm ON p.ID = pm.post_id
+					 WHERE p.post_type = 'sfwd-topic'
+					 AND pm.meta_key = '_sfwd-topic'
+					 AND pm.meta_value LIKE '%{$course_id}%'
+
+
+	value -  a:3:{s:4:"name";s:9:"John Doe";s:3:"age";i:35;s:5:"email";s:17:"johndoe@example.com";}
+
+
+
+	// if the value is not serilaized string, use opertors like =
+	// sample:
+
+	SELECT DISTINCT p.post_title, p.post_content, p.post_name
+					 FROM {$wpdb->posts} p
+					 INNER JOIN {$wpdb->postmeta} pm ON p.ID = pm.post_id
+					 WHERE p.post_type = 'sfwd-topic'
+					 AND pm.meta_key = '_sfwd-topic'
+					 AND pm.meta_value = '{$course_id}'
+
+
+
+	value -  6044
