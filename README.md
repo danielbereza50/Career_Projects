@@ -516,6 +516,7 @@ How to:
 * https://fonts.google.com/
 * https://products.aspose.app/cells/conversion/sql-to-excel
 * https://developers.facebook.com/tools/debug/
+* https://www.the-qrcode-generator.com/
 
 
 		Mailchimp
