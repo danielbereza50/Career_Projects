@@ -340,8 +340,14 @@ Import resources via CDN examples:
 
 	/// Fancybox Script
 	wp_enqueue_script( 'fancybox', 'https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js', array(), '3.5.7', true );
-	
 
+	// bootstrap Stylesheet
+	wp_enqueue_style( 'bootstrap-style', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css' );
+
+	/// Fancybox Script
+	wp_enqueue_script( 'bootstrap-script-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js', array(), '3.5.7', true );
+	
+	
 	***Download any here:
 
 	https://cdnjs.com/libraries
@@ -516,6 +522,7 @@ How to:
 * https://fonts.google.com/
 * https://products.aspose.app/cells/conversion/sql-to-excel
 * https://developers.facebook.com/tools/debug/
+* https://www.the-qrcode-generator.com/
 
 
 		Mailchimp
