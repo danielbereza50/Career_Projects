@@ -1,4 +1,16 @@
 jQuery( document ).ready(function($) {
+
+	console.log('hello');
+	
+
+	$body = $("body");
+
+	$(document).on({
+		ajaxStart: function() { $body.addClass("loading");    },
+		 ajaxStop: function() { $body.removeClass("loading"); }    
+	});
+
+
 	 $('#state, #expertise').change(function() {
 	// $("#professionals-form").submit(function(event){
 		event.preventDefault();
