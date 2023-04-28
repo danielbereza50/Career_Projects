@@ -300,3 +300,80 @@ more MySQL examples:
 
 
 	value -  6044
+	
+	
+	
+	
+	common db queries:
+	
+	
+	update a db table:
+	
+	global $wpdb;
+
+	// Define table name
+	$table_name = $wpdb->prefix . 'my_table';
+
+	// Define new values to update
+	$new_values = array(
+	    'name' => 'Jane Smith',
+	    'email' => 'jane@example.com'
+	);
+
+	// Define where clause
+	$where = array(
+	    'id' => 2
+	);
+
+	// Build SQL query
+	$sql = $wpdb->prepare(
+	    "UPDATE $table_name SET name = %s, email = %s WHERE id = %d",
+	    $new_values['name'],
+	    $new_values['email'],
+	    $where['id']
+	);
+
+	// Run the update query
+	$result = $wpdb->query($sql);
+
+	if ( $result === false ) {
+	    // Query failed, handle error
+	    echo "Error updating data";
+	} else {
+	    // Query successful, handle success
+	    echo "Data updated successfully";
+	}
+
+
+	insert into a db table:
+	
+	// Define table name
+	$table_name = $wpdb->prefix . 'my_table';
+
+	// Define new row values
+	$new_row = array(
+	    'name' => 'Jane Smith',
+	    'age' => 25,
+	    'email' => 'jane@example.com'
+	);
+
+	// Build SQL query
+	$sql = $wpdb->prepare(
+	    "INSERT INTO $table_name (name, age, email) VALUES (%s, %d, %s)",
+	    $new_row['name'],
+	    $new_row['age'],
+	    $new_row['email']
+	);
+
+	// Run the insert query
+	$result = $wpdb->query($sql);
+
+	if ( $result === false ) {
+	    // Query failed, handle error
+	    echo "Error inserting data";
+	} else {
+	    // Query successful, handle success
+	    echo "Data inserted successfully with ID: " . $wpdb->insert_id;
+	}
+
+	
