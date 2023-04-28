@@ -17,7 +17,7 @@ Key: ?
 
 
 
-* note if SSL expires on site, apps are going to have to be reconnected to site, example, shipstation
+* note if SSL expires on site or if domain chamges, apps are going to have to be reconnected to site, example, shipstation
 
 
 
