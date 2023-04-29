@@ -198,3 +198,27 @@ AND p.post_title = ''
     ORDER BY u.user_registered DESC
 
 
+
+
+
+
+	how to view low performing products in woo:
+
+	SELECT oi.order_item_name AS product_name,
+	       Sum(oim2.meta_value) AS total_count
+	FROM   wp_posts p
+	       INNER JOIN wp_woocommerce_order_items oi
+		       ON p.id = oi.order_id
+	       INNER JOIN wp_woocommerce_order_itemmeta oim
+		       ON oi.order_item_id = oim.order_item_id
+			  AND oim.meta_key = '_product_id'
+	       INNER JOIN wp_woocommerce_order_itemmeta oim2
+		       ON oi.order_item_id = oim2.order_item_id
+			  AND oim2.meta_key = '_qty'
+	WHERE  p.post_type = 'shop_order'
+	       AND p.post_status IN ( 'wc-completed', 'wc-processing' )
+	       AND oi.order_item_type = 'line_item'
+	GROUP  BY oim.meta_value
+	ORDER  BY total_count ASC 
+
+
