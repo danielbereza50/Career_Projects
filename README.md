@@ -117,6 +117,15 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 <div>The other DNS records are:</div>
 <div>AAAA, CNAME, MX, NS, SOA, and TXT</div>
 
+
+	Common DNS error message:
+
+	Only one MX record can use the expected priority value.
+
+	You can only have one spf record
+
+
+
 	Example MX Record:
 
 	Name
