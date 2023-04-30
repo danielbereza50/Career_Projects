@@ -533,6 +533,7 @@ How to:
 
 
 	For video editing:
+	* note - speed up motion, crop out audio
 	* https://clideo.com/editor/
 
 
