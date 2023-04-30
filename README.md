@@ -511,7 +511,6 @@ How to:
 * https://gridbyexample.com/examples/
 * https://www.veed.io/video-compressor
 * https://products.aspose.app/words/parser
-* https://clideo.com/editor/
 * https://www.desmos.com/scientific
 * https://www.omnicalculator.com/other/aspect-ratio
 * https://www.canva.com/
@@ -531,6 +530,10 @@ How to:
 * https://products.aspose.app/cells/conversion/sql-to-excel
 * https://developers.facebook.com/tools/debug/
 * https://www.the-qrcode-generator.com/
+
+
+	For video editing:
+	* https://clideo.com/editor/
 
 
 		Mailchimp
