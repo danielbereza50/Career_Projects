@@ -530,6 +530,7 @@ How to:
 * https://products.aspose.app/cells/conversion/sql-to-excel
 * https://developers.facebook.com/tools/debug/
 * https://www.the-qrcode-generator.com/
+* https://loading.io/
 
 
 	For video editing:
