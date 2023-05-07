@@ -123,6 +123,8 @@ Siteground Walkthrough
 
         passphrase: password
 
+
+        Cut and paste this output:
         cat ~/.ssh/id_rsa.pub
 
 
