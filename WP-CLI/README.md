@@ -113,8 +113,55 @@ Siteground Walkthrough
     4. ssh USER@HOST_NAME -pPORT
   
 
-https://dev.to/julbrs/how-to-use-react-inside-a-wordpress-application-49i
+    ANOTHER WAY:
 
+        Local Computer:
+
+        public ssh key creation:
+
+        ssh-keygen
+
+        passphrase: password
+
+        cat ~/.ssh/id_rsa.pub
+
+
+        Remote Server:
+
+        cut and paste to siteground ssh keys manager public field
+
+
+        ssh-rsa {big-long-string}
+
+
+        Hostname: ssh.domain.com
+
+        Username: username
+
+        Port: 11111
+
+        ssh useranme@ssh.domain.com -p 11111
+
+        keyphrase:
+
+
+        ls
+
+        cd www/domain.com/public_html
+
+
+        wp cli version
+
+        wp core update
+        wp plugin update --all
+        wp theme update --all
+
+
+
+
+
+
+https://dev.to/julbrs/how-to-use-react-inside-a-wordpress-application-49i
 
 Common commands that can be plugged-in to the terminal:
 
