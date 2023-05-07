@@ -123,14 +123,12 @@ Siteground Walkthrough
 
         passphrase: password
 
-
-        Cut and paste this output:
         cat ~/.ssh/id_rsa.pub
 
 
         Remote Server:
 
-        cut and paste to siteground ssh keys manager public field
+        cut and paste to siteground ssh keys manager public field from previous command
 
 
         ssh-rsa {big-long-string}
