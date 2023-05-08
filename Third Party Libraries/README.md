@@ -1,5 +1,5 @@
     // include the library
-    include( 'path/to/driver-file.php' ); 
+    include( 'path/to/driver-file.inc' ); 
 
     example:
 
