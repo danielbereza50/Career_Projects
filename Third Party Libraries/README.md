@@ -1,5 +1,5 @@
     // include the library
-    require_once( 'path/to/driver-file.php' ); 
+    include( 'path/to/driver-file.php' ); 
 
     example:
 
