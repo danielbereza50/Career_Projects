@@ -141,7 +141,10 @@ Siteground Walkthrough
         Port: 11111
 
         ssh useranme@ssh.domain.com -p 11111
-
+        
+        mysql -u [username] -p
+        
+       
         keyphrase:
 
 
