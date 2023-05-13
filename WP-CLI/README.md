@@ -140,10 +140,16 @@ Siteground Walkthrough
 
         Port: 11111
 
-        ssh useranme@ssh.domain.com -p 11111
+        ssh useranme@ssh.domain.com -p [portnumber]
         
-        mysql -u [username] -p
+        Password: The SSH key password
         
+        mysql -u [username] -p [dbname]
+        
+        Password: The DB password
+        
+        SHOW DATABASES;
+        SHOW TABLES;
        
         keyphrase:
 
