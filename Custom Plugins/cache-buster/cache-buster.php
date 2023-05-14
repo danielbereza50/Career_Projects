@@ -137,7 +137,9 @@ function flhm_wp_html_compression_finish($html) {
 
 
 
-usage : echo '<img src="'. resize_image($image_url[0], 239, 239).'" alt="">';
+usage do this in content loop: 
+echo '<img src="'. resize_image($image_url[0], 239, 239).'" alt="">';
+
 function resize_image($url, $width, $height) {
     $upload_dir = wp_upload_dir();
     $image_path = str_replace($upload_dir['baseurl'], $upload_dir['basedir'], $url);
