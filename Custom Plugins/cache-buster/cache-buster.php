@@ -136,7 +136,7 @@ function flhm_wp_html_compression_finish($html) {
 }
 
 
-
+// use this to resize images
 usage do this in content loop: 
 echo '<img src="'. resize_image($image_url[0], 239, 239).'" alt="">';
 
@@ -166,7 +166,7 @@ function resize_image($url, $width, $height) {
     return str_replace($upload_dir['basedir'], $upload_dir['baseurl'], $resized_image['path']);
 }
 
-
+// use these methods to bundle and optimizer js file:
 
 
 
