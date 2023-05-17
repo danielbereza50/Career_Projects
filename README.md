@@ -29,6 +29,25 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 
 
+	Example try catch block
+
+	try {
+	    // Code that may throw an exception
+
+	    // Example: Division by zero
+	    $result = 10 / 0;
+
+	    // ... more code ...
+
+	    // If an exception is thrown, the code below this line will not be executed
+	    echo "This line will not be reached if an exception occurs.";
+	} catch (Exception $e) {
+	    // Handle the exception
+
+	    // Example: Print the error message
+	    echo "An exception occurred: " . $e->getMessage();
+	}
+
 
 Mac command to bypass content protect:
 
