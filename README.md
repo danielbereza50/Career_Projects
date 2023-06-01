@@ -25,9 +25,28 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	
 	https://chat.openai.com/chat
 	
-	*note, most plugins can usually be a single class file with 3-4 methods
+	*note, most plugins can usually be a single class (structure) file with 3-4 methods
 
 
+
+	Example try catch block
+
+	try {
+	    // Code that may throw an exception
+
+	    // Example: Division by zero
+	    $result = 10 / 0;
+
+	    // ... more code ...
+
+	    // If an exception is thrown, the code below this line will not be executed
+	    echo "This line will not be reached if an exception occurs.";
+	} catch (Exception $e) {
+	    // Handle the exception
+
+	    // Example: Print the error message
+	    echo "An exception occurred: " . $e->getMessage();
+	}
 
 
 Mac command to bypass content protect:
@@ -391,6 +410,7 @@ Relevant Links:
 * https://meet.google.com/
 * https://www.syncedlocalmarketing.com/
 * https://gtmetrix.com/
+* https://anywebp.com/convert-to-webp.html
 
 
 	Convert files to web pages:
