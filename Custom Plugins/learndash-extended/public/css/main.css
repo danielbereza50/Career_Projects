@@ -1,0 +1,363 @@
+/* plugin styles */
+
+.swoosh-inverse .et_pb_bottom_inside_divider{
+	transform: scale(1,1) !important;
+}
+.footer-social-icons li a::before{
+	content: "" !Important;
+}
+.footer-social-icons .et_pb_social_icon a.icon{
+	background-repeat: no-repeat;
+}
+.service-blurb .et_pb_blurb_content .et_pb_main_blurb_image{
+	width: 130px;
+}
+.read-more{
+	color:#0e74bb;
+	font-size:20px;
+	font-weight:bold;
+}
+.read-more::after{
+	 content: " >";
+}
+.testimonials-row .et_pb_column .et_pb_testimonial{
+	min-height: 400px;
+}
+.gform_fields .gfield .ginput_container input{
+	border-radius:50px;
+	padding: 3%;
+}
+.gform_fields .gfield .ginput_container textarea{
+	border-radius:50px;
+	padding: 2%;
+}
+.gform_footer{
+	padding-right: 25% !important;
+	float:right;
+}
+.gform_footer
+#gform_submit_button_1{
+	color: #FFFFFF !important;
+	border-width: 0px !important;
+	border-radius: 100px;
+	font-size: 17px;
+	text-transform: uppercase !important;
+	background-color: #E6CC91;
+	font-weight: 500;
+	line-height: 1.7em !important;
+	padding: 5% 0% 5% 0%;
+	padding-left: 50%;
+	padding-right: 50%;
+	border: 2px solid;
+}
+.featured-wrapper{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+	align-items: center;
+}
+.featured-left{
+	margin-right: 5%;
+	width: 30%;
+	height: auto;
+}
+.featured-right{
+	width: 70%;
+	height: auto;
+}
+.featured-title{
+	text-transform:uppercase;
+	color: white;
+	font-weight: 500;
+	font-size:20px;
+}
+.featured-excerpt{
+	color: white;
+	font-size:17px;
+}
+.featured-button{
+	border-width: 0px !important;
+	border-radius: 100px;
+	font-size: 17px;
+	text-transform: uppercase !important;
+	background-color: #0e74bb;
+	font-weight: 500;
+	line-height: 1.7em !important;
+	padding: 2% 0% 2% 6%;
+	border: 2px solid;
+	width: 50%;
+}
+.featured-button a{
+	color: #FFFFFF;
+}
+.featured-excerpt{
+	padding-top: 5%;
+	padding-bottom: 5% !important;
+}
+.avatar-img{
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.avatar-img img{
+	border-radius: 50px;
+}
+.user-txt{
+	color:white;
+	font-size:18px;
+	text-align:center;
+}
+.user-txt a{
+	color:white;
+}
+.course-txt{
+	color:white;
+	font-size:25px;
+	text-align:center;
+}
+.enrolled-btn button{
+	color: white !important;
+	border-width: 0px !important;
+	border-radius: 100px;
+	font-size: 15px;
+	text-transform: uppercase !important;
+	background-color: #0e74bb;
+	font-weight: 500;
+	line-height: 1.7em !important;
+	padding: 5% 0% 5% 0%;
+	padding-left: 20%;
+	padding-right: 20%;
+	border: 2px solid;
+}
+.enrolled-btn{
+	  width: 100%;
+		margin-left: 10%;
+		margin-right: 10%;
+}
+.course-navigation .et_pb_text_inner 
+.ld-course-list-content 
+.ld-item-list-item{
+	border: 0px solid #e2e7ed;
+	border-bottom: 1px solid #0e74bb;
+	border-radius: 0px;
+	margin: 1em 0;
+	background: transparent;
+}
+.course-navigation .et_pb_text_inner 
+.ld-course-list-content 
+.ld-item-list-item,
+.ld-item-list-item-preview{
+	padding-bottom: 5px !important;
+}
+.course-navigation 
+.learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-list-item-preview::before{
+	  content: "";
+    background-image: url('/wp-content/uploads/2023/04/radio.jpg');
+	background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.course-topics .learndash-wrapper a::before{
+	 content: "";
+    background-image: url('/wp-content/uploads/2023/04/radio-white-final.png');
+	background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.course-topics .learndash-wrapper .ld-item-list .ld-item-list-item{
+	 border: 2px solid #e2e7ed;
+	border-radius: 50px !important;
+	margin: 1em 0;
+	background: #fff;
+	padding-bottom: 1%;
+}
+.image-container,
+.course-image-container{
+  position: relative;
+  display: inline-block;
+}
+.price-text,
+.course-price-text{
+	position: absolute;
+	top: 12%;
+	left: 9%;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	background: #8bc53f;
+	padding: 2%;
+}
+.related-container,
+.sfwd-courses-container{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+}
+.course-wrapper{
+	    width: 45%;
+			margin-left:3%;
+			margin-top: 7% !important;
+			height: auto;
+}
+.related-wrapper{
+			width: 30%;
+			margin-left:3%;
+			height: auto;
+}
+.related-right,
+.course-right{
+	background-color: black;
+	padding: 5%;
+	margin-top: -1vh;
+}
+.related-button,
+.course-button{
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+.related-button a,
+.course-button a{
+	background: #0e74bb;
+	border-radius: 50px;
+	color: white;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.related-title,
+.course-title{
+	font-weight: 700;
+	font-size: 25px;
+	color: white;
+	line-height: 1.2em;
+}
+.related-excerpt,
+.course-excerpt{
+	padding-top: 4%;
+	padding-bottom: 2% !important;
+	color: white;
+}
+#course-category{
+	width: 100%;
+	border-radius: 50px;
+	padding: 1.5%;
+}
+.lessons-txt{
+		padding-bottom: 5px !important;
+	border: 0px solid #e2e7ed;
+		border-bottom-color: rgb(226, 231, 237);
+		border-bottom-style: solid;
+		border-bottom-width: 0px;
+	border-bottom: 1px solid #0e74bb;
+	border-radius: 0px;
+	background: transparent;
+}
+.lessons-txt a{
+	color:white;
+}
+.lesson-title{
+	padding-left: 5%;
+}
+.arrow {
+  border: solid gray;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+	float: right;
+margin-right: 5%;
+margin-top: 1%;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.up{
+	transform: rotate(225deg);
+-webkit-transform: rotate(225deg);
+}
+.course-wrapper-topics{
+	border: 1px solid gray;
+	border-radius: 50px;
+	margin-top: 2%;
+	padding: 2%;
+}
+.course-title-topics{
+	font-size: 20px;
+font-weight: bold;
+	padding-left: 5%;
+}
+.pagination{
+	width:100%;
+}
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('/wp-content/uploads/2023/05/Spinner-1s-200px.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+.grecaptcha-badge{
+	visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:980px){
+
+	
+	
+	
+	
+}
+@media screen and (max-width:768px){
+  
+
+}
+
+
+
+
+/**/
