@@ -1,0 +1,7 @@
+[06-Mar-2023 20:54:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home/customer/www/veritas.212staging.net/public_html/wp-content/plugins/veritas-custom-code/includes/class-main.php:13
+Stack trace:
+#0 /home/customer/www/veritas.212staging.net/public_html/wp-content/plugins/veritas-custom-code/includes/class-main.php(9): winery->init()
+#1 /home/customer/www/veritas.212staging.net/public_html/wp-content/plugins/veritas-custom-code/includes/class-main.php(87): winery->__construct()
+#2 /home/customer/www/veritas.212staging.net/public_html/wp-content/plugins/veritas-custom-code/main.php(13): require_once('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/veritas.212staging.net/public_html/wp-content/plugins/veritas-custom-code/includes/class-main.php on line 13
