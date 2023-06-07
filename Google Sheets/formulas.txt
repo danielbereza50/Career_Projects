@@ -26,5 +26,5 @@ Regular expressions for a serialized string:
 an apporach to csv or text file imports,
 
 
-esch sheet is a category, then for wordpress apps for example, a single class file will represent a cpt and all the data that's to do with that cpt 
+esch sheet is a category, then for wordpress apps for example, a single class file will represent a cpt and all the data that's to do with that cpt (fields, taxonomies etc...)
 
