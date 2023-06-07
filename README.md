@@ -12,7 +12,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 <div>Mac, Windows, Linux</div>
 <br>
 
-	Use AI for WordPress:
+	Use AI for WordPress Applications:
 
 
 	basic question structure:
@@ -551,6 +551,7 @@ How to:
 * https://developers.facebook.com/tools/debug/
 * https://www.the-qrcode-generator.com/
 * https://loading.io/
+* https://www.pdf2go.com/
 
 
 	For video editing:
