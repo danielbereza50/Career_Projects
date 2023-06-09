@@ -25,9 +25,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	
 	https://chat.openai.com/chat
 	
-	*note, most plugins can usually be a single class (structure) file with 3-4 methods
-
-
+	*note - most plugins can usually be a single class (structure) file with 3-4 methods
 
 	Example try catch block
 
