@@ -15,6 +15,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	Use AI for WordPress Applications:
    
         * note - here are the core programming concepts:
+	
 	Variables: Variables are used to store and manipulate data. They have a name, a type, and a value.
 
         Data Types: Data types define the kind of data that can be stored and manipulated. Common data types include integers, floating-point numbers, strings, booleans, arrays, and objects.
