@@ -16,11 +16,11 @@ A portfolio of past projects, build instructions and platforms are specified at 
    
         * note - here are the core programming concepts:
 	
-	Variables: Variables are used to store and manipulate data. They have a name, a type, and a value.
+	   Variables: Variables are used to store and manipulate data. They have a name, a type, and a value.
 
        Data Types: Data types define the kind of data that can be stored and manipulated. Common data types include integers, floating-point numbers, strings, booleans, arrays, and objects.
 
-        Control Structures: Control structures determine the flow of execution in a program. They include conditionals (if-else statements, switch statements), loops (for loops, while loops), and branching (break, continue).
+       Control Structures: Control structures determine the flow of execution in a program. They include conditionals (if-else statements, switch statements), loops (for loops, while loops), and branching (break, continue).
 
        Functions: Functions are blocks of reusable code that perform specific tasks. They accept input parameters and can return values.
 
