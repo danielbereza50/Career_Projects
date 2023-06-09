@@ -18,15 +18,15 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	
 	Variables: Variables are used to store and manipulate data. They have a name, a type, and a value.
 
-        Data Types: Data types define the kind of data that can be stored and manipulated. Common data types include integers, floating-point numbers, strings, booleans, arrays, and objects.
+       Data Types: Data types define the kind of data that can be stored and manipulated. Common data types include integers, floating-point numbers, strings, booleans, arrays, and objects.
 
         Control Structures: Control structures determine the flow of execution in a program. They include conditionals (if-else statements, switch statements), loops (for loops, while loops), and branching (break, continue).
 
-        Functions: Functions are blocks of reusable code that perform specific tasks. They accept input parameters and can return values.
+       Functions: Functions are blocks of reusable code that perform specific tasks. They accept input parameters and can return values.
 
-        Operators: Operators perform operations on data, such as arithmetic operations (+, -, *, /), logical operations (&&, ||, !), and comparison operations (>, <, ==).
+       Operators: Operators perform operations on data, such as arithmetic operations (+, -, *, /), logical operations (&&, ||, !), and comparison operations (>, <, ==).
 
-        Input/Output: Input/Output (I/O) refers to the process of receiving input from the user or external sources and producing output. This can include reading/writing to files, printing to the console, or interacting with network services.
+       Input/Output: Input/Output (I/O) refers to the process of receiving input from the user or external sources and producing output. This can include reading/writing to files, printing to the console, or interacting with network services.
 
        Error Handling: Error handling involves identifying and dealing with errors or exceptions that may occur during program execution. This includes try-catch blocks, exception handling, and error messages.
 
