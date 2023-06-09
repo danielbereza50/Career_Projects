@@ -40,6 +40,8 @@ function handle_csv_import() {
                     $title = sanitize_text_field($data[0]);
                     $price = floatval($data[1]);
                     $image_url = $data[2];
+			
+			//  $attribute_values = explode('|', $data[2]);
 					$attribute_values_sizes_with_pipe = $data[3];
 					$attribute_values_flavors_with_pipe = $data[4];
                     $product_type = sanitize_text_field($data[5]);
