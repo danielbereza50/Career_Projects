@@ -17,6 +17,7 @@ https://soundcloud.com/daniel-bereza-723395149
 https://www.facebook.com/danielbereza
 
 https://www.linkedin.com/learning/
+
 https://www.linkedin.com/in/daniel-bereza/
 
 
