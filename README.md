@@ -13,7 +13,43 @@ A portfolio of past projects, build instructions and platforms are specified at 
 <br>
 
 	Use AI for WordPress Applications:
+   
+        * note - here are the core programming concepts:
+	
+	   Variables: Variables are used to store and manipulate data. They have a name, a type, and a value.
 
+       Data Types: Data types define the kind of data that can be stored and manipulated. Common data types include 
+       integers, floating-point numbers, strings, booleans, arrays, and objects.
+
+       Control Structures: Control structures determine the flow of execution in a program. They include 
+       conditionals (if-else statements, switch statements), 
+       loops (for loops, while loops), and branching (break, continue).
+
+       Functions: Functions are blocks of reusable code that perform specific tasks. They accept
+       input parameters and can return values.
+
+       Operators: Operators perform operations on data, such as
+       arithmetic operations (+, -, *, /), logical operations (&&, ||, !), and comparison operations (>, <, ==).
+
+       Input/Output: Input/Output (I/O) refers to the process of receiving input from the user or external
+       sources and producing output. This can include
+       reading/writing to files, printing to the console, or interacting with network services.
+
+       Error Handling: Error handling involves identifying and dealing with errors or exceptions
+       that may occur during program execution. This includes
+       try-catch blocks, exception handling, and error messages.
+
+       Data Structures: Data structures provide ways to organize and store data efficiently. Examples include 
+       arrays, lists, stacks, queues, and trees.
+
+       Algorithms: Algorithms are step-by-step procedures for solving specific problems. They define 
+       the logic and sequence of operations to achieve a desired outcome.
+
+       Modularization: Modularization involves breaking down a program into smaller, manageable modules or functions. 
+       This promotes code reusability, maintainability, and readability.
+	
+	
+	now it's a matter of just changing the syntax and language-specific features
 
 	basic question structure:
 	
@@ -25,9 +61,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	
 	https://chat.openai.com/chat
 	
-	*note, most plugins can usually be a single class (structure) file with 3-4 methods
-
-
+	*note - most plugins can usually be a single class (structure) file with 3-4 methods
 
 	Example try catch block
 
