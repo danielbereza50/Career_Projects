@@ -1,6 +1,8 @@
 <?php
 
-include('includes/vendor/autoload.php');
+include('includes/twilio-php/src/Twilio/autoload.php');
+
+//require __DIR__ . 'includes/twilio-php-main/src/Twilio/autoload.php';
 
 use Twilio\Rest\Client;
 use Twilio\TwiML\MessagingResponse;
