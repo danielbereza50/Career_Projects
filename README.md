@@ -30,8 +30,6 @@ https://my.indeed.com/p/danielb-jgqr24p
 
 https://www.alignable.com/new-baltimore-mi/212-creative-llc
 
-https://www.fiverr.com/danielbereza50
-
 
 
 
