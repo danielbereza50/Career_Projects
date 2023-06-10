@@ -31,10 +31,12 @@ A portfolio of past projects, build instructions and platforms are specified at 
        Operators: Operators perform operations on data, such as
        arithmetic operations (+, -, *, /), logical operations (&&, ||, !), and comparison operations (>, <, ==).
 
-       Input/Output: Input/Output (I/O) refers to the process of receiving input from the user or external sources and producing output. This can include
+       Input/Output: Input/Output (I/O) refers to the process of receiving input from the user or external
+       sources and producing output. This can include
        reading/writing to files, printing to the console, or interacting with network services.
 
-       Error Handling: Error handling involves identifying and dealing with errors or exceptions that may occur during program execution. This includes
+       Error Handling: Error handling involves identifying and dealing with errors or exceptions
+       that may occur during program execution. This includes
        try-catch blocks, exception handling, and error messages.
 
        Data Structures: Data structures provide ways to organize and store data efficiently. Examples include 
