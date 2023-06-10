@@ -22,7 +22,8 @@ A portfolio of past projects, build instructions and platforms are specified at 
        integers, floating-point numbers, strings, booleans, arrays, and objects.
 
        Control Structures: Control structures determine the flow of execution in a program. They include 
-       conditionals (if-else statements, switch statements), loops (for loops, while loops), and branching (break, continue).
+       conditionals (if-else statements, switch statements), 
+       loops (for loops, while loops), and branching (break, continue).
 
        Functions: Functions are blocks of reusable code that perform specific tasks. They accept
        input parameters and can return values.
