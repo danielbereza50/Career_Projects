@@ -48,8 +48,10 @@ A portfolio of past projects, build instructions and platforms are specified at 
        Modularization: Modularization involves breaking down a program into smaller, manageable modules or functions. 
        This promotes code reusability, maintainability, and readability.
 	
-	
 	now it's a matter of just changing the syntax and language-specific features
+	
+	
+	main lanugages used for web:  HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C#
 
 	basic question structure:
 	
