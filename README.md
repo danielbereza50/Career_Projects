@@ -711,7 +711,7 @@ Public Folder / File Permission
 776
 
 
-JavaScript - client-side and server-side
+JavaScript - client-side(DOM manipulations) and server-side(database operations etc...)
 
 https://1loc.dev/
 
