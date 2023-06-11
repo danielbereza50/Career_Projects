@@ -51,7 +51,11 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	now it's a matter of just changing the syntax and language-specific features
 	
 	
-	main programming lanugages used for web:  HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C#
+	main programming lanugages used for web:  
+	
+	client-side: HTML, CSS, JavaScript, 
+	
+	server-side: PHP, Python, Ruby, Java, C#, JavaScript
 
 	basic question structure:
 	
