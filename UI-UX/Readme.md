@@ -103,6 +103,8 @@
 
 
 	it's not a redesign, just a shuffling and refreshing of content.
+	
+	common section design: background image section with floating row and text
 
 
 
