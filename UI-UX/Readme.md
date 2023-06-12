@@ -107,5 +107,11 @@
 	common section design: background image section with floating row thatr has heading text, body text, and button
 
 
+	Leading addresses the vertical gaps between lines of text – often crucial in the creation of magazine articles, blog pages, and other pieces of 	written work. 
+	
+	Kerning deals with the space between two characters or letters.
+	
+	
+	
 
 
