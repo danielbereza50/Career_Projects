@@ -113,7 +113,7 @@
 	
 	Kerning deals with the space between two characters or letters.
 	
-	
+	Redesign or glaring issues?
 	
 
 
