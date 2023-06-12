@@ -569,7 +569,8 @@ How to:
 * https://codesandbox.io/s/
 * https://infoheap.com/online-react-jsx-to-javascript/
 * https://gridbyexample.com/examples/
-* https://www.veed.io/video-compressor
+* https://videocandy.com/compress-video.html
+* https://online-video-cutter.com/
 * https://products.aspose.app/words/parser
 * https://www.desmos.com/scientific
 * https://www.omnicalculator.com/other/aspect-ratio
