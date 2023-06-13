@@ -224,6 +224,10 @@ AND p.post_title = ''
 
 	// ASP.NET SQL Server
 
+	-- how to ON DELETE CASCADE in SQL Server
+	-- parent record (in this case, the order record) cascades to the associated child records 
+	-- (the order detail records), maintaining referential integrity and keeping the database consistent
+	
 	-- Create the Orders table
 	CREATE TABLE Orders (
 	    OrderID INT PRIMARY KEY
