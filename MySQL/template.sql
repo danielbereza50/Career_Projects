@@ -222,3 +222,35 @@ AND p.post_title = ''
 	ORDER  BY total_count ASC 
 
 
+	// ASP.NET SQL Server
+
+	-- Create the Orders table
+	CREATE TABLE Orders (
+	    OrderID INT PRIMARY KEY
+	);
+
+	-- Create the OrderDetails table with a foreign key constraint
+	CREATE TABLE OrderDetails (
+	    OrderDetailID INT PRIMARY KEY,
+	    OrderID INT,
+	    Details VARCHAR(100),
+	    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID) ON DELETE CASCADE
+	);
+
+	-- Insert sample data
+	INSERT INTO Orders (OrderID) VALUES (1), (2);
+
+	INSERT INTO OrderDetails (OrderDetailID, OrderID, Details) VALUES
+	(101, 1, 'Order 1 - Detail 1'),
+	(102, 1, 'Order 1 - Detail 2'),
+	(103, 2, 'Order 2 - Detail 1');
+
+	-- Delete an order
+	DELETE FROM Orders WHERE OrderID = 1;
+
+
+
+
+
+
+
