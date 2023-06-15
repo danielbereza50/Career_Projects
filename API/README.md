@@ -60,6 +60,13 @@ Need a:
 5. SDK to connect
 
 
+sample quttera API:
+
+	POST http://scannerapi.quttera.com/api/v3/<api-key>/url/scan/<domain>.yaml
+	GET http://scannerapi.quttera.com/api/v3/<api-key>/url/status/<domain>.yaml
+	GET http://scannerapi.quttera.com/api/v3/<api-key>/url/report<domain>.yaml
+
+
 
 or connect to api via url in wordpress
 
