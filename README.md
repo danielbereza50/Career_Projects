@@ -494,7 +494,10 @@ How to:
 
 	web form from email address:
 	admin@domain.com
-	
+
+
+	* test smtp connection: https://www.gmass.co/smtp-test
+ 
 	* https://mxtoolbox.com/
 	Example SPF, DKIM, MX, CNAME, DMARC records:
 
