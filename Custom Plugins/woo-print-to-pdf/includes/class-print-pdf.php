@@ -1,12 +1,9 @@
 <?php
 
-
-/*
-	add_action( 'woocommerce_admin_order_data_after_order_details', 'add_print_pdf_button' );
-	add_action( 'admin_footer', 'add_print_pdf_script' );
-	add_action( 'wp_ajax_print_pdf', 'print_pdf' );
-	add_action( 'wp_ajax_nopriv_print_pdf', 'print_pdf' );
-*/
+add_action( 'woocommerce_admin_order_data_after_order_details', 'add_print_pdf_button' );
+add_action( 'admin_footer', 'add_print_pdf_script' );
+add_action( 'wp_ajax_print_pdf', 'print_pdf' );
+add_action( 'wp_ajax_nopriv_print_pdf', 'print_pdf' );
 function add_print_pdf_button( $order ) {
     $order_id = $order->get_id();
     ?>
