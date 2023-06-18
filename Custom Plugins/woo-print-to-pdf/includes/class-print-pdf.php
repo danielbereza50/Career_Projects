@@ -86,22 +86,24 @@ function print_pdf() {
 				// Print out all metadata associated with the item
 				foreach ($item->get_meta_data() as $meta_data) {
 					   $attribute_name = wc_attribute_label(str_replace('attribute_', '', $meta_key));
-					  $pdf->Cell(0, 10, 'Name: ' . $meta_data->key . ' Value: ' . $meta_data->value, 0, 1);
+					   $data_key = $meta_data->key;
+					   $data_key = str_replace(['&quot;', 'â„¢'], '', $data_key);
+					
+					   $data_value = $meta_data->value;
+				       $data_value = str_replace(['&quot;', 'â„¢'], '', $data_value);
+
+					   $pdf->Cell(0, 10, 'Name: ' . $data_key . ' Value: ' . $data_value, 0, 1);
 				}
 				//print out gravity forms data to pdf file
 				// wp_rg_lead_meta
 				// wp_rg_lead_detail
 				
-				
-
-				
-				
-				
-				
-				
-				
                 $pdf->SetFont('Arial', '', 12);
-                $pdf->Cell(0, 10, 'Product: ' . $product->get_name(), 0, 1);
+				$product_name = $product->get_name();
+				$product_name = str_replace(['&quot;', 'â„¢'], '', $product_name);
+				
+               // $pdf->Cell(0, 10, 'Product: ' . $product_name, 0, 1);
+				
                 //$pdf->Cell(0, 10, 'SKU: ' . $product->get_sku(), 0, 1);
                 $pdf->Cell(0, 10, 'Quantity: ' . $item->get_quantity(), 0, 1);
                 $pdf->Cell(0, 10, 'Price: ' . $decoded_product_price, 0, 1);
@@ -112,11 +114,37 @@ function print_pdf() {
 
         exit;
 }
+function enqueue_admin_styles() {
+    wp_enqueue_style( 'admin-custom-style', get_stylesheet_directory_uri() . '/admin/admin-style.css', array(), '1.0.0' );
+}
+add_action( 'admin_enqueue_scripts', 'enqueue_admin_styles' );
+
+
+/*
+.print_pdf_button button{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+    margin-top: 5%;
+}
 
 
 
-
-
-
+*/
 
 
