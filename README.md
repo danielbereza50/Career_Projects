@@ -50,7 +50,14 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	
 	now it's a matter of just changing the syntax and language-specific features
 	
-	
+
+	* two ways you can deal with reundancy:
+
+	1. stored information in data structure then construct a loop
+	2. create 'helper' methods to deal 
+
+ 
+ 
 	main programming lanugages used for web:  
 	
 	client-side: HTML, CSS, JavaScript, 
