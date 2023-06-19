@@ -55,7 +55,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 	1. stored information in data structure then construct a loop
 	2. create 'helper' methods to deal 
-
+	3. include a file in a repeated loop
  
  
 	main programming lanugages used for web:  
