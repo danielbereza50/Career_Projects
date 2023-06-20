@@ -138,7 +138,7 @@ if(isset($_FILES['csv_file'])) {
             else {
                 echo 'Data import successful';
                 echo '<br>';
-                echo '<a href = "https://halalmobilekitchen.com/dashboard">Click here</a> to go back to admin dashboard';
+                echo '<a href = "https://domain.com/dashboard">Click here</a> to go back to admin dashboard';
                 // Redirect to a success page
                 //header("Location: success.php");
                 exit;
@@ -174,9 +174,9 @@ if(isset($_FILES['csv_file'])) {
         }
       */
         ?>
-        <a href = "https://halalmobilekitchen.com/example-halal.csv">CLICK HERE</a> to download sample csv file for review to see how data has to be formatted
+        <a href = "https://domain.com/example-halal.csv">CLICK HERE</a> to download sample csv file for review to see how data has to be formatted
         <br> <br>
-        <a href = "https://halalmobilekitchen.com/dashboard">CLICK HERE</a> to go back to admin dashboard
+        <a href = "https://domain.com/dashboard">CLICK HERE</a> to go back to admin dashboard
         <div class = "">
             Here is an example date time following military time  - 
             2023-05-22 9:34:52<br><br>

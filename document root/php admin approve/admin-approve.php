@@ -1,5 +1,5 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <a href = "https://halalmobilekitchen.com/dashboard/customers/">CLICK HERE</a> to go back to admin dashboard
+  <a href = "https://domain.com/dashboard/customers/">CLICK HERE</a> to go back to admin dashboard
 <div id="section-0">
 	<div class="container">
       <div class="page_content">
@@ -68,7 +68,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                           var hiddenID = $(this).siblings('#client_ID').val();
                          
                         $.ajax({
-                          url: 'https://halalmobilekitchen.com/get_data.php',
+                          url: 'https://domain.com/get_data.php',
                           type: 'POST',
                           data: { 
                             option: selectedOption,
