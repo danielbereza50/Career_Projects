@@ -60,6 +60,13 @@ Need a:
 5. SDK to connect
 
 
+sample quttera API:
+
+	POST http://scannerapi.quttera.com/api/v3/<api-key>/url/scan/<domain>.yaml
+	GET http://scannerapi.quttera.com/api/v3/<api-key>/url/status/<domain>.yaml
+	GET http://scannerapi.quttera.com/api/v3/<api-key>/url/report<domain>.yaml
+
+
 
 or connect to api via url in wordpress
 
@@ -82,3 +89,40 @@ or connect to api via url in wordpress
 		}
 	echo '</div>';
 
+
+
+example POST followed by GET request:
+
+
+	// POST request
+	$url = 'http://scannerapi.quttera.com/api/v3/<api-key>/url/scan/<domain>.yaml';
+	$response = wp_remote_post($url);
+
+	if (!is_wp_error($response) && wp_remote_retrieve_response_code($response) === 200) {
+		
+		// POST request successful
+		$reportUrl = 'http://scannerapi.quttera.com/api/v3/<api-key>/url/status/<domain>.yaml';
+
+		// GET request
+		$reportResponse = wp_remote_get($reportUrl);
+		if (!is_wp_error($reportResponse) && wp_remote_retrieve_response_code($reportResponse) === 200) {
+			// GET request successful
+			$reportBody = wp_remote_retrieve_body($reportResponse);
+			   echo '<div class = "api-container">';
+					echo '<h2>Site Malware Check</h2>';
+						echo '<div class = "api-wrapper quttera">';
+						 echo '<pre>';
+							print_r($reportBody);
+						 echo '/<pre>';
+					echo '</div>';
+				echo '</div>';	
+		} else {
+			// GET request failed
+			$error_message = is_wp_error($reportResponse) ? $reportResponse->get_error_message() : 'Request failed';
+			echo 'Error: ' . $error_message;
+		}
+	} else {
+		// POST request failed
+		$error_message = is_wp_error($response) ? $response->get_error_message() : 'Request failed';
+		echo 'Error: ' . $error_message;
+	}

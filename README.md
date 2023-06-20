@@ -48,8 +48,24 @@ A portfolio of past projects, build instructions and platforms are specified at 
        Modularization: Modularization involves breaking down a program into smaller, manageable modules or functions. 
        This promotes code reusability, maintainability, and readability.
 	
-	
 	now it's a matter of just changing the syntax and language-specific features
+	
+
+	* two ways you can deal with reundancy:
+
+	1. stored information in data structure then construct a loop
+	2. create 'helper' methods to deal 
+	3. include a file in a repeated loop
+ 	    - types of variables to use in a loop, 
+       	a. count
+		b. flag
+ 
+ 
+	main programming lanugages used for web:  
+	
+	client-side: HTML, CSS, JavaScript, 
+	
+	server-side: PHP, Python, Ruby, Java, C#, JavaScript
 
 	basic question structure:
 	
@@ -445,7 +461,7 @@ Relevant Links:
 * https://www.syncedlocalmarketing.com/
 * https://gtmetrix.com/
 * https://anywebp.com/convert-to-webp.html
-
+* https://www.nslookup.io/website-to-ip-lookup/
 
 	Convert files to web pages:
 	
@@ -488,7 +504,10 @@ How to:
 
 	web form from email address:
 	admin@domain.com
-	
+
+
+	* test smtp connection: https://www.gmass.co/smtp-test
+ 
 	* https://mxtoolbox.com/
 	Example SPF, DKIM, MX, CNAME, DMARC records:
 
@@ -563,7 +582,8 @@ How to:
 * https://codesandbox.io/s/
 * https://infoheap.com/online-react-jsx-to-javascript/
 * https://gridbyexample.com/examples/
-* https://www.veed.io/video-compressor
+* https://videocandy.com/compress-video.html
+* https://online-video-cutter.com/
 * https://products.aspose.app/words/parser
 * https://www.desmos.com/scientific
 * https://www.omnicalculator.com/other/aspect-ratio
@@ -709,7 +729,7 @@ Public Folder / File Permission
 776
 
 
-JavaScript - client-side and server-side
+JavaScript - client-side(DOM manipulations) and server-side(database operations etc...)
 
 https://1loc.dev/
 

@@ -96,14 +96,24 @@
 
 	a. the gallery vs. image modules, give the ability for images to be displayed in a lightbox (pop up) when 
 	you click on them. this is especially important for people using a phone
-	b. if the pictures are in the first column of the first row, the user won't see the text until 
+	
+	
+	THIS IS IMPORTANT NOTE - b. if the pictures are in the first column of the first row, the user won't see the text until 
 	they scroll through all of the pictures. 
 	
-	The copy is written very well, and I think anyone who intends on making a purchase will read it.
+	The copy is written very well, and I think anyone who intends on making a PURCHASE will read it.
 
 
 	it's not a redesign, just a shuffling and refreshing of content.
+	
+	common section design: background image section with floating row thatr has heading text, body text, and button
 
 
+	Leading addresses the vertical gaps between lines of text – often crucial in the creation of magazine articles, blog pages, and other pieces of 	written work. 
+	
+	Kerning deals with the space between two characters or letters.
+	
+	Redesign or glaring issues?
+	
 
 
