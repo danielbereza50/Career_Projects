@@ -57,8 +57,8 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	2. create 'helper' methods to deal 
 	3. include a file in a repeated loop
  	    - types of variables to use in a loop, 
-       		a. count
-	 	b. flag
+       	a. count
+	b. flag
  
  
 	main programming lanugages used for web:  
