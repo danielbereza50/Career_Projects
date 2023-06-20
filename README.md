@@ -56,6 +56,9 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	1. stored information in data structure then construct a loop
 	2. create 'helper' methods to deal 
 	3. include a file in a repeated loop
+ 	    - types of variables to use in a loop, 
+       		a. count
+	 	b. flag
  
  
 	main programming lanugages used for web:  
