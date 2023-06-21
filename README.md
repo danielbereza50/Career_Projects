@@ -59,6 +59,15 @@ A portfolio of past projects, build instructions and platforms are specified at 
  	    - types of variables to use in a loop, 
        	a. count
 		b. flag
+
+
+	Questions to ask yourself:
+ 	1. What can be imporved aesthetically?
+         i.e.
+	  - are sections too busy (add white-space to break it up)
+   	  - maybe turn sections into sliders or carousels?
+          - change design from image based to css
+  	2. Can the functionality be improved to help with conversions? i.e. page speed 
  
  
 	main programming lanugages used for web:  
