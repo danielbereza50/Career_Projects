@@ -67,6 +67,9 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	  - are sections too busy (add white-space to break it up)
    	  - maybe turn sections into sliders or carousels?
           - change design from image based to css
+	  - fonts can be changed to look cursive or artsy
+   	  - color palette be changed to look more appealing?
+      	  - maybe add motion to the graphics
   	2. Can the functionality be improved to help with conversions? i.e. page speed 
  
  
