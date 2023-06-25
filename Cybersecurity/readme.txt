@@ -127,24 +127,44 @@ $result = mysqli_query($conn, $query);
 if ($result) {
     // Create an HTML table
     echo '<table>';
-    echo '<tr><th>First Name</th><th>Last Name</th><th>Username</th><th>Password</th></tr>';
+    echo '<tr>
+        <th style = "text-align: left;">First Name</th>
+        <th style = "text-align: left;">Last Name</th>
+        <th style = "text-align: left;">Username</th>
+        <th style = "text-align: left;">Password</th>
+        <th style = "text-align: left;">Email</th>
+        <th style = "text-align: left;">Phone</th>
+    </tr>';
 
     // Fetch the rows and display in the table
     while ($row = mysqli_fetch_assoc($result)) {
         $uqID = $row['uqID'];
-        $password = $row['upass'];
+
         $first_name = $row['first_name'];
         $last_name = $row['last_name'];
         $uname = $row['uname'];
+        $password = $row['upass'];
+        
+        $email = $row['email'];
+        $phone = $row['phone'];
         
         $decryptedValue = runDecryptionProtocol($uqID);
         $password = decrypt($password, $decryptedValue);
+        $email = decrypt($email, $decryptedValue);
+        $phone = decrypt($phone, $decryptedValue);
+        
+        
+        
         
         echo '<tr>';
+        
         echo '<td>' . $first_name . '</td>';
         echo '<td>' . $last_name . '</td>';
         echo '<td>' . $uname . '</td>';
         echo '<td>' . $password . '</td>';
+        echo '<td>' . $email . '</td>';
+        echo '<td>' . $phone . '</td>';
+        
         echo '</tr>';
     }
 
