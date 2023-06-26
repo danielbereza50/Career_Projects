@@ -132,6 +132,7 @@ if ($result) {
         <th style = "text-align: left;">Last Name</th>
         <th style = "text-align: left;">Username</th>
         <th style = "text-align: left;">Password</th>
+	<th style = "text-align: left;">MD5</th>
         <th style = "text-align: left;">Email</th>
         <th style = "text-align: left;">Phone</th>
     </tr>';
@@ -152,7 +153,7 @@ if ($result) {
         $password = decrypt($password, $decryptedValue);
         $email = decrypt($email, $decryptedValue);
         $phone = decrypt($phone, $decryptedValue);
-        
+        $hash = md5($password);
         
         
         
@@ -162,6 +163,7 @@ if ($result) {
         echo '<td>' . $last_name . '</td>';
         echo '<td>' . $uname . '</td>';
         echo '<td>' . $password . '</td>';
+	echo '<td>' . $hash . '</td>';
         echo '<td>' . $email . '</td>';
         echo '<td>' . $phone . '</td>';
         
