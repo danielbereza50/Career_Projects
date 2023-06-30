@@ -24,6 +24,7 @@ https://cloud.google.com/recaptcha-enterprise/docs/instrument-web-pages
 https://www.youtube.com/watch?v=nzj4VZD0Xik
 
 
+https://wpforms.com/docs/setting-up-akismet-anti-spam-protection/
 
 
 $encrypt_key_1='qJgscx9OSrv7F7Ed50o0LN1XhTlOxhW4';
