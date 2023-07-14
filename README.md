@@ -475,6 +475,11 @@ Relevant Links:
 * https://anywebp.com/convert-to-webp.html
 * https://www.nslookup.io/website-to-ip-lookup/
 
+
+How to convert wordpress website for to an Android or Apple app:
+
+	https://www.wpbeginner.com/showcase/best-plugins-to-convert-wordpress-into-mobile-app/
+
 	Convert files to web pages:
 	
 	* https://www.online-convert.com
