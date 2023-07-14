@@ -478,7 +478,7 @@ Relevant Links:
 
 How to convert wordpress website to an Android or Apple app:
 
-	https://www.wpbeginner.com/showcase/best-plugins-to-convert-wordpress-into-mobile-app/
+https://www.wpbeginner.com/showcase/best-plugins-to-convert-wordpress-into-mobile-app/
 
 	Convert files to web pages:
 	
