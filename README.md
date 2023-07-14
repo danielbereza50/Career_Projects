@@ -476,7 +476,7 @@ Relevant Links:
 * https://www.nslookup.io/website-to-ip-lookup/
 
 
-How to convert wordpress website for to an Android or Apple app:
+How to convert wordpress website to an Android or Apple app:
 
 	https://www.wpbeginner.com/showcase/best-plugins-to-convert-wordpress-into-mobile-app/
 
