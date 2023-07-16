@@ -89,3 +89,26 @@ Target long-tail keywords
 * https://login.buffer.com/login
 
 
+
+
+blog post template:
+
+Meta title - The Role of Help in Help
+
+Meta Description - Discover the crucial role of IT support in Help, ensuring Help, Help, and Helpy for your New York, New Jersey, and beyond organization.
+
+Page Title - The Role of Help in Modern Business
+
+URL - /the-role-of-help-in-new-jersey-modern-business/
+
+Tags - IT support, training, backup
+
+Category - Resource
+
+Focus Keyword: IT support
+
+
+
+
+
+
