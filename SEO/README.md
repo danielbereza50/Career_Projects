@@ -93,19 +93,14 @@ Target long-tail keywords
 
 blog post template:
 
-Meta title - The Role of Help in Help
+Meta Title - Connecticut Microsoft 365 / Migrate to Azure Hosted Cloud
 
-Meta Description - Discover the crucial role of IT support in Help, ensuring Help, Help, and Helpy for your New York, New Jersey, and beyond organization.
+Meta Description - Office 365, Azure Virtual Desktops & Servers for businesses in New York area and beyond. Visit our website today to learn more about our services.
 
-Page Title - The Role of Help in Modern Business
+Page Title - Microsoft 365 & Azure
 
-URL - /the-role-of-help-in-new-jersey-modern-business/
+Url - /Microsoft-365-azure-virtual-desktop-servers/
 
-Tags - IT support, training, backup
-
-Category - Resource
-
-Focus Keyword: IT support
 
 
 
