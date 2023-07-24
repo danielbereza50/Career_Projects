@@ -223,6 +223,35 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
 	url-com.mail.protection.outlook.com.
 
+	Other Samples:
+
+ 	brad.roberts@byktek.com
+
+
+	If you ever need to verify that you are receiving emails, please check if your DNS settings match what's listed below.
+	
+	Log on to your hosting provider or third-party domain name system manager (usually the same place you bought your domain)
+
+ 
+	Locate the CNAMEs and set the following:
+	Name	Target
+	autodiscover	autodiscover.outlook.com
+	email	email.secureserver.net
+	
+	Locate the MX and set the following:
+	Host	Priority	Target
+	@	0	domain-com.mail.protection.outlook.com
+	
+	Locate the TXT and set the following:
+	Name	TXT Value
+	@	NETORG1111111111.onmicrosoft.com
+	@	v=spf1 include:secureserver.net -all
+	
+	Note: Making these changes means you'll stop receiving email to any account previously set up on this domain.
+
+
+ 
+
 
     DNS Server examples:
 
