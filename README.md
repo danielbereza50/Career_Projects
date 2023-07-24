@@ -232,6 +232,7 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 	
 	Log on to your hosting provider or third-party domain name system manager (usually the same place you bought your domain)
 
+ 	delete existing MX, add CNAME and TXT
  
 	Locate the CNAMEs and set the following:
 	Name	Target
