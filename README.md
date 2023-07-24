@@ -206,7 +206,8 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 	You can only have one spf record
 
 
-
+	john.doe@domain.com
+ 
 	Example MX Record:
 
 	Name
