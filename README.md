@@ -206,7 +206,7 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 	You can only have one spf record
 
 
-	john.doe@domain.com
+	
  
 	Example MX Record:
 
@@ -226,7 +226,7 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
 	Other Samples:
 
- 	brad.roberts@byktek.com
+ 	john.doe@domain.com
 
 
 	If you ever need to verify that you are receiving emails, please check if your DNS settings match what's listed below.
