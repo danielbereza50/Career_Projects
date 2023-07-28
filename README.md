@@ -205,7 +205,10 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
 	You can only have one spf record
 
-
+	gmail:
+ 
+ 	TXT 	
+	v=spf1 include:_spf.google.com ~all 
 	
  
 	Example MX Record:
