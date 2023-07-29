@@ -25,16 +25,16 @@
 		}
 		</style>
 
-		    <div class = "flex-wrapper">
-
-		    <div class = "flex-item">
-
-		    <!-- stuff goes here -->
-
-		    </div>
-
-		    </div>
-
+			<div class = "flex-container">
+			    <div class = "flex-wrapper">
+				    <div class = "flex-item">
+				    <!-- stuff goes here -->
+				    </div>
+	        		    <div class = "flex-item">
+				    <!-- stuff goes here -->
+				    </div>
+			    </div>
+		       </div>
 
 		perserve image aspect ratio:
 
