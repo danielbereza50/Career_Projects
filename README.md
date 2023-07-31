@@ -33,10 +33,13 @@ list of terminal commands:
 
     cd drupal && php -d memory_limit=256M web/core/scripts/drupal quick-start demo_umami
 
+       
 
         manually go to this URL to go to startup:
         
         /drupal/web/core/install.php
+
+        /drupal/web/
 
 db config file is /web/sites/default/settings.php
 
