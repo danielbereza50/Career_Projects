@@ -41,6 +41,15 @@ list of terminal commands:
 
         /drupal/web/
 
+        terminal commands for core / theme / and module
+        
+        composer create-project drupal/recommended-project:9.3.0 "install-dir"
+        composer require 'drupal/startup_zymphonies_theme:^2.0'
+        composer require 'drupal/commerce:^2.36'
+
+
+        
+
 db config file is /web/sites/default/settings.php
 
         how to reset user login:
