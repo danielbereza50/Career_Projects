@@ -11,6 +11,10 @@ ssh root@[ip address]
 password: [Password]
 
 
+or try:
+
+ssh -p [post number] [username]@[domain]
+
 example:
 
 ssh [username]@[ip address]
