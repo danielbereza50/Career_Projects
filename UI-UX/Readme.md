@@ -109,7 +109,7 @@
 	common section design: background image section with floating row thatr has heading text, body text, and button
 
 
-	Leading addresses the vertical gaps between lines of text – often crucial in the creation of magazine articles, blog pages, and other pieces of 	written work. 
+	Leading addresses the vertical gaps between lines of text – often crucial in the creation of magazine articles, blog pages, and other pieces of written work. 
 	
 	Kerning deals with the space between two characters or letters.
 	
@@ -162,7 +162,8 @@
 	Remember to use a font combination that complements your website's design and branding. 
  
  	For headings and titles, you can use a more decorative or attention-grabbing font, 
-  	while for body text, it's essential to choose a highly legible and easy-to-read font. Always test the fonts on different devices and screen sizes to ensure a consistent and enjoyable user experience.
+  	while for body text, it's essential to choose a highly legible and easy-to-read font. Always 
+   	test the fonts on different devices and screen sizes to ensure a consistent and enjoyable user experience.
 
 
 
