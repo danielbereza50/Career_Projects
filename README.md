@@ -47,10 +47,12 @@ list of terminal commands:
         composer require 'drupal/startup_zymphonies_theme:^2.0'
         composer require 'drupal/commerce:^2.36'
 
-
         
+        login here:
+        
+        /drupal/web/user/login
 
-db config file is /web/sites/default/settings.php
+        db config file is /web/sites/default/settings.php
 
         how to reset user login:
 
