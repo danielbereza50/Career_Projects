@@ -59,9 +59,14 @@
 			
 			font-family: 'Muli',sans-serif !important;
 
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 			*note class is for grouping elements on a web page, id is for uniqueness
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		* CSS select - not only class and id, but also data attributes in the element, such as 'data-post-id' and 'data-item-number'
+  
+		<div data-post-id="5136" class="sc_services_item sc_item_container post_container with_content with_image sc_services_item_featured_top post-5136 cpt_services type-cpt_services status-publish has-post-thumbnail hentry cpt_services_group-cuts-styling full_post_read" data-item-number="1"></div>
 
 
 
