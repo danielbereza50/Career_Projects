@@ -67,8 +67,9 @@
 		* CSS select - not only class and id, but also data attributes in the element, such as 'data-post-id' and 'data-item-number'
   
 		<div data-post-id="5136" class="sc_services_item sc_item_container post_container with_content 
-  	with_image sc_services_item_featured_top post-5136 cpt_services type-cpt_services status-publish 
-   	has-post-thumbnail hentry cpt_services_group-cuts-styling full_post_read" data-item-number="1"></div>
+  		with_image sc_services_item_featured_top post-5136 cpt_services type-cpt_services status-publish 
+   		has-post-thumbnail hentry cpt_services_group-cuts-styling full_post_read" data-item-number="1">
+     		</div>
 
 
 
