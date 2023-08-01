@@ -118,6 +118,9 @@
 
  	when building landing page design, break on the exact words from the mockup
 
+	* start with text logo, then build a graphic in canva
+  
+
 
 	For a pet-related website like "Perfect Pet Treatment," you'll want a color palette that reflects a sense of warmth, trust, 
  	and playfulness, while still maintaining a professional and approachable appearance. Here's a suggested color palette:
