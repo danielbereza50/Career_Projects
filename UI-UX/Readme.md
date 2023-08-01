@@ -59,7 +59,7 @@
 			
 			font-family: 'Muli',sans-serif !important;
 
-
+			*note class is for grouping elements on a web page, id is for uniqueness
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
