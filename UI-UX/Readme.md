@@ -114,13 +114,17 @@
 	Kerning deals with the space between two characters or letters.
 	
 	Redesign or glaring issues?
-	
 
 
-	For a pet-related website like "Perfect Pet Treatment," you'll want a color palette that reflects a sense of warmth, trust, and playfulness, while still maintaining a professional and approachable appearance. Here's a suggested color palette:
+ 	when building landing page design, break on the exact words from the mockup
+
+
+	For a pet-related website like "Perfect Pet Treatment," you'll want a color palette that reflects a sense of warmth, trust, 
+ 	and playfulness, while still maintaining a professional and approachable appearance. Here's a suggested color palette:
 	
 	    Primary Color: #FFA500 (Orange)
-	    Orange is associated with enthusiasm, energy, and friendliness. It can evoke feelings of happiness and joy, making it a great choice for a pet-related website.
+	    Orange is associated with enthusiasm, energy, and friendliness. It can evoke feelings of happiness and joy, making it a great choice 
+     	    for a pet-related website.
 	
 	    Secondary Color: #4CAF50 (Green)
 	    Green represents nature, growth, and health. It can symbolize a caring and nurturing environment, which aligns well with pet care and treatment.
@@ -136,8 +140,8 @@
 	
 
 
-
-	When choosing a font family for a pet website, it's important to consider readability, aesthetics, and the overall theme of the website. Here are some font families that are commonly used and suitable for a pet-themed website:
+	   When choosing a font family for a pet website, it's important to consider readability, aesthetics, 
+  	   and the overall theme of the website. Here are some font families that are commonly used and suitable for a pet-themed website:
 	
 	    Open Sans: A clean and versatile font that is easy to read on screens.
 	
@@ -155,5 +159,11 @@
 	
 	    Bree Serif: A friendly and legible font with a touch of uniqueness.
 	
-	Remember to use a font combination that complements your website's design and branding. For headings and titles, you can use a more decorative or attention-grabbing font, while for body text, it's essential to choose a highly legible and easy-to-read font. Always test the fonts on different devices and screen sizes to ensure a consistent and enjoyable user experience.
+	Remember to use a font combination that complements your website's design and branding. 
+ 
+ 	For headings and titles, you can use a more decorative or attention-grabbing font, 
+  	while for body text, it's essential to choose a highly legible and easy-to-read font. Always test the fonts on different devices and screen sizes to ensure a consistent and enjoyable user experience.
+
+
+
 
