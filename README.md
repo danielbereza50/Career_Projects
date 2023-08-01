@@ -44,9 +44,11 @@ list of terminal commands:
         terminal commands for core / theme / and module
         
         composer create-project drupal/recommended-project:9.3.0 "install-dir"
-        
+
+        https://www.drupal.org/project/project_theme
         composer require 'drupal/startup_zymphonies_theme:^2.0'
-        
+
+        https://www.drupal.org/project/project_module
         composer require 'drupal/commerce:^2.36'
 
         
