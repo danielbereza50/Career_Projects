@@ -6,7 +6,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 *My installation is pointing here: //
 
-<b>Full Stack Engineer (MAMP, WAMP, LAMP 64 bit architecture) - Django</b>
+<b>Full Stack Engineer (MAMP, WAMP, LAMP 64 bit architecture) </b>
 
 Operating Systems:
 Mac, Windows, Linux
@@ -44,7 +44,9 @@ list of terminal commands:
         terminal commands for core / theme / and module
         
         composer create-project drupal/recommended-project:9.3.0 "install-dir"
+        
         composer require 'drupal/startup_zymphonies_theme:^2.0'
+        
         composer require 'drupal/commerce:^2.36'
 
         
