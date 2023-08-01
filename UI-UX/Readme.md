@@ -64,7 +64,8 @@
 			*note class is for grouping elements on a web page, id is for uniqueness
 
 
-		* CSS select - not only class and id, but also data attributes in the element, such as 'data-post-id' and 'data-item-number'
+		* CSS select - not only class and id, but also data attributes in the element, such as 'data-post-id' 
+  		and 'data-item-number'
   
 		<div data-post-id="5136" class="sc_services_item sc_item_container post_container with_content 
   		with_image sc_services_item_featured_top post-5136 cpt_services type-cpt_services status-publish 
