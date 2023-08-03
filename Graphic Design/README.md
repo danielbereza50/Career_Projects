@@ -69,11 +69,46 @@ https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_keyframes
             background-position: -100% 0;
         }
 
-
-
-
-
-
 Great logo maker:
 
 https://www.canva.com/tools/logo-maker-q1/?utm_source=google_sem&utm_medium=cpc&utm_campaign=REV_US_EN_CanvaPro_Logo_EM&utm_term=REV_US_EN_CanvaPro_Online_Logo+Creator_EM&gclid=Cj0KCQjwytOEBhD5ARIsANnRjVj54juDpO99KMfI28v1bbeJ6JPBTX2PE7Iqp3Ag-24TEyirUrc0LboaAutYEALw_wcB&gclsrc=aw.ds
+
+
+
+    Common file extensions for web graphic assets include:
+  
+    1. **JPEG/JPG (.jpeg, .jpg)**: A widely used format for photographs and complex images with millions of colors.
+    
+    2. **PNG (.png)**: Supports transparency and is commonly used for images with sharp edges, logos, icons, and images that require a transparent background.
+    
+    3. **GIF (.gif)**: Supports animation and is often used for simple animations, logos, and images with limited colors.
+    
+    4. **SVG (.svg)**: A vector format that is resolution-independent and suitable for logos, icons, and illustrations. Can be scaled without loss of quality.
+    
+    5. **WEBP (.webp)**: A modern image format developed by Google that provides both lossy and lossless compression, resulting in smaller file sizes and faster loading times.
+    
+    6. **BMP (.bmp)**: A basic bitmap format often used for Windows graphics.
+    
+    7. **ICO (.ico)**: Used for icons in Windows applications and on websites.
+    
+    8. **TIFF (.tiff, .tif)**: A format that supports high-quality images and is used for print, photography, and professional graphics.
+    
+    9. **EPS (.eps)**: A vector format often used for print graphics and illustrations.
+    
+    10. **PDF (.pdf)**: While primarily a document format, PDFs can contain vector graphics and images, making them suitable for downloadable documents.
+    
+    11. **AI (.ai)**: Adobe Illustrator file format, used for vector graphics and illustrations.
+    
+    12. **PSD (.psd)**: Adobe Photoshop file format, used for raster graphics and photo editing.
+    
+    These file extensions cover a range of image formats suitable for various purposes on the web, including photographs, logos, icons, illustrations, and animations. The choice of format depends on factors such as image content, quality requirements, and whether transparency or animation is needed.
+
+
+
+
+
+
+
+
+
+
