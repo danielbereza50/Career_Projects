@@ -90,6 +90,10 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	https://chat.openai.com/chat
 	
 	*note - most plugins can usually be a single class (structure) file with 3-4 methods
+        1) write method definintions that fulfill functional requirements
+	2) encapsulate those methods in a class
+ 	3) start applying other O-O principals, such as inheritance and ploymorphism.
+     
 
 	Example try catch block
 
