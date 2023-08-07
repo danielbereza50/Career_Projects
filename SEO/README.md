@@ -90,12 +90,16 @@ Target long-tail keywords
 
 
 
+https://www.grammarly.com/
+
+* keep the tone casual
+
 
 blog post template:
 
 Meta Title - Connecticut Microsoft 365 / Migrate to Azure Hosted Cloud
 
-Meta Description - Office 365, Azure Virtual Desktops & Servers for businesses in New York area and beyond. Visit our website today to learn more about our services.
+Meta Description - Office 365, Azure Virtual Desktops & Servers for businesses in Connecticut area and beyond. Visit our website today to learn more about our services.
 
 Page Title - Microsoft 365 & Azure
 
