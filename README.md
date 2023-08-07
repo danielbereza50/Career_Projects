@@ -3,6 +3,8 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
     
 login URL: https://www.shopify.com/login    
+
+https://www.shopify.com/partners
     
 In this example, we're using the Liquid for loop to iterate over a collection of products (collections.all.products). For each product, we're outputting a div with a class of product-card that contains a link to the product's URL, an image of the product's featured image, the product's title, and the product's price formatted as currency using the money filter.
 
