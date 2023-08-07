@@ -93,7 +93,9 @@ A portfolio of past projects, build instructions and platforms are specified at 
  
        1) write method definintions that fulfill functional requirements
 	2) encapsulate those methods in a class
- 	3) start applying other O-O principals, such as inheritance and polymorphism to those class methods.
+ 	3) start applying other O-O principals, such as 
+   	inheritance and polymorphism to those class methods to help eliminate redundancy 
+        and keep the code clean and organized.
      
 
 	Example try catch block
