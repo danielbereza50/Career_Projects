@@ -184,3 +184,34 @@ mysqli_close($conn);
 
 
 
+server-side security:
+
+    Keep WordPress Core, Themes, and Plugins Updated: Regularly update all components of your WordPress installation to the latest versions. Outdated software is often vulnerable to attacks.
+
+    Strong Passwords: Ensure that you and your users use strong and unique passwords. Weak passwords can be easily exploited by hackers.
+
+    Limit Login Attempts: Implement restrictions on the number of login attempts to prevent brute-force attacks.
+
+    Secure File Permissions: Set appropriate file and directory permissions to prevent unauthorized access to critical files.
+
+    Disable Directory Listing: Make sure directory listing is disabled to prevent exposing sensitive information.
+
+    Use HTTPS: Encrypt data transmitted between the server and clients by using HTTPS.
+
+    Protect WP-Admin: Restrict access to the WP-admin directory by IP or via HTTP authentication.
+
+    Protect wp-config.php: Move the wp-config.php file one directory above the WordPress root and restrict access to it.
+
+    Disable XML-RPC: If not needed, disable XML-RPC as it can be a target for some attacks.
+
+    Implement Web Application Firewall (WAF): Set up a WAF to filter and block malicious traffic before it reaches your server.
+
+    Regular Backups: Regularly back up your website to a secure location to ensure quick recovery in case of a security breach.
+
+By implementing these server-side security measures, you can significantly enhance the security of your WordPress website without relying on additional plugins.
+
+
+
+
+
+
