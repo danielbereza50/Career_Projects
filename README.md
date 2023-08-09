@@ -262,7 +262,7 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 	Note: Making these changes means you'll stop receiving email to any account previously set up on this domain.
 	Example: a2 and godaddy
  	domain is registered on godaddy, transferred to a2, 
-  	so plugin in the two DNS records on godaddy from a2, plugin the 5 above records on a2 from godaddy
+  	so plugin in the two DNS records on godaddy from a2, plugin the 5 above mail records on a2 from godaddy
 
  
 
