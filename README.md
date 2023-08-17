@@ -31,6 +31,11 @@ list of terminal commands:
 
 
 
+    composer config --global http-basic.repo.magento.com <public-key> <private-key>
+
+
+    composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition magento2
+
 
 
     
