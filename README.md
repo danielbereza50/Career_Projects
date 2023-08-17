@@ -17,6 +17,7 @@ https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html
 
 https://www.mageplaza.com/devdocs/how-install-magento-2-mac-osx.html#step-2-install-composer
 
+https://github.com/magento/magento2/tree/2.4-develop
 
 list of terminal commands:
 
