@@ -30,8 +30,7 @@ list of terminal commands:
     https://stackoverflow.com/questions/11333230/how-to-run-composer-from-anywhere
 
 
-    To get access keys, go here: https://marketplace.magento.com/
-    Account > My Profile > Access Keys
+    To get access keys, go here: https://commercemarketplace.adobe.com/customer/accessKeys/
 
     composer config --global http-basic.repo.magento.com <public-key> <private-key>
 
