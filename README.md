@@ -13,6 +13,10 @@ Mac, Windows, Linux
 
 Magento Cookbooks: 
 
+https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html
+
+https://www.mageplaza.com/devdocs/how-install-magento-2-mac-osx.html#step-2-install-composer
+
 
 list of terminal commands:
 
