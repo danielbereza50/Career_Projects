@@ -30,11 +30,21 @@ list of terminal commands:
     https://stackoverflow.com/questions/11333230/how-to-run-composer-from-anywhere
 
 
+    To get access keys, go here: https://marketplace.magento.com/
+    Account > My Profile > Access Keys
 
     composer config --global http-basic.repo.magento.com <public-key> <private-key>
 
 
+    cd path/to/magento/project
+
+
     composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition magento2
+
+
+
+
+
 
 
 
