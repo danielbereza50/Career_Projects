@@ -1,4 +1,28 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+
+<!--#include file="Connections/connAdmin.asp" -->
+
+<%
+' Create a connection object
+Set conn = Server.CreateObject("ADODB.Connection")
+
+' Open the connection
+conn.Open MM_connAdmin_STRING
+
+' Check if the connection is successful
+If conn.State = 1 Then
+    Response.Write("Connection to the database successful.")
+Else
+    Response.Write("Failed to connect to the database.")
+End If
+
+' Close the connection
+conn.Close
+Set conn = Nothing
+%>
+
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/mainCamClub.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
