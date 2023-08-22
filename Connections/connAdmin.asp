@@ -5,6 +5,9 @@
 ' HTTP="false"
 ' Catalog=""
 ' Schema=""
+
 Dim MM_connAdmin_STRING
-MM_connAdmin_STRING = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=h:\root\home\charlottecamera-001\www\db\CamClubdb.mdb;Persist Security Info=False"
+MM_connAdmin_STRING = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=h:\root\home\charlottecamera-999\www\db\CamClubdb.mdb;Persist Security Info=False"
+
+
 %>
