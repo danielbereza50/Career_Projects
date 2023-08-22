@@ -667,7 +667,6 @@ How to:
 * https://loading.io/
 * https://www.pdf2go.com/
 * https://samplelib.com/sample-mp4.html
-* https://theinpaint.com/
 
 	For video editing:
 	* note - speed up motion, crop out audio
