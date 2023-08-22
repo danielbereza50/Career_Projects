@@ -86,9 +86,9 @@ oMail.Configuration.Fields.Item _
 ("http://schemas.microsoft.com/cdo/configuration/smtpconnectiontimeout") = 60
 oMail.Configuration.Fields.Update 
 
-oMail.Sender = "webmaster@charlottecameraclub.org"
-oMail.To = "info@charlottecameraclub.org"
-oMail.Bcc = "jnshowers@gmail.com; lgstoddard@gmail.com; e_notheisen@comporium.net"
+oMail.Sender = "webmaster@domain.org"
+oMail.To = "info@domain.org"
+oMail.Bcc = "johndoe@domain.com; johndoe@domain.com; johndoe@domain.net"
 
 oMail.Subject = "Charlotte Camera Club Membership"
 
