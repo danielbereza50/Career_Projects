@@ -78,9 +78,9 @@ oMail.Configuration.Fields.Item _
 oMail.Configuration.Fields.Item _
 ("http://schemas.microsoft.com/cdo/configuration/sendusername") = "webmaster@domain.org"
 oMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "mario1!"
+("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "johndoe"
 oMail.Configuration.Fields.Item _
-("http://schemas.microsoft.com/cdo/configuration/smtpserverport") = 25
+("http://schemas.microsoft.com/cdo/configuration/smtpserverport") = 11111
 oMail.Configuration.Fields.Item _
 ("http://schemas.microsoft.com/cdo/configuration/smtpusessl") = False
 oMail.Configuration.Fields.Item _
