@@ -1,3 +1,6 @@
+' Microsoft Access databases using the ADO (ActiveX Data Objects) library.
+
+
 <%
 ' FileName="Connection_ado_conn_string.htm"
 ' Type="ADO" 
