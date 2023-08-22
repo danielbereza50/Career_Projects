@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background: #cccccc;
+	font-family: "Century Gothic", Verdana, Helvetica, sans-serif;
+	font-size: 16pt;
+	color: #ffffff;
+}
+
+a img {
+	border: none;
+}
+
+a {
+	color: #639cc9;
+}
+
+#innercontent {
+	padding-top:30px;
+	margin: 0 40px 0 40px;
+	font-family: "Century Gothic", Verdana, Helvetica, sans-serif;
+	color:white;
+}
+
+.credits {
+	font-size:10pt;
+}
+
+textarea {
+	font-family:"Century Gothic", Verdana, Helvetica, sans-serif;
+	font-size:11pt;
+	color:white;
+}
+
+#innercontent h1 {
+	font-size:20pt;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	line-height:22pt;
+}
+
+#innercontent h2 {
+	font-size:16pt;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	line-height:18pt;
+}
+
