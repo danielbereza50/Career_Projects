@@ -22,7 +22,6 @@ https://domain.com/auth
 https://api.instagram.com/oauth/authorize?client_id=11111111&redirect_uri=https://domain.com/auth&scope=user_profile,user_media&response_type=code
 
 
-
 after going to url and authenticating, take out the #_
 
 3.
@@ -33,14 +32,14 @@ curl -X POST \
   -F client_secret=222222222 \
   -F grant_type=authorization_code \
   -F redirect_uri=https:/domain.com/auth \
-  -F code=AQBG_BFL2_nXTGKwLe-ANQEe89msG1dW-0EPCaRGxvoxSooJ8dMtb8U2upxBFgCJqPMYIptieCY8kAQIFDyEM0iTA2nVTb9Lgyduhs-vm-l8qUEnMYn0oNPerR6mK8Oc73--ZMtuzKvgslV-IVaFH-TObrImNkLPFKFEm6idotHU87C5loHFWVtBDwTBUHduY6J6dgfclJBqL56ZdjX3DfPDvn-B801wJUHGLfsehAhoxQ
+  -F code=AuthCode
 
 
 
 4. output:
 
 
-{"access_token": "IGQWRQM0ZAWbm9rSzNKaGI5TFpvaVlmN1h0TmtnSjBhR0p3UXRKc0FmRmpsRlhkdzU2Qnc0UzI0bmZA0SGJMa2ctenUxRm1nUHdtZA2locTVzdU9WSUNfWW9qdHZAJdmM5aHNNUTFNQmxvOFZAZAZATlxWUpFWlBJSGJVSGFCY29ianlVSVE5dwZDZD", "user_id": 6491142967673383}%  
+{"access_token": xxxyyyzzz", "user_id": qwerty}%  
 
 
 
@@ -55,7 +54,7 @@ function get_instagram_posts() {
      ob_start();
 
     // Replace with your actual access token
-    $access_token = 'IGQWRQM0ZAWbm9rSzNKaGI5TFpvaVlmN1h0TmtnSjBhR0p3UXRKc0FmRmpsRlhkdzU2Qnc0UzI0bmZA0SGJMa2ctenUxRm1nUHdtZA2locTVzdU9WSUNfWW9qdHZAJdmM5aHNNUTFNQmxvOFZAZAZATlxWUpFWlBJSGJVSGFCY29ianlVSVE5dwZDZD';
+    $access_token = 'xxxyyyzzz';
 
     // API endpoint to fetch user's media
     $api_url = 'https://graph.instagram.com/me/media?fields=caption,media_url,permalink&access_token=' . $access_token;
