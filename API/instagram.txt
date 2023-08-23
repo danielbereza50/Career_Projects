@@ -1,0 +1,106 @@
+
+https://www.instagram.com
+https://developers.facebook.com
+
+How to integrate instagram basic display api: https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
+
+
+1.
+
+Instagram App ID
+11111111
+
+Instagram App Secret
+222222222
+
+
+https://domain.com/auth
+
+
+2.
+
+https://api.instagram.com/oauth/authorize?client_id=11111111&redirect_uri=https://domain.com/auth&scope=user_profile,user_media&response_type=code
+
+
+
+after going to url and authenticating, take out the #_
+
+3.
+
+curl -X POST \
+  https://api.instagram.com/oauth/access_token \
+  -F client_id=11111111 \
+  -F client_secret=222222222 \
+  -F grant_type=authorization_code \
+  -F redirect_uri=https:/domain.com/auth \
+  -F code=AQBG_BFL2_nXTGKwLe-ANQEe89msG1dW-0EPCaRGxvoxSooJ8dMtb8U2upxBFgCJqPMYIptieCY8kAQIFDyEM0iTA2nVTb9Lgyduhs-vm-l8qUEnMYn0oNPerR6mK8Oc73--ZMtuzKvgslV-IVaFH-TObrImNkLPFKFEm6idotHU87C5loHFWVtBDwTBUHduY6J6dgfclJBqL56ZdjX3DfPDvn-B801wJUHGLfsehAhoxQ
+
+
+
+4. output:
+
+
+{"access_token": "IGQWRQM0ZAWbm9rSzNKaGI5TFpvaVlmN1h0TmtnSjBhR0p3UXRKc0FmRmpsRlhkdzU2Qnc0UzI0bmZA0SGJMa2ctenUxRm1nUHdtZA2locTVzdU9WSUNfWW9qdHZAJdmM5aHNNUTFNQmxvOFZAZAZATlxWUpFWlBJSGJVSGFCY29ianlVSVE5dwZDZD", "user_id": 6491142967673383}%  
+
+
+
+
+
+
+
+
+
+
+
+// PHP
+// Account ID
+
+// Access Token
+
+add_shortcode('display_instagram_posts', 'get_instagram_posts');
+function get_instagram_posts() {
+     ob_start();
+
+    // Replace with your actual access token
+    $access_token = 'IGQWRQM0ZAWbm9rSzNKaGI5TFpvaVlmN1h0TmtnSjBhR0p3UXRKc0FmRmpsRlhkdzU2Qnc0UzI0bmZA0SGJMa2ctenUxRm1nUHdtZA2locTVzdU9WSUNfWW9qdHZAJdmM5aHNNUTFNQmxvOFZAZAZATlxWUpFWlBJSGJVSGFCY29ianlVSVE5dwZDZD';
+
+    // API endpoint to fetch user's media
+    $api_url = 'https://graph.instagram.com/me/media?fields=caption,media_url,permalink&access_token=' . $access_token;
+
+    // Fetch Instagram data
+    $response = wp_remote_get($api_url);
+	
+	
+		// echo '<pre>';
+			//print_r($response);
+		 //echo '/<pre>';
+
+    if (!is_wp_error($response) && wp_remote_retrieve_response_code($response) === 200) {
+        $instagram_data = json_decode(wp_remote_retrieve_body($response), true);
+
+        if (isset($instagram_data['data'])) {
+            foreach ($instagram_data['data'] as $item) {
+				
+				
+				
+                $link = $item['permalink'];
+                $img_url = $item['media_url'];
+                $caption = isset($item['caption']) ? $item['caption'] : '';
+
+                // Display the Instagram post
+                echo '<div>';
+                echo '<a href="' . esc_url($link) . '">';
+                echo '<img src="' . esc_url($img_url) . '" alt="' . esc_attr($caption) . '">';
+                echo '</a>';
+                echo '<p>' . esc_html($caption) . '</p>';
+                echo '</div>';
+				
+				
+				
+				
+            }
+        }
+    }
+
+    return ob_get_clean();
+}
