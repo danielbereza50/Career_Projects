@@ -48,18 +48,18 @@ how to publish local asp.net core project to godaddy sub domain
 
 https://www.youtube.com/watch?v=2apoQVKO4Ow
 
+            
+            1. right click project in solution explorer
+            2. Click publish project
+            3. ftp://subdomain
+            UN, PW
+            4. edit web.config
 
-1. right click project in solution explorer
-2. Click publish project
-3. ftp://subdomain
-UN, PW
-4. edit web.config
-
-a) <customErrors mode = "off" />
-
-b) <trust level = "full" />
-
-c) <system.codedom>remove everything there</system.codedom>
+            a) <customErrors mode = "off" />
+            
+            b) <trust level = "full" />
+            
+            c) <system.codedom>remove everything there</system.codedom>
 
 
 
