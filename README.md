@@ -55,9 +55,9 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
             UN, PW
             4. edit web.config
 
-            a) <customErrors mode = "off" />
+            a) '<customErrors mode = "off" />'
             
-            b) <trust level = "full" />
+            b) '<trust level = "full" />'
             
             c) <system.codedom>remove everything there</system.codedom>
 
