@@ -19,6 +19,9 @@ https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-stud
 
 *My installation is pointing here: https://localhost:5001 
 
+install local: /Users/danielbereza/Projects
+
+
 Full Stack Engineer (Microsoft Stack 64 bit architecture) - ASP.NET
 
 Operating Systems: Mac, Windows, Linux
