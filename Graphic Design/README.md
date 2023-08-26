@@ -108,7 +108,29 @@ https://www.canva.com/tools/logo-maker-q1/?utm_source=google_sem&utm_medium=cpc&
 https://theinpaint.com/
 
 
+Draft:
 
+    Definition: A draft, also known as a mockup or wireframe, is a static visual representation of a design concept. It's a simplified and rough sketch that outlines the basic structure, layout, and content placement of a design.
+
+    Purpose: Drafts are primarily used to outline the overall design direction, hierarchy, and layout of a project. They help designers and stakeholders visualize the basic arrangement of elements on a page or screen.
+
+    Level of Detail: Drafts are low-fidelity representations that focus on the basic layout, positioning of elements, and content placement. They don't include fine details like colors, images, or interactive elements.
+
+    Interactivity: Drafts are non-interactive and lack any functional elements. They don't allow users to interact with the design or experience how it would work.
+
+    Feedback Stage: Drafts are often presented to stakeholders or clients to gather feedback on the fundamental structure and layout of the design. Changes at this stage are relatively easy and cost-effective to implement.
+
+Prototype:
+
+    Definition: A prototype is an interactive and dynamic model of a design that simulates how the final product will look and function. It includes visual design, interactivity, and sometimes even functional behavior.
+
+    Purpose: Prototypes are used to demonstrate the user experience, interactions, and functionality of a design. They provide a tangible way to test and refine the user flow, interactions, and usability of a product.
+
+    Level of Detail: Prototypes can be either low-fidelity or high-fidelity. Low-fidelity prototypes focus on interactions and flow, while high-fidelity prototypes incorporate detailed visual design, including colors, typography, and images.
+
+    Interactivity: Prototypes are interactive, allowing users to simulate interactions with the design. Users can click buttons, navigate between screens, and experience the design as if it were a real product.
+
+    Feedback Stage: Prototypes are often used for user testing and usability studies. They help designers identify any usability issues, pain points, or areas of improvement in the user experience. Changes at this stage might require more effort to implement, especially in high-fidelity prototypes.
 
 
 
