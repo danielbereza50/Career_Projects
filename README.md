@@ -65,6 +65,20 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
 
 
 
+            Web Server is IIS
+            Database server is T-SQL
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
