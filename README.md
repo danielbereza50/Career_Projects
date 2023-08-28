@@ -137,4 +137,14 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
 
             open solution /project-folder/second-project-folder/project.csproj
             
+
+
+            Database connection string: 
+
+            https://community.godaddy.com/s/question/0D53t00006VmDkACAV/a-webconfig-connection-string-for-ms-sql-server-and-the-wingtiptoys-demo
+            
+            Data Source=vvv.www.xxx.yyy;Initial Catalog=NameOfYourDb;Integrated Security=False;User ID=YourDbLoginId;Password=YourPassWord;Connect Timeout=15;Encrypt=False;Packet Size=4096;
+
+
+
             
