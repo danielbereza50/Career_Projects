@@ -73,10 +73,6 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
             Classic ASP and VB.NET or
             ASP.NET MVC
 
-
-            https://ca.godaddy.com/help/software-versions-installed-on-linux-hosting-windows-hosting-and-managed-wordpress-accounts-897
-
-
             https://ca.godaddy.com/help/software-versions-installed-on-linux-hosting-windows-hosting-and-managed-wordpress-accounts-897
 
 
