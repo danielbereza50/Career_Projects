@@ -134,6 +134,7 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
             Plesk Control Panel	Obsidian (18.x)
             
             
-            
+
+            open solution /project-folder/second-project-folder/project.csproj
             
             
