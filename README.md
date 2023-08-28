@@ -76,7 +76,7 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
             https://ca.godaddy.com/help/software-versions-installed-on-linux-hosting-windows-hosting-and-managed-wordpress-accounts-897
 
 
-            Linux Hosting
+            Linux Hosting with cPanel
             Component	Version
             Apache	2.4.46
             cURL	7.19.7
@@ -99,6 +99,8 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
             3.7.10
             Zend	3.3.26
             cPanel Control Panel	86.0.30
+
+
             
             Windows Hosting with Plesk
             Component	Version
