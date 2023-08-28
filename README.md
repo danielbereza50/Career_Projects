@@ -69,10 +69,6 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
             Database server is T-SQL
 
 
-
-            Classic ASP and VB.NET or
-            ASP.NET MVC
-
             https://ca.godaddy.com/help/software-versions-installed-on-linux-hosting-windows-hosting-and-managed-wordpress-accounts-897
 
 
@@ -102,7 +98,7 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
 
 
 
-            VB.NET or C#.NET
+            Classic ASP and VB.NET or C#.NET
             Windows Hosting with Plesk
             Component	Version
             Operating System	Windows Server 2019
