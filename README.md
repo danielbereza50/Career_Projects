@@ -7,6 +7,10 @@ https: https://github.com/danielbereza50/asp.net.git
 
 SSH: git@github.com:danielbereza50/asp.net.git
 
+
+******hosting: https://www.smarterasp.net/index
+
+
 download ASP.NET here: https://visualstudio.microsoft.com/vs/mac/
 
 open in Visual Studio
