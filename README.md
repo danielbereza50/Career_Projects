@@ -146,5 +146,16 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
             Data Source=vvv.www.xxx.yyy;Initial Catalog=NameOfYourDb;Integrated Security=False;User ID=YourDbLoginId;Password=YourPassWord;Connect Timeout=15;Encrypt=False;Packet Size=4096;
 
 
+            where:
+            
+            vvv.www.xxx.yyy is the IP address of your db server, discoverable in my LittleAdmin on the Connection Info link, Connection tab.
+            
+            NameOfYourDb is the actual name of the your GoDaddy SQL Server database, no backslashes, pipes, or .mdf, - just the name.
+            
+            YourDbLoginId is the Username you assigned when you created your GoDaddy SQL Server database.
+            
+            YourPassword is the password you entered when you created your GoDaddy SQL Server database.
+
+ 
 
             
