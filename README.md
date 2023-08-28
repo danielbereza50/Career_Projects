@@ -74,12 +74,68 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
             ASP.NET MVC
 
 
+            https://ca.godaddy.com/help/software-versions-installed-on-linux-hosting-windows-hosting-and-managed-wordpress-accounts-897
 
 
+            https://ca.godaddy.com/help/software-versions-installed-on-linux-hosting-windows-hosting-and-managed-wordpress-accounts-897
 
 
-
-
-
-
-
+            Linux Hosting
+            Component	Version
+            Apache	2.4.46
+            cURL	7.19.7
+            MySQL	5.6.49
+            5.7.38
+            PHP	5.6
+            7.3
+            7.4 (default)
+            8.0
+            8.1
+            PEAR	1.10.5
+            Perl	5.10.1
+            phpMyAdmin	4.9.4
+            Python	via Python Selector
+            2.7.18
+            3.3.7
+            3.4.9
+            3.5.9
+            3.6.11
+            3.7.10
+            Zend	3.3.26
+            cPanel Control Panel	86.0.30
+            
+            Windows Hosting with Plesk
+            Component	Version
+            Operating System	Windows Server 2019
+            ASP	3.0 (VBScript version 5.8)
+            ASP.NET	3.5.30729.4926
+            4.8.03761
+            cURL	7.59.0 (PHP 5.6)
+            7.70.0 (PHP 7.3 & 7.4)
+            7.76.1 (PHP 8.0)
+            7.70 (PHP 8.1)
+            7.85.0 (PHP 8.2)
+            IIS	10.x
+            MSSQL	Europe & Asia: MSSQL 2019
+            North America: MSSQL 2019
+            Starter Plesk only: MSSQL not supported
+            MySQL	5.7
+            .NET Core	2.1.x
+            3.1.x
+            5.0.x
+            6.0.x
+            7.0.x
+            PHP	5.6
+            7.3
+            7.4
+            8.0
+            8.1
+            8.2
+            phpMyAdmin	5.2.1
+            IIS URL Rewrite Module	7.1.1993
+            Plesk Control Panel	Obsidian (18.x)
+            
+            
+            
+            
+            
