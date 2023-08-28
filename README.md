@@ -155,7 +155,55 @@ https://www.youtube.com/watch?v=2apoQVKO4Ow
             YourDbLoginId is the Username you assigned when you created your GoDaddy SQL Server database.
             
             YourPassword is the password you entered when you created your GoDaddy SQL Server database.
-
  
+            No MVC, creating Razor pages as is: 
 
+            A. Right click pages folder > add new item > ASP.NET CORE > Razor Page (with page model)
+
+            B. With MVC, create new folder for page, 
+            1. 'Resource' under it file called 'Index.cshtml', 
+            2. A new resource controller in the view folder. 
+            3. A new controller file called ResourceController.cs with a method like:
+
+            // includes
+            using Microsoft.AspNetCore.Mvc;
+            
+            public class ResourceController : Controller
+            {
+                public IActionResult Index()
+                {
+                   return View();
+                }
+            }
+
+             4. Home Controller class file update:
+             
+             public IActionResult LoadData()
+             {
+                    // Simulate loading data
+                    return Content("Data loaded via AJAX request.");
+             }
+
+             5. Back in Resource > Index.cshtml ajax request will look something like this:
+             // alert('fffff');
+                        $.ajax({
+                            url: '/Home/LoadData', // Update with your controller/action route
+                            method: 'GET',
+                            success: function (response) {
+                                $('#ajaxResponse').html(response);
+                            },
+                            error: function (error) {
+                                console.log(error);
+                            }
+                        });
+                    });
+             
+             6. _Layout.cshtml
+
+              <li>
+                        <li><a class="nav-link text-dark" href="@Url.Action("Index", "Resource")">Resources</a>
+              </li>
+
+              7. When user navigated to that page, should show content
+            
             
