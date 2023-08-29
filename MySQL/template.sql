@@ -1,3 +1,62 @@
+
+
+
+*note - most data types are varchar, int, date
+	
+CREATE TABLE wp_custom_form (
+    form_id int NOT NULL,
+    entry_id int NOT NULL AUTO_INCREMENT,
+    
+    app_status varchar(255) NOT NULL,
+    
+    rank varchar(255) NOT NULL,
+    
+    full_name varchar(255) NOT NULL,
+    ssn varchar(255) NOT NULL,
+    rank_text varchar(255) NOT NULL,
+    
+    sex varchar(255) NOT NULL,
+    date_of_enlistment DATE,
+    date_of_birth DATE,
+    
+    unit_of_assignenment varchar(255) NOT NULL,
+    ets_mrd varchar(255) NOT NULL,
+    country_registered varchar(255) NOT NULL,
+    
+    full_address varchar(255) NOT NULL,
+    telephone_number varchar(255) NOT NULL,
+    student_classification varchar(255) NOT NULL,
+    
+    semester_hours varchar(255) NOT NULL,
+    school_name varchar(255) NOT NULL,
+    school_type varchar(255) NOT NULL,
+    
+    gi_chapter varchar(255) NOT NULL,
+    chapter_type varchar(255) NOT NULL,
+    semster_start varchar(255) NOT NULL,
+    
+    criteria_1 varchar(255) NOT NULL,
+    criteria_2 varchar(255) NOT NULL,
+    criteria_3 varchar(255) NOT NULL,
+    criteria_4 varchar(255) NOT NULL,
+    criteria_5 varchar(255) NOT NULL,
+    criteria_6 varchar(255) NOT NULL,
+    criteria_7 varchar(255) NOT NULL,
+    criteria_8 varchar(255) NOT NULL,
+    criteria_9 varchar(255) NOT NULL,
+    
+    email VARCHAR(255),
+    student_ID VARCHAR(50),
+    
+    date_signature DATE,
+    user_id INT,
+    
+    PRIMARY KEY (entry_id)
+);
+
+
+
+
 UPDATE wp_options
 SET option_value = replace(option_value, 'oldurl.com', 'newurl.com') 
 WHERE option_name = 'home' 
