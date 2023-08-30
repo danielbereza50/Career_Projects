@@ -7,6 +7,15 @@ CREATE TABLE wp_custom_form (
     form_id int NOT NULL,
     entry_id int NOT NULL AUTO_INCREMENT,
     
+    user_id INT,
+    
+    PRIMARY KEY (entry_id)
+);
+
+CREATE TABLE wp_custom_form_meta (
+    form_id int NOT NULL,
+    entry_id int NOT NULL AUTO_INCREMENT,
+    
     app_status varchar(255) NOT NULL,
     
     rank varchar(255) NOT NULL,
@@ -49,11 +58,11 @@ CREATE TABLE wp_custom_form (
     student_ID VARCHAR(50),
     
     date_signature DATE,
-    user_id INT,
-    
-    PRIMARY KEY (entry_id)
-);
 
+    
+    PRIMARY KEY (entry_id),
+    FOREIGN KEY (form_id) REFERENCES wp_custom_form(form_id)
+);
 
 
 
