@@ -63,6 +63,12 @@ CREATE TABLE wp_custom_form_meta (
     PRIMARY KEY (entry_id),
     FOREIGN KEY (form_id) REFERENCES wp_custom_form(form_id)
 );
+CREATE TABLE wp_users (
+    id INT NOT NULL AUTO_INCREMENT,
+    -- Other user-related columns
+    PRIMARY KEY (id)
+);
+
 
 
 
