@@ -1,3 +1,21 @@
+    Normalization: Normalize your database structure to reduce redundancy and improve data integrity. Splitting related data into separate tables can make it more efficient to update and query the database.
+
+    Foreign Keys: Consider using foreign keys to establish relationships between tables. For example, you could create a user table and reference it from the wp_custom_form table using a user_id foreign key.
+
+    Data Types: Make sure to choose appropriate data types for your columns. For instance, if you're storing dates, use the DATE data type. Also, consider using more specific data types like INT for numeric fields instead of VARCHAR.
+
+    Use Enumerations: If certain columns only have a limited set of possible values (e.g., app_status, sex, student_classification, etc.), you could consider using enumeration types or reference tables instead of plain text VARCHAR fields.
+
+    Indexes: Identify fields that you will frequently use in searches or joins and consider adding indexes to improve query performance.
+
+    Long-Term Maintenance: Think about how easy it will be to maintain and modify this schema in the future. If additional fields are likely to be added, consider designing the schema to accommodate them without major changes.
+
+    Data Security: Ensure that sensitive information (like SSN) is stored securely and encrypted, if needed.
+
+
+
+
+
 PHP/MySQL outside of wordpress
 
 // Process Order and display paypal redirect link... autoredirect
