@@ -28,5 +28,12 @@ https://www.facebook.com/business/ads/pricing?content_id=GxUKTnuMUGFGdXt&ref=sem
 Join discussion groups on networking sites, provide input to different topics
 
 
+responses in paragraph and/or bullet form
+
+
+
+
+
+
 
 
