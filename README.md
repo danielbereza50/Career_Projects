@@ -88,6 +88,21 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	with vanilla javascript that allows me to change text color
 	
 	https://chat.openai.com/chat
+
+
+
+	https://themeisle.com/blog/chatgpt-alternative/#google-bard-alternative
+ 
+	https://bard.google.com/
+	https://app.writesonic.com/login
+ 
+ 	https://toolbaz.com/writer/chat-gpt-alternative
+
+
+
+
+
+ 
 	
 	*note - most plugins can usually be a single class (structure) file with 3-4 methods
  
