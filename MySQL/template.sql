@@ -1,4 +1,12 @@
+CRUD operations:
 
+INSERT INTO wp_custom_form (name, description, value)
+VALUES ('Example Name', 'This is an example description', 'Some value for the record');
+
+
+UPDATE wp_custom_form
+SET description = 'Updated description', value = 'Updated value'
+WHERE name = 'Example Name';
 
 
 *note - most data types are varchar, int, date
