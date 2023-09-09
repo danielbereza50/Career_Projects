@@ -13,6 +13,11 @@ SSH: git@github.com:danielbereza50/asp.net.git
 
 download ASP.NET here: https://visualstudio.microsoft.com/vs/mac/
 
+
+Tutorial: Get Started with Entity Framework 6 Code First using MVC 5
+https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application
+
+
 open in Visual Studio
 
             How to view database: https://database.guide/how-to-install-sql-server-on-a-mac/
