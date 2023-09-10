@@ -6,6 +6,17 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 *My installation is pointing here: http://localhost/WordPress
 
+MySQL Server detail:
+
+Host 	localhost / 127.0.0.1 (depending on language and/or connection method used)
+Port 	8889
+Username 	root
+Password 	root
+Socket 	/Applications/MAMP/tmp/mysql/mysql.sock
+db name: 4444
+
+
+
 <div><b>Full Stack Engineer (MAMP, WAMP, LAMP 64 bit architecture) - WordPress</b></div>
 <br>
 <div>Operating Systems:</div>
