@@ -172,30 +172,30 @@ Siteground Walkthrough
         wp theme update --all
 
 
-sample:
-
-Hostname: ssh.212staging.net
-
-Username: [username]
-
-Password: The SSH key password
-
-Port: 18765
-
-// place local file on remote server
-
-scp -P 18765 ~/Desktop/strictly_live.sql [username]@ssh.212staging.net:www/svt.212staging.net/
-
-// ssh back in 
-
-ssh -p 18765 [username]@ssh.212staging.net
-
-cd www/svt.212staging.net
-
-mysql -u [dbuser] -p [dbname]
-
-
-source strictly_live.sql;
+        sample:
+        
+        Hostname: ssh.212staging.net
+        
+        Username: [username]
+        
+        Password: The SSH key password
+        
+        Port: 18765
+        
+        // place local file on remote server
+        
+        scp -P 18765 ~/Desktop/strictly_live.sql [username]@ssh.212staging.net:www/svt.212staging.net/
+        
+        // ssh back in 
+        
+        ssh -p 18765 [username]@ssh.212staging.net
+        
+        cd www/svt.212staging.net
+        
+        mysql -u [dbuser] -p [dbname]
+        
+        
+        source strictly_live.sql;
 
 
 
