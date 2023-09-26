@@ -48,8 +48,6 @@ exit - to close the thread
 // in case of PHP version errors
 composer install --ignore-platform-reqs 
 
-https://www.siteground.com/kb/how_to_log_in_to_my_shared_account_via_ssh_in_mac_os/
-
 
 3 MAIN SERVERS:
 
