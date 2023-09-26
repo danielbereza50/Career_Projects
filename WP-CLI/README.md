@@ -171,7 +171,7 @@ Siteground Walkthrough
         wp plugin update --all
         wp theme update --all
 
-
+        ///////////////////////////////////
         sample:
         
         Hostname: ssh.212staging.net
