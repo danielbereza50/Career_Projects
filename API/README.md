@@ -126,3 +126,17 @@ example POST followed by GET request:
 		$error_message = is_wp_error($response) ? $response->get_error_message() : 'Request failed';
 		echo 'Error: ' . $error_message;
 	}
+
+
+
+HTTP Codes:
+
+Code 	Description
+200 OK 	Request was successful.
+400 Bad Request 	Request could not be handled due to an issue.
+403 Forbidden 	Account does not have access to the endpoint.
+404 Not Found 	Endpoint or file could not found.
+429 Too Many Requests 	Too many requests have been made in a period of time.
+500 Internal Server Error 	Server is experiencing technical difficulties.
+503 Service Unavailable 	API is down for maintenance.
+ 
