@@ -15,7 +15,7 @@
 // API login:
 // https://domain.com/dashboard/    
 // UN: danielbereza24@gmail.com
-// PW: >#)Pn8dp*VU6VXQ!Z3pE   
+// PW: 111111111111111
   
 // API Application ID: -
 // Sandbox Access token: -
