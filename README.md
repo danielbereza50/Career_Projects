@@ -228,6 +228,10 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
     https://www.whatsmydns.net/
 
+    Check for register:
+    
+    https://www.whois.com/whois/{domain-name}
+
 <div>The other DNS records are:</div>
 <div>AAAA, CNAME, MX, NS, SOA, and TXT</div>
 
