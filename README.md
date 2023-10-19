@@ -589,10 +589,13 @@ How to:
 
 	Create a new email account:
 
-	SMTP Host: mail.domain.com
+	Incoming Server: / Outgoing Server: mail.domain.com
 	SMTP Username: johndoe
 	SMTP Email: password
+ 
 	SMTP Port: 587
+	IMAP Port: 993
+ 	POP3 Port: 995
 
 	web form from email address:
 	admin@domain.com
