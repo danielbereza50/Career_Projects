@@ -24,6 +24,15 @@ open in Visual Studio
 
             Download Azure Data Studio:
 
+            https://azure.microsoft.com/en-us/get-started/azure-portal
+
+
+            HOW TO WORK WITH MICROSOFT AZURE HOSTING:
+                        
+            https://www.microsoft.com/en-us/research/video/microsoft-azure-websites-basics/
+
+
+
 https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16
 
 *My installation is pointing here: https://localhost:5001 
