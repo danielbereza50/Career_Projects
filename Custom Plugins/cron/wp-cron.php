@@ -4,7 +4,8 @@
 add_filter( 'cron_schedules', 'isa_add_every_day' );
 function isa_add_every_day( $schedules ) {
     $schedules['every_day'] = array(
-            'interval'  => 86400,
+           // 'interval'  => 86400,
+	    'interval'  => 10,
             'display'   => __( 'Every 24 hours', 'textdomain' )
     );
     return $schedules;
@@ -19,8 +20,10 @@ if ( ! wp_next_scheduled( 'isa_add_every_day' ) ) {
 add_action( 'isa_add_every_day', 'every_day_event_func' );
 function every_day_event_func() {
 
-   # deactivate_plugins( '/copy-delete-posts/copy-delete-posts.php' );
+ deactivate_plugins( '/copy-delete-posts/copy-delete-posts.php' );
 
+	
+/*
     global $wpdb;
 	$user_tb = $wpdb->prefix."users";
 	$sql = "SELECT * FROM $user_tb WHERE user_expiry = 0";
@@ -48,7 +51,7 @@ function every_day_event_func() {
 		}
 	}
 	
-
+*/
 
 
 }
