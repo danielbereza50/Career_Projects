@@ -5,6 +5,7 @@ add_filter( 'cron_schedules', 'isa_add_every_day' );
 function isa_add_every_day( $schedules ) {
     $schedules['every_day'] = array(
            // 'interval'  => 86400,
+	    // minimum 60 seconds to run
 	    'interval'  => 60,
             'display'   => __( 'Every 24 hours', 'textdomain' )
     );
