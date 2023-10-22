@@ -593,6 +593,11 @@ How to:
 	SMTP Username: johndoe
 	SMTP Email: password
  
+ 	Encryption: None
+	Authentication: On
+ 	Auto TLS Off
+ 
+ 
 	SMTP Port: 587
 	IMAP Port: 993
  	POP3 Port: 995
