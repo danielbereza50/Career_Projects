@@ -5,7 +5,7 @@ add_filter( 'cron_schedules', 'isa_add_every_day' );
 function isa_add_every_day( $schedules ) {
     $schedules['every_day'] = array(
            // 'interval'  => 86400,
-	    'interval'  => 10,
+	    'interval'  => 60,
             'display'   => __( 'Every 24 hours', 'textdomain' )
     );
     return $schedules;
