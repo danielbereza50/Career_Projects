@@ -775,12 +775,41 @@ upload_max_filesize: 512M
     
     How to format object output:
     example:
-    
-    $obj = new my_class(); 
+
+    $sql_users = $wpdb->prepare(
+		"
+  
+  		SELECT
+			*
+		FROM table 1
+		JOIN table 2
+		LEFT JOIN table 3
+		WHERE orders.post_type IN ('shop_order', 'shop_order_refund')
+		AND (orders.post_status = 'wc-processing' OR orders.post_status = 'wc-completed')
+		AND user_meta.meta_key = '_customer_user'
+		AND user_meta.meta_value = %d
+		AND DATE(orders.post_date) >= DATE(CONCAT(YEAR(CURDATE()), '-01-01'))
+		GROUP BY order_id, order_date, user_id, order_value
+		ORDER BY order_date DESC
+  
+  		",
+		$user_id
+
+  		
+	);
+
+	$results_users = $wpdb->get_results($sql_users);
 	
-     echo '<pre>';
-        print_r($obj);
-     echo '/<pre>';
+	 echo '<pre>';
+		print_r($results_users);
+	 echo '</pre>';
+
+
+	    $obj = new my_class(); 
+		
+	     echo '<pre>';
+	        print_r($obj);
+	     echo '</pre>';
 
 //////////////////////////////
 
