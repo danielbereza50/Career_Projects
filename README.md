@@ -104,7 +104,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 
  	design: 
-  	sample query: I want a 5 section landing page design and the category is automotive
+  	sample query: I want a 5 section landing page design and the category is ' automotive '
 	https://wepik.com/ai-generate?prompt=
 
 
