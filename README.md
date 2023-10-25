@@ -97,8 +97,15 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	sample question:
 	wordpress gutenburg wp.blocks.registerBlockType to create a new gutebnurg block
 	with vanilla javascript that allows me to change text color
-	
+
+
+ 	development:
 	https://chat.openai.com/chat
+
+
+ 	design: 
+  	sample query: I want a 5 section landing page design and the category is automotive
+	https://wepik.com/ai-generate?prompt=
 
 
 
