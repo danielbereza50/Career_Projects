@@ -13,6 +13,8 @@ SSH: git@github.com:danielbereza50/asp.net.git
 
 download ASP.NET here: https://visualstudio.microsoft.com/vs/mac/
 
+"Razor Pages" or "MVC Views"
+
 
 Tutorial: Get Started with Entity Framework 6 Code First using MVC 5
 https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application
