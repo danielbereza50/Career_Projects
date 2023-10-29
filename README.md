@@ -4,7 +4,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 * download MAMP here: https://bitnami.com/stack/mamp/installer
 * download WordPress here: https://wordpress.org/download/
 
-" WordPress Pages "
+"WordPress Pages"
 
 *My installation is pointing here: http://localhost/WordPress
 	
