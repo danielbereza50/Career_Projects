@@ -31,8 +31,15 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	
 	   Variables: Variables are used to store and manipulate data. They have a name, a type, and a value.
 
+
        Data Types: Data types define the kind of data that can be stored and manipulated. Common data types include 
        integers, floating-point numbers, strings, booleans, arrays, and objects.
+
+       Data Structures: Data structures provide ways to organize and store data efficiently. Examples include 
+       arrays, lists, stacks, queues, and trees.
+
+       Algorithms: Algorithms are step-by-step procedures for solving specific problems. They define 
+       the logic and sequence of operations to achieve a desired outcome.
 
        Control Structures: Control structures determine the flow of execution in a program. They include 
        conditionals (if-else statements, switch statements), 
@@ -51,12 +58,6 @@ A portfolio of past projects, build instructions and platforms are specified at 
        Error Handling: Error handling involves identifying and dealing with errors or exceptions
        that may occur during program execution. This includes
        try-catch blocks, exception handling, and error messages.
-
-       Data Structures: Data structures provide ways to organize and store data efficiently. Examples include 
-       arrays, lists, stacks, queues, and trees.
-
-       Algorithms: Algorithms are step-by-step procedures for solving specific problems. They define 
-       the logic and sequence of operations to achieve a desired outcome.
 
        Modularization: Modularization involves breaking down a program into smaller, manageable modules or functions. 
        This promotes code reusability, maintainability, and readability.
