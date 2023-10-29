@@ -47,6 +47,15 @@
 }
 
 
+	/**
+	 * Update a linked list from an array of results and store it in an option.
+	 *
+	 * @param array $results   The array of results containing IDs.
+	 * @param string $optionName   The name of the option to store the serialized IDs.
+	 *
+	 * @return void
+	 */
+	
 	function updateLinkedListAndOption($results, $optionName) {
 	    $linked_list = array(); // Initialize the linked list
 	
@@ -103,6 +112,7 @@
 	updateLinkedListAndOption($results_30, 'discount_ids_30');
 	updateLinkedListAndOption($results_20, 'discount_ids_20');
 	updateLinkedListAndOption($results_20, 'discount_ids_10');
+
 
 
 How to 'hack' a plugin
