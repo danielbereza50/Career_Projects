@@ -12,7 +12,7 @@ Operating Systems:
 Mac, Windows, Linux
 
 
-Web pages are "Nodes"
+Web pages are "Nodes" or "Views"
 
 Drupal Cookbooks: 
 
