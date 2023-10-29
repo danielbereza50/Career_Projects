@@ -41,12 +41,12 @@ A portfolio of past projects, build instructions and platforms are specified at 
        Algorithms: Algorithms are step-by-step procedures for solving specific problems. They define 
        the logic and sequence of operations to achieve a desired outcome.
 
+       Functions: Functions are blocks of reusable code that perform specific tasks. They accept
+       input parameters and can return values.
+
        Control Structures: Control structures determine the flow of execution in a program. They include 
        conditionals (if-else statements, switch statements), 
        loops (for loops, while loops), and branching (break, continue).
-
-       Functions: Functions are blocks of reusable code that perform specific tasks. They accept
-       input parameters and can return values.
 
        Operators: Operators perform operations on data, such as
        arithmetic operations (+, -, *, /), logical operations (&&, ||, !), and comparison operations (>, <, ==).
