@@ -115,6 +115,9 @@
 
 
 
+Just to get the code working, cut and paste a couple conditions 2 times, then create a re-usable function to eliminate the redundacy.
+
+
 How to 'hack' a plugin
 
 1. Change the plugin version number to 999.999.999 in the plugin header 
