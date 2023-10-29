@@ -531,6 +531,7 @@ Relevant Links:
 
 * https://developers.google.com/speed/pagespeed/insights/
 * https://analytics.google.com/analytics/web/
+  - mark-up up the product / service, each page has $ value
   >  Pages and screens: Page title and screen class 
 * https://tagmanager.google.com/#/home
 * https://search.google.com/search-console/welcome
