@@ -4,6 +4,9 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 Home url: http://localhost:5000/
 
+Pages are "components"
+
+
 
 1. Install Node.js and npm on your Mac.
 
