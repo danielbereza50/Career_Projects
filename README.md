@@ -11,7 +11,12 @@ A portfolio of past projects, build instructions and platforms are specified at 
 Operating Systems:
 Mac, Windows, Linux
 
+
+Web pages are "Nodes"
+
 Drupal Cookbooks: 
+
+
 
 
 list of terminal commands:
