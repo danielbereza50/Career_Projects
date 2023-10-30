@@ -11,6 +11,8 @@ A portfolio of past projects, build instructions and platforms are specified at 
 Operating Systems:
 Mac, Windows, Linux
 
+Pages are "views", which are the "Blade template files"
+
 Laravel Cookbooks: 
 
 https://www.youtube.com/watch?v=HdXj8X0ysZc
