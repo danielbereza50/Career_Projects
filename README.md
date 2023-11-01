@@ -313,6 +313,30 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
     ns2.domain.net
 
+    example 1:  
+    
+    web host 1 is godaddy
+    web host 2 is network solutions
+    web host 3 is a2
+
+    domain is registered with godaddy, but files are on network solutions
+    to not distrupt email service, create domain.com on a2 with same domain name, insert A record @ document root over on network solutions
+
+    godaddy has network solutions dns records, but networks solutions has an A record that points to a2
+
+
+    example 2:
+    
+    web host 1 is siteground
+    web host 2 is hostgator
+    
+    domain is registered with siteground, but files are on hostgator
+    not taking into account email service, create account on hostgator with same name and swap dns records over on siteground
+	
+    
+    
+    
+
 https://digital.com/web-hosting/who-is/
 
 https://whois.domaintools.com/
