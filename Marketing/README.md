@@ -32,12 +32,11 @@ responses in paragraph and/or bullet form
 
 
 
-Chat GPT prompts:
-
-create a blog post start with a question then go into a paragraph explaination about an emerging web technology new topic
 
 
-pose a question for this topic
+
+
+
 
 
 
