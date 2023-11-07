@@ -6,6 +6,8 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 "WordPress Pages"
 
+/wp-login.php?action=logout
+
 *My installation is pointing here: http://localhost/WordPress
 	
 	MySQL Server detail:
