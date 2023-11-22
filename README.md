@@ -306,6 +306,8 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
  	domain is registered on godaddy, transferred to a2, 
   	so plugin in the two DNS records on godaddy from a2, plugin the 5 above mail records on a2 from godaddy
 
+
+	* outlook has outgoing and incoming server ports to be set with mail.domain.com
  
 
 
