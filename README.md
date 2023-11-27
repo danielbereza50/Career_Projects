@@ -338,7 +338,8 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
     not taking into account email service, create account on hostgator with same name and swap dns records over on siteground
 
 
-    DNS servers change everything, just change A record, ***take note of old dns before change
+    DNS servers change everything, just change A record, ***take note of old dns before change 
+    or re-create ALL DNS records
 
 
   	IP and Name Servers
