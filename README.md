@@ -340,7 +340,19 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
     DNS servers change everything, just change A record
 
-   
+
+  	IP and Name Servers
+
+	Site IP
+	
+	xx.xxx.xx.xxx
+ 
+	
+	Name Servers
+	
+	ns1.domain.net
+	
+	ns2.domain.net
     
     
     
