@@ -336,7 +336,11 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
     
     domain is registered with siteground, but files are on hostgator
     not taking into account email service, create account on hostgator with same name and swap dns records over on siteground
-	
+
+
+    DNS servers change everything, just change A record
+
+   
     
     
     
