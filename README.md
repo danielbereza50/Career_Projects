@@ -248,6 +248,16 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 <div>AAAA, CNAME, MX, NS, SOA, and TXT</div>
 
 
+	DNS checklist:
+ 	1) Email
+  	2) Files
+   	3) Database
+
+	1. Is the domain used for email?
+ 	   If no, then just update DNS on new host
+     	   If yes, login to their current hosting and recreate mx records from there 
+
+
 	Common DNS error message:
 
 	Only one MX record can use the expected priority value.
