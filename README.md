@@ -250,7 +250,7 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
        Host company A) registrar
        Host company B) hosting package 
-
+	
        could be a domain forward, if that is the case, then park the second domain 
 
 	*files and database are in root domain
@@ -261,7 +261,7 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
   	2) Files
    	3) Database
 
-	1. Is the domain used for email?
+	1. Is the domain used for email? Check DNS records for both hosting companies, register and hosting package
  	   If no, then just update DNS on new host
      	   If yes, login to their current hosting and recreate mx records from there 
 
