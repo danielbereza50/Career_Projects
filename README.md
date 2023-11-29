@@ -253,6 +253,8 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
        could be a domain forward, if that is the case, then park the second domain 
 
+	*files and database are in root domain
+
 
 	DNS checklist:
  	1) Email
