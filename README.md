@@ -257,7 +257,7 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
 
 	DNS checklist:
- 	1) Email
+ 	1) Email - MX
   	2) Files
    	3) Database
 
