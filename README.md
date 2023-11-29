@@ -248,6 +248,10 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 <div>AAAA, CNAME, MX, NS, SOA, and TXT</div>
 
 
+       Host company A) registrar
+       Host company B) hosting package 
+
+
 	DNS checklist:
  	1) Email
   	2) Files
