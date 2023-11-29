@@ -251,6 +251,8 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
        Host company A) registrar
        Host company B) hosting package 
 
+       could be a domain forward, if that is the case, then park the second domain 
+
 
 	DNS checklist:
  	1) Email
