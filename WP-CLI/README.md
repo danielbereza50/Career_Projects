@@ -183,6 +183,16 @@ Siteground Walkthrough
         // place local file on remote server
         
         scp -P 18765 ~/Desktop/strictly_live.sql [username]@ssh.212staging.net:www/svt.212staging.net/
+
+
+        another sample:
+        
+        flag -P SSH port number 
+
+        run this logged out of client server 
+
+        scp -r -P 7822 ~/Desktop/sbcc-2 username@hostname:~/domain-folder/content
+        
         
         // ssh back in 
         
