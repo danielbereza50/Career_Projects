@@ -8,11 +8,10 @@ function do_uhaul($atts){
         'entity' => '', 
     ), $atts);
 	
-	// 815 Amanda Dr, Clarksville, TN 37042
-	// 1035538
+	// Address : 10 Hill Street 
+	// entiity ID: 23324234234423
 	
-	// 1016 E Hwy 11 E, Jefferson City, TN 37760 
-	// 1035672
+
 
     $entity = $atts['entity'];
 	//$url = "https://api.webselfstorage.com/v3/{$location_id}";
@@ -25,7 +24,7 @@ function do_uhaul($atts){
 	$url_image = "https://api.webselfstorage.com/v3/location/{$entity}/images";
 	
 	$headers = array(
-    	'Authorization' => 'Bearer 6b8acb0b-55a0-4861-948e-52304044f0b9',
+    	'Authorization' => 'Bearer XXXXXXXXXXXX',
 	);
 	$response_location = wp_remote_get($url_location, array(
 		'headers' => $headers,
