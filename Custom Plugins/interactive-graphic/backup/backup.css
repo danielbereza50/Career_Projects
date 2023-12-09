@@ -1,0 +1,149 @@
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('/wp-content/plugins/bryn-morgan/public/images/loading-v2.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+/* Style for the interactive image layout */
+.interactive-image-layout {
+  display: flex;
+}
+
+/* Style for the left and right columns */
+.column.left, .column.right {
+	
+	 width: 27.5%;
+	
+	 padding: 20px;
+  	 text-align: center;
+}
+/* Style for the middle column */
+.column.middle {
+	
+	width: 45%;
+	
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style for the image */
+.column.middle img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* above not needed for demo */
+.image-title {
+	padding: 5px;
+	color:black;
+	text-shadow:1px 1px 1px #000;
+	font-size: 16px;
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+	font-family: 'Rajdhani',Helvetica,Arial,Lucida,sans-serif;
+}
+.image-body-txt {
+	color:black;
+		border-right: 2px solid #000;
+		border-bottom: 2px solid #000;
+		border-left: 2px solid #000;
+  		padding: 30px;
+        text-align: left;
+	    margin-top: -13px;
+		min-height: 170px;
+		font-family: 'Rajdhani',Helvetica,Arial,Lucida,sans-serif;
+}
+
+
+
+.service-item{
+	padding-top: 20px;
+  	padding-bottom: 20px;
+	cursor:pointer;
+}
+
+.image-title:before,.image-title:after {
+	content:" ";
+	position:absolute;
+	top:50%;
+	margin-left:-999em;
+	height:2px;
+	width:998em;
+	border-top:1px solid black;
+	background:rgba(0,0,0,0.2);
+}
+.image-title:after {
+	left:auto;
+	width:999em;
+	margin:0 0 0 1em;
+}
+.active .image-title{
+	color:#e21f26;
+}
+
+.active .image-body-txt {
+	border-right: 2px solid #e21f26;
+	border-bottom: 2px solid #e21f26;
+	border-left: 2px solid #e21f26;
+}
+
+.active .image-title:before, 
+.active .image-title:after {
+	border-top:1px solid #e21f26;
+}
+
+.active .image-body-txt{
+	color: #e21f26;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:980px){
+	.interactive-image-layout {
+	  display: block;
+	}
+	.column.left, .column.right,
+	.column.middle {
+	  width: 100%;
+	}
+}
+@media screen and (max-width:768px){
+	
+}
