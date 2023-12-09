@@ -1,0 +1,71 @@
+
+    // top selling items
+  
+    SELECT p.ID, p.post_title, CAST(pm.meta_value AS SIGNED) AS total_sales
+    FROM wp_posts AS p
+    JOIN wp_postmeta AS pm ON p.ID = pm.post_id
+    WHERE p.post_type = 'product'
+    AND p.post_status = 'publish'
+    AND pm.meta_key = 'total_sales'
+    ORDER BY total_sales DESC
+    LIMIT 33;
+
+
+    // get 
+
+SELECT
+    orders.ID AS order_id,
+    orders.post_date AS order_date,
+    user_meta.meta_value AS user_id,
+    user_meta.meta_value AS order_value,
+    SUM(CASE WHEN total.meta_key = '_order_total' THEN total.meta_value ELSE 0 END) AS total_spent
+FROM wp_posts AS orders
+JOIN wp_postmeta AS user_meta ON orders.ID = user_meta.post_id
+LEFT JOIN wp_postmeta AS total ON orders.ID = total.post_id
+WHERE orders.post_type IN ('shop_order', 'shop_order_refund')
+AND (orders.post_status = 'wc-processing' OR orders.post_status = 'wc-completed')
+AND user_meta.meta_key = '_customer_user'
+AND user_meta.meta_value = 7
+AND DATE(orders.post_date) >= DATE(CONCAT(YEAR(CURDATE()), '-01-01'))
+GROUP BY order_id, order_date, user_id, order_value
+ORDER BY order_date DESC;
+
+
+joe bristor = 7
+
+
+
+ALTER TABLE wp_users
+ADD qualify_for_discount INT;
+
+
+
+
+
+
+Introducing Our Exclusive Loyalty Program!
+
+At Wanders Products we value and appreciate your continued support. That's why we are thrilled to offer you an exciting opportunity to be a part of our Loyalty Program!
+
+ligibility is simple: If you've spent $500 with us in the current year, you're automatically eligible for our exclusive Loyalty Program.
+
+What are the benefits, you ask? As a valued member, you can now enjoy incredible discounts on our most popular items:
+
+10% off on select products.
+20% off on even more of our top-selling items.
+And a whopping 30% discount on our most beloved products.
+
+This is our way of saying THANK YOU for your loyalty and trust in us. So, go ahead and shop your heart out while enjoying these fantastic discounts.
+
+Don't miss out on this chance to make your shopping experience even more rewarding. Join our Loyalty Program today and embrace the savings!
+
+Thank you for being a part of the [Your Company Name] family. We look forward to serving you with the utmost dedication and care.
+
+Shop smart, save big, and stay loyal!
+
+[Your Company Logo]
+
+
+
+
+
