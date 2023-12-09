@@ -1,11 +1,11 @@
 <?php
 /*
     Plugin Name: U-Haul API Connection
-    Plugin URI:  https://curiocreativeagency.com/
+    Plugin URI:  
     Description: Connects to U-Haul API and gets location information. 
     Version:     100.0.0
-    Author:      Curio Creative Agency
-    Author URI:  https://curiocreativeagency.com/
+    Author:      
+    Author URI:  
     License:     GPL2
     License URI: Licence URl
 */

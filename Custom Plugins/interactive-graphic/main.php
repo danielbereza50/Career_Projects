@@ -1,11 +1,11 @@
 <?php
 /*
     Plugin Name: Interactive Featured Images
-    Plugin URI:  https://212creative.com/
+    Plugin URI:  
     Description: Makes the services graphic interactive on the home page based on item that is clicked. 
     Version:     100.0.0
-    Author:      212 Creative
-    Author URI:  https://212creative.com/
+    Author:      
+    Author URI:  
     License:     GPL2
     License URI: Licence URl
 */
