@@ -1,0 +1,590 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', Regular;
+	background-color: #a62525;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+h1,
+h3,
+h2 {
+	margin-bottom: 0
+}
+
+div,
+h1,
+h2 {
+	margin-top: 0
+}
+
+a {
+	color: black;
+	text-decoration: none
+}
+
+ul {
+	/*list-style-type: none;*/
+	margin: 0px 20px 0px 0px;
+}
+
+.section-news-feed, .section-equipment-status,
+.section-critical-components{
+	padding:20px;
+}
+
+.news-wrapper,
+.equipment-wrapper,
+.critical-wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+}
+
+.news-item,
+.equipment-item,
+.critical-item{
+	width:100%;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('/wp-content/plugins/calculator-app/public/images/Spinner-1s-200px.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+body{
+	background-color: #a62525;
+}
+
+
+.calculator-form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-item {
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+select option {
+    background-color: #fff;
+}
+
+select:disabled {
+    color: #aaa;
+}
+
+select option[disabled] {
+    color: #aaa;
+}
+
+.calculator-container,
+.incident-fields{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.incident-fields{
+	margin-bottom:20px;
+}
+
+.calculator-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.calculator-container p {
+   font-size: 18px;
+  line-height: 1.6;
+  color: black;
+}
+
+.calculator-container button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculator-container button:hover {
+    background-color: #45a049;
+}
+
+.extra-info-container {
+			margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+			  /* Add your styles here */
+		  background-color: #f0f0f0; /* Background color */
+		  padding: 10px; /* Padding around the content */
+		  border: 1px solid #ccc; /* Border with a light gray color */
+		  border-radius: 5px; /* Rounded corners */
+		  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle elevation effect */
+        }
+
+        .extra-info-row {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .extra-info-label {
+            width: 150px; /* Adjust the width according to your preference */
+            padding-right: 10px;
+            text-align: right;
+        }
+
+        .extra-info-input {
+            flex: 1;
+        }
+
+.extra-data-input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.extra-data-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.7);
+}
+
+#submit-extra{
+	width: 30%;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#submit-save{
+	width: 30%;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+#submit-history{
+	width: 30%;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #a62525;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#submit-back{
+	width: 30%;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#submit-back a{
+	text-decoration:none;
+	color:white;
+}
+
+#submit-extra:hover,
+#submit-save:hover,
+#submit-history:hover,
+#submit-back:hover{
+    background-color: #a62525;
+}
+
+ .logo-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+	 	animation: fadeIn 2s forwards;
+    
+    }
+
+    .logo-container img {
+        max-width: 20%; /* Make sure the image doesn't exceed its container's width */
+    
+    }
+
+ .form-title {
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 5px;
+    }
+
+.under-title{
+	width: 23%;
+  color: cornflowerblue;
+}
+
+.vapor-warning{
+	color:red !important
+}
+
+.meter-readings{
+		font-size: 24px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 5px;
+}
+
+/* Apply styling to the logo image */
+.logo-container img {
+	cursor: pointer;
+    width: 100%;
+    height: auto;
+    display: block; /* Remove any default inline spacing */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition to the transform property */
+}
+
+/* Add a hover effect to the logo image */
+.logo-container img:hover  {
+    transform: scale(1.1); /* Scale the image up by 10% on hover */
+}
+
+.delete-button{
+	display: inline-block;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: red !important;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+.red{
+	color:red;
+}
+ .incidents-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .incidents-column {
+            width: 45%;
+            text-align: center;
+        }
+
+        .incidents-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: cornflowerblue;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .incidents-button:hover {
+            background-color: black;
+        }
+
+.create-new-container {
+		width: 50%;
+	margin-top:20px;
+	  margin-left: auto;
+	  margin-right: auto;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .create-new-container label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .create-new-container input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+ .existing-record {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        width: 50%;
+	margin-top:20px;
+	  margin-left: auto;
+	  margin-right: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .existing-record p {
+        margin: 0;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .record-id {
+        font-weight: bold;
+    }
+
+    .no-records {
+        font-size: 18px;
+        color: #999;
+        margin-top: 20px;
+    }
+/* Style for the Submit New button */
+.submit-new {
+    background-color: black; 
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size */
+}
+
+/* Hover effect for the Submit New button */
+.submit-new:hover {
+    background-color: cornflowerblue; /* Darker green on hover */
+}
+
+/* Style for the View Record button */
+.view-record {
+    background-color: #3498db; /* Blue background color */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size */
+}
+
+/* Hover effect for the View Record button */
+.view-record:hover,
+.go-to-calculator-button:hover{
+    background-color: #2980b9; /* Darker blue on hover */
+}
+.view-record a,
+.go-to-calculator-button a {
+	text-decoration:none;
+	color:white;
+}
+  .go-to-calculator-button {
+        background-color: #3498db; 
+        border: none; /* Remove borders */
+        color: white; /* White text color */
+        padding: 10px 20px; /* Add padding */
+        text-align: center; /* Center text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Display as inline-block to center */
+        font-size: 16px; /* Set font size */
+        margin: 4px 2px; /* Add margin */
+        cursor: pointer; /* Add a pointer cursor on hover */
+        border-radius: 5px; /* Rounded corners */
+    }
+
+.read-only-text { 
+	width: 100%;
+	box-shadow: none;
+	border: none; 
+	padding: 0; 
+	margin: 0; 
+	background: none; 
+}
+.button-container {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      background-color: #3498db;
+      color: #fff;
+      border: 1px solid #2980b9;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+.button-container button{
+	margin-left: 10px;
+  margin-right: 10px;
+}
+#submit-save,
+#submit-history,
+#auto-select,
+#view-record{
+	display:none;
+}
+.blue{
+	color:blue !Important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:980px){
+	.logo-container img {
+	  max-width: 60%;
+	}
+}
+@media screen and (max-width:768px){
+	.logo-container img {
+	  max-width: 60%;
+	}
+}
+/* Define the fadeIn animation using keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start with 0 opacity */
+    }
+    to {
+        opacity: 1; /* End with full opacity */
+    }
+}
+
