@@ -29,6 +29,8 @@ https://www.facebook.com/danielbereza
 
 https://www.linkedin.com/in/daniel-bereza/
 
+https://twitter.com/DanielBereza
+
 https://www.fiverr.com/users/danielbereza50/
 
 
