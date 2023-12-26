@@ -209,7 +209,8 @@ Siteground Walkthrough
 
 https://dev.to/julbrs/how-to-use-react-inside-a-wordpress-application-49i
 
-Common commands that can be plugged-in to the terminal:
+    *** Use these commands to bootstrap a solution
+    Common commands that can be plugged-in to the terminal:
 
 cd /Applications/MAMP/htdocs/wordpress/wp-content/plugins/
 
