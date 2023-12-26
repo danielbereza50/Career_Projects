@@ -12,11 +12,14 @@
       <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
       <?php wp_head(); ?>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+      <!--
          <meta name="geo.position" content=";" />
       <meta name="geo.region" content="US-XX" />
       <meta name="geo.placename" content="" />
       <meta name="ICBM" content=", " />
       <meta name="DC.title" content="Geo Tag Generator" />
+   -->
    </head>
    <body <?php body_class(); ?>> 
 	  <?php //echo get_template_directory_uri() . '/images/layer_47.png' ?>
