@@ -56,7 +56,7 @@ function print_header() { ?>
 
 	   </head>
 	   <div class="logo-container">
-			<img src="/wp-content/plugins/calculator-app/public/images/firehouse-logo.png" alt="Firehouse Logo" id="logoImage">
+			<img src="/wp-content/plugins/calculator-app/public/images/logo.png" alt="Logo" id="logoImage">
 		</div>	
 	
 		

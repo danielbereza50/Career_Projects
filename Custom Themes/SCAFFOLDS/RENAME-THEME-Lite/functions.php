@@ -7,6 +7,11 @@ function theme_enqueue_styles() {
 		get_stylesheet_directory_uri() . '/js/custom-theme.js',
 		array( 'jquery' )
 	);
+
+
+
+
+
 	
 
 }
@@ -14,10 +19,10 @@ add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function register_my_menus()
   {
   register_nav_menus(array(
-    'account-menu' => __('Account Menu') ,
-    'need-help-menu' => __('Need Help Menu') ,
-    'about-sp-menu' => __('About SP Menu') ,
     'main-menu' => __('Main Menu')
+
+
+    
   ));
   }
 add_action('init', 'register_my_menus');
