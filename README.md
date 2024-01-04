@@ -745,6 +745,7 @@ How to:
 * https://redketchup.io/bulk-image-resizer
 * https://loremipsum.io/
 * https://smallpdf.com/edit-pdf
+* https://www.sejda.com/sign-pdf
 * https://products.aspose.app/words/replace/pdf
 * https://zapier.com/
 * https://vimeo.com/
