@@ -492,6 +492,12 @@ Popular Payment Gateways:
   	https://venmo.com/account/sign-in
 	
 	https://login.authorize.net/
+
+ 	Factor 4 Gift Cards
+
+ 	https://myprogramadmin.com/employee/sign-in
+
+  	https://factor4gift.com/
 	
 	https://www.clover.com/dashboard/login
 	
