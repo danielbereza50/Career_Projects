@@ -632,6 +632,11 @@ Relevant Links:
 * https://anywebp.com/convert-to-webp.html
 * https://www.nslookup.io/website-to-ip-lookup/
 
+SEO links:
+
+https://web-toolbox.dev/en/tools/heading-extractor
+https://www.semrush.com/
+
 
 How to convert wordpress website to an Android or Apple app:
 
