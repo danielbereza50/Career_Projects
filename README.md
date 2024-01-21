@@ -66,7 +66,6 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	$message .= '</head>';
 	$message .= '<body style="font-family: Arial, sans-serif; padding: 20px; background-color: #f8f8f8;">';
 		$message .= '<b>';
-			$message .= '<div style="margin: 0 auto;">';
 				$message .= $cart_contents_desktop;
 		$message .= '</b>';
 
