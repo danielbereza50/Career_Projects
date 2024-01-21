@@ -27,6 +27,39 @@ A portfolio of past projects, build instructions and platforms are specified at 
 <div>Mac, Windows, Linux</div>
 <br>
 
+Responsive email markup:
+
+$message .= '<html>';
+$message .= '<head>';
+$message .= '<meta charset="UTF-8">';
+$message .= '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+$message .= '<style>
+							b { 
+								display:block; 
+							} 
+							strong{
+								display:none;
+							}
+						    @media screen and (max-width: 980px) { 
+								b { 
+									display:none; 
+								} 
+								strong{
+									display:block;
+								}
+					}
+					</style>';
+$message .= '</head>';
+$message .= '<body style="font-family: Arial, sans-serif; padding: 20px; background-color: #f8f8f8;">';
+
+
+
+
+$message .= '</body>';
+$message .= '</html>';
+
+
+
 	Use AI for WordPress Applications:
    
         * note - here are the core programming concepts:
