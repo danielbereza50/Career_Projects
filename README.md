@@ -29,6 +29,17 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 	Responsive email markup:
 
+	 // Get cart contents HTML using WooCommerce functions
+	    ob_start();
+			include(get_stylesheet_directory() . '/woocommerce/cart/desktop-cart.php');
+	    $cart_contents_desktop = ob_get_clean();
+		
+	// Get output from another file
+	ob_start();
+		include(get_stylesheet_directory() . '/woocommerce/cart/mobile-cart.php');
+	$cart_contents_mobile = ob_get_clean();
+ 
+
 	 // Prepare the email subject and message
     $subject .= 'Request A Quote';
  
@@ -54,8 +65,14 @@ A portfolio of past projects, build instructions and platforms are specified at 
 						</style>';
 	$message .= '</head>';
 	$message .= '<body style="font-family: Arial, sans-serif; padding: 20px; background-color: #f8f8f8;">';
-	
-	
+		$message .= '<b>';
+			$message .= '<div style="margin: 0 auto;">';
+				$message .= $cart_contents_desktop;
+		$message .= '</b>';
+
+		$message .= '<strong>';
+					$message .= $cart_contents_mobile;
+		$message .= '</strong>';
 	
 	
 	$message .= '</body>';
