@@ -28,7 +28,10 @@ A portfolio of past projects, build instructions and platforms are specified at 
 <br>
 
 	Responsive email markup:
-	
+
+	 // Prepare the email subject and message
+    $subject .= 'Request A Quote';
+ 
 	$message .= '<html>';
 	$message .= '<head>';
 	$message .= '<meta charset="UTF-8">';
@@ -58,6 +61,12 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	$message .= '</body>';
 	$message .= '</html>';
 
+	 // Set the email headers to indicate HTML content
+   	$headers[] = 'Content-Type: text/html; charset=UTF-8';
+
+	$recipients = ['',''];
+	// Send the email to multiple recipients
+	$sent = wp_mail($recipients, $subject, $message, $headers);
 
 
 	Use AI for WordPress Applications:
