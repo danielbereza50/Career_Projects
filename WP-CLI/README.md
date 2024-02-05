@@ -11,6 +11,9 @@ ssh root@[ip address]
 password: [Password]
 
 
+ssh -i ~/.ssh/id_rsa_new -p 18765 [user]@[host]
+
+
 or try:
 
 ssh -p [post number] [username]@[domain]
