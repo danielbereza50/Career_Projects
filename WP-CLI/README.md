@@ -11,6 +11,10 @@ ssh root@[ip address]
 password: [Password]
 
 
+regenerate new key pair on local machine 
+
+
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa_new -C "johndoe@example.com"
 
 ssh -i ~/.ssh/id_rsa_new -p 18765 [user]@[host]
 
