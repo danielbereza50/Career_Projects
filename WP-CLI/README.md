@@ -11,7 +11,10 @@ ssh root@[ip address]
 password: [Password]
 
 
+
 ssh -i ~/.ssh/id_rsa_new -p 18765 [user]@[host]
+
+scp -r -P 18765 -i ~/.ssh/id_rsa_new [user]@[host]:www/domain.com/public_html ~/Applications/tmp/folder
 
 
 or try:
