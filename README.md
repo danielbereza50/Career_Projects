@@ -324,6 +324,17 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
      	   If yes, login to their current hosting and recreate mx records from there 
 
 
+	SSL Auto Renew:
+	https://www.a2hosting.com/kb/cpanel/cpanel-security-features/reconfiguring-autossl-on-domains/
+
+
+	Type:	CNAME
+	Name:	www
+	Value:	domain.com
+	
+
+
+
 	Common DNS error message:
 
 	Only one MX record can use the expected priority value.
