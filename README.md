@@ -323,6 +323,9 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
  	   If no, then just update DNS on new host
      	   If yes, login to their current hosting and recreate mx records from there 
 
+	Cancel 2FA
+	https://uk.godaddy.com/help/cancel-2-step-verification-7628
+
 
 	SSL Auto Renew:
 	https://www.a2hosting.com/kb/cpanel/cpanel-security-features/reconfiguring-autossl-on-domains/
