@@ -2,6 +2,22 @@
 A portfolio of past projects, build instructions and platforms are specified at the start of each branch in order to ensure proper compilation.  Everything is situated within its proper branch which is accessed through the drop down.
 
 
+created these directories on my machine:
+
+1.
+
+sudo mkdir -p /var/testlink/logs/
+sudo mkdir -p /var/testlink/upload_area/
+
+sudo chmod -R a+w /var/testlink/logs/
+sudo chmod -R a+w /var/testlink/upload_area/
+
+2. Then changed privileges on the directories:
+
+sudo chown -R _www:_www /var/testlink/logs/
+sudo chown -R _www:_www /var/testlink/upload_area/
+
+
 SSH step-by-step:
 
 ssh = secure shell
