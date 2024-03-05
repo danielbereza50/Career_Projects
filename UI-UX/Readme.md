@@ -1,6 +1,6 @@
-	https://themeforest.net/search/firefighter
+	https://themeforest.net/search/{category}
 	
-	https://www.templatemonster.com/wordpress-themes/?text=firefighter
+	https://www.templatemonster.com/wordpress-themes/?text={category}
 
   
   
