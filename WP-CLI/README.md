@@ -41,6 +41,16 @@ ssh -i ~/.ssh/id_rsa_new -p 18765 [user]@[host]
 scp -r -P 18765 -i ~/.ssh/id_rsa_new [user]@[host]:www/domain.com/public_html ~/Applications/tmp/folder
 
 
+
+(cPanel/SSH/FTP) 
+SSH port number example: 7822
+scp -P 7822 -r ~/Desktop/wp-content/* Username@[hostname]:/path/to/folder
+password
+
+ssh -p 7822 Username@m[hostname]
+password
+
+
 or try:
 
 ssh -p [post number] [username]@[domain]
