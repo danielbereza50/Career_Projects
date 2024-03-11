@@ -70,16 +70,16 @@ For best results, limit to 7-10 keyword themes
 
 Google List:
 
-keyword1
-keyword2
-keyword3
-keyword4
-keyword5
-keyword6
-keyword7
-keyword8
-keyword9
-keyword10
+    keyword1
+    keyword2
+    keyword3
+    keyword4
+    keyword5
+    keyword6
+    keyword7
+    keyword8
+    keyword9
+    keyword10
 
 
 https://ads.google.com/aw/campaigns
