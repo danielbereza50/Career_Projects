@@ -678,7 +678,10 @@ Relevant Links:
   >  Pages and screens: Page title and screen class 
 * https://tagmanager.google.com/#/home
 * https://search.google.com/search-console/welcome
+  
 * https://drive.google.com/drive/my-drive
+* https://one.google.com/storage/management?utm_source=sheets&utm_medium=web&utm_campaign=editor_banner&utm_content=hard_cap
+
 * https://myaccount.google.com/permissions
 * https://console.developers.google.com/
 * https://console.cloud.google.com/home/dashboard
