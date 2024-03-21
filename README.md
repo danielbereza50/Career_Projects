@@ -505,7 +505,7 @@ SVN Repos for published plugins:
 
 https://plugins.svn.wordpress.org/
 
-https://gpldl.com/
+[https://gpldl.com/](https://gpldl.com/premium-wordpress-woocommerce-for-free/)
 
 https://www.gplplus.com/
 
