@@ -446,7 +446,11 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 	ns2.domain.net
     
     
-    
+
+	Create an invoice 
+	
+	1.https://app.invoicesimple.com
+	2. [payp](https://www.paypal.com/)
 
 https://digital.com/web-hosting/who-is/
 
