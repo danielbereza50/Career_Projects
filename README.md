@@ -1014,6 +1014,13 @@ https://premmerce.com/woocommerce-hooks-guide/
 
 Web Servers:
 
+careful with serv requests:
+
+the admin-ajax.php is getting hammered by a high amount of requests, 
+help alleviate CPU, which is basically maxed out
+
+
+
 1. Apache
 
 2. Internet Information Services (IIS) - Windows Server
