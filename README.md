@@ -1014,11 +1014,11 @@ https://premmerce.com/woocommerce-hooks-guide/
 
 	Web Servers:
 	
-	careful with serv requests:
+	careful with server requests:
 	
 	the admin-ajax.php is getting hammered by a high amount of requests, 
 	
-	help alleviate CPU, which is basically maxed out
+	CPU usage gets maxed out
 
 
 
