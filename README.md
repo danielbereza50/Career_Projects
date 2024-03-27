@@ -1012,12 +1012,13 @@ Woocommerce hook list:
 https://premmerce.com/woocommerce-hooks-guide/
 
 
-Web Servers:
-
-careful with serv requests:
-
-the admin-ajax.php is getting hammered by a high amount of requests, 
-help alleviate CPU, which is basically maxed out
+	Web Servers:
+	
+	careful with serv requests:
+	
+	the admin-ajax.php is getting hammered by a high amount of requests, 
+	
+	help alleviate CPU, which is basically maxed out
 
 
 
