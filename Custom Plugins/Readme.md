@@ -56,7 +56,7 @@
 	 * @return void
 	 */
 	
-	function updateLinkedListAndOption($results, $optionName) {
+	function updateLinkedListAndOption($results, $optionName): void {
 	    $linked_list = array(); // Initialize the linked list
 	
 	    if (!empty($results)) {
