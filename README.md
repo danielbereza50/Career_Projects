@@ -1,5 +1,10 @@
 # Career_Projects
 
+core files can be downloaded here:
+
+https://wordpress.org/
+
+
 1. Prepare the wp-content folder and SQL file:
 
     wp-content folder: This folder contains themes, plugins, uploads, and other assets. Ensure it's a clean copy of the wp-content folder from your WordPress site.
