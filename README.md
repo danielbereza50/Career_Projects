@@ -4,7 +4,9 @@
 
 site install:
 
+core files can be downloaded here:
 
+https://wordpress.org/
 
 
 1. Prepare the wp-content folder and SQL file:
