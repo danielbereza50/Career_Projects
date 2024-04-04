@@ -736,7 +736,10 @@ Other Links:
 		-> Add URIs
 
 How to:
-	
+
+
+	https://knowledge.workspace.google.com/kb/how-to-update-your-mx-records-to-work-with-gmail-000005563
+ 
 	1. Create new project here: https://console.cloud.google.com/
 	
 	2. Install Gmail API
