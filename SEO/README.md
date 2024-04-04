@@ -117,7 +117,7 @@ focus keyword:
 
 write content with a professional tone, and decide what person to write in, 1st - I, 2nd - You, 3rd He/She/Them
 
-
+(1) H1, (3 - 5) H2, and up to 10 H3
 
 Absolutely, improving your website's performance on Search Engine Results Pages (SERPs) is a crucial aspect of SEO. Here are some strategies to enhance your SERP visibility for your commercial drone pilot services in Nashville using cost-effective methods:
 
