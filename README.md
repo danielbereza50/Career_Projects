@@ -8,6 +8,7 @@ core files can be downloaded here:
 
 https://wordpress.org/
 
+admin url: https://domain.com/wp-admin
 
 1. Prepare the wp-content folder and SQL file:
 
