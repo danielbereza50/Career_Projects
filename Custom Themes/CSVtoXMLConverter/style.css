@@ -1,0 +1,274 @@
+/* 
+    Theme Name: Custom Theme - Company
+    Theme URI: https://domain.com/
+    Version: 100.0.0
+    Description: Custom Theme for Name
+    Author: Company
+    Author URI: https://domain.com/
+*/
+
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 50px;
+	font-family: 'Arial', Regular;
+	color: #3b3b3b;
+}
+body,
+html {
+	height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+	color: black;
+	text-decoration: none
+}
+ul {
+	/*list-style-type: none;*/
+	margin: 0px 20px 0px 0px;
+}
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('/wp-content/themes/incident/public/images/ajax.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .modal {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+/* CSS for CSV form container */
+.csv-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh; /* Adjust as needed */
+}
+
+/* CSS for CSV form wrapper */
+.csv-form-wrapper {
+	width:100%;
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* CSS for CSV form item */
+.csv-form-item {
+    margin-bottom: 20px;
+}
+
+/* CSS for file input */
+.csv-form-item input[type="file"] {
+    border: 1px solid #ced4da; /* Gray border */
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* CSS for submit button */
+.csv-form-item button[type="submit"] {
+	margin-top: 20px;
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for submit button */
+.csv-form-item button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+.xml-form-container {
+    margin: 20px 0;
+}
+
+.xml-form-wrapper {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.xml-form-item {
+    margin-bottom: 10px;
+}
+
+.xml-form-item input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.xml-form-item button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.xml-form-item button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#upload-status {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#xml-drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#xml-drop-area.drag-over {
+    background-color: #f0f0f0;
+}
+
+#xml-drop-area p {
+    margin: 0;
+}
+
+#upload-status {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Form Container Styles */
+.csv-form-container,
+.xml-form-container,
+.sync-form-container {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Item Styles */
+.csv-form-item,
+.xml-form-item,
+.sync-form-item {
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+input[type="file"],
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Download Button Styles */
+#downloadButton {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: white;
+}
+
+#downloadButton:hover {
+    background-color: #005f79;
+}
+.xml-container,
+.sync-container,
+.download-container{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:980px){
+	
+	
+}
+@media screen and (max-width:768px){
+	
+	
+}

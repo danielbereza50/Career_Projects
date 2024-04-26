@@ -1,0 +1,2 @@
+IncidentNumber,CallType,CallDateTime,CloseDateTime,NatureOfCall,CommonName,CallAddress,HouseNumber,StreetPrefix,StreetPreType,StreetName,StreetType,StreetSuffix,Apt,VenueName,CrossStreets,LocationInfo,StationCode,StationName,MutualAid
+2023-00004496,DummyIntoxicated,10/1/2023 12:00:00 AM,10/1/2023 1:00:00 AM,DummyCallNature,DummyCommonName,DummyAddress,123,,,DummyStreet,DummyStreetType,,,DummyVenue,DummyCrossStreets,,DummyStationCode,DummyStationName,DummyMutualAid
