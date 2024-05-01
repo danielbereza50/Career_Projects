@@ -1,3 +1,6 @@
+In the sentence "Festival starts this Saturday Rain or Shine," "Circus" and "Saturday" should have uppercase letters because they are proper nouns, while "starts," "this," "Rain," and "Shine" should be lowercase because they are common nouns or adjectives. So it would look best as: "Circus starts this Saturday rain or shine."
+
+
 https://www.google.com/business/
 
 https://ads.google.com/home/
