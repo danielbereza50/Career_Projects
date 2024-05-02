@@ -870,6 +870,7 @@ How to:
 * https://www.docfly.com/pdf-form-creator
 * https://www.figma.com/
 * https://www.photopea.com/
+* https://cleanup.pictures/
 * https://wellsaidlabs.com/
 * https://fonts.google.com/
 * https://products.aspose.app/cells/conversion/sql-to-excel
