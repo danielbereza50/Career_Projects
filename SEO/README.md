@@ -160,6 +160,14 @@ Absolutely, improving your website's performance on Search Engine Results Pages 
 Remember, SEO is an ongoing process, and it's important to be patient as you implement these strategies. By focusing on optimizing your website for SERPs using these cost-effective methods, you can improve your online visibility and attract more relevant traffic to your commercial drone pilot services in Nashville.
 
     https://domain.site/sitemap_index.xml
+
+    example:
+
+    https://domain.site/post-sitemap.xml	
+    https://domain.site/page-sitemap.xml	
+    https://domain.site/story-sitemap.xml	
+    https://domain.site/play_script-sitemap.xml	
+    https://domain.site/category-sitemap.xml
     
     Right-click on the link to the XML file you want to download.
     
