@@ -12,7 +12,7 @@ function generate_random_code($length) {
 
 function include_config_file() {
     // Define the absolute path to the config.php file
-    $configAbsolutePath = '/home/wp_tqh7mk/config.php';
+    $configAbsolutePath = '/home/{user}/config.php';
 
     // Check if the config.php file exists
     if (file_exists($configAbsolutePath)) {
