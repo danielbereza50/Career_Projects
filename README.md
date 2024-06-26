@@ -31,7 +31,7 @@ https://www.linkedin.com/in/daniel-bereza/
 
 https://twitter.com/DanielBereza
 
-https://www.fiverr.com/users/danielbereza50/
+https://www.alignable.com/new-baltimore-mi/212-creative-llc
 
 
 
@@ -42,11 +42,9 @@ Job Boards:
 
 https://my.indeed.com/p/danielb-jgqr24p
 
-https://www.alignable.com/new-baltimore-mi/212-creative-llc
+https://www.upwork.com/freelancers/~0155dbe4789a85f616
 
-
-
-
+https://www.fiverr.com/users/danielbereza50/
 
 
 
