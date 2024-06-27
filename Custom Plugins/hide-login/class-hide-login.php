@@ -2,7 +2,7 @@
 
 class Custom_Hide_Login {
 
-    private $login_slug = 'playaloud-login';
+    private $login_slug = 'custom-login';
 
     public function __construct() {
         add_filter( 'login_url', [ $this, 'custom_login_url' ], 10, 3 );
