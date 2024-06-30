@@ -31,7 +31,7 @@ https://www.linkedin.com/in/daniel-bereza/
 
 https://twitter.com/DanielBereza
 
-https://www.alignable.com/new-baltimore-mi/212-creative-llc
+https://www.alignable.com/hartford-ct/daniel-bereza-2
 
 https://www.youtube.com/channel/UC_EvRpft1xnCek93bREtoEA
 
