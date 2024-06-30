@@ -1,0 +1,27 @@
+
+https://login.authorize.net/?cobrand=anet&sub=logout
+
+User: musicachuck
+
+Pass:  Sbcc1213!!
+
+
+
+
+renewing membership
+
+
+Live API Login ID:
+
+2Tj7x8NL5Y
+
+
+
+Live Transaction Key:
+
+89Y33yS7f4k3BkX7
+
+
+Signature Key:
+
+B68AA01CE23244516851CF87A18B46890A07107B61BE3FDDD6BC8A168306CA2DDA2A2A44C9FCC7A1B6E61F64F69C40B46D55733048D7F27AE9E510445D852331
