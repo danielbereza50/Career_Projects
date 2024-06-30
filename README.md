@@ -31,7 +31,7 @@ https://www.linkedin.com/in/daniel-bereza/
 
 https://twitter.com/DanielBereza
 
-https://www.alignable.com/hartford-ct/daniel-bereza-2
+
 
 https://www.youtube.com/channel/UC_EvRpft1xnCek93bREtoEA
 
@@ -40,6 +40,8 @@ https://www.youtube.com/channel/UC_EvRpft1xnCek93bREtoEA
 <hr>
 
 Job Boards: 
+
+https://www.alignable.com/hartford-ct/daniel-bereza-2
 
 https://my.indeed.com/p/danielb-jgqr24p
 
