@@ -1,0 +1,48 @@
+
+
+Q1.
+
+500: Internal server error
+
+This error is generated when a script running on the server could not be implemented or permissions are incorrectly assigned for files or directories
+
+Troubleshooting suggestions:
+
+Temporarily disable any rewrite rules by renaming your .htaccess file if it exists.
+
+Ensure that any CGI or Perl scripts have at least .755. permissions.
+
+If trying to run PHP and you get this error, you may have an invalid php.ini in your /cgi-bin, or may be missing your php.dat file in this folder.
+
+A1. Update PHP version on server
+
+
+
+
+Q2.
+
+However, on server all images you have added are in .webp format
+Can you try reseting permalinks please?
+
+
+A2.
+
+I'll create a redirect in nginx for the directory sb-twitter-feed-images/ to redirect the jpg calls to webp
+
+There must be a code provided by the plugin itself which is converting - if there is not, I'll try making one on my end
+
+location /sb-twitter-feed-images/ { rewrite ^(.*)\.jpg$ $1.webp redirect; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
