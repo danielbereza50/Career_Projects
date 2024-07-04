@@ -37,11 +37,51 @@ location /sb-twitter-feed-images/ { rewrite ^(.*)\.jpg$ $1.webp redirect; }
 
 
 
+Q3. 
+
+
+Fatal error: Uncaught TypeError: S_Shortcodes::s_shortcode_handler(): Argument #1 ($content) must be of type string, array given, called in /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php on line 433 and defined in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/scommerce/includes/class-shortcodes.php on line 21
+
+Stack trace:
+#0 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(433): S_Shortcodes->s_shortcode_handler(Array, '', 's_cart')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Applications/MAMP/htdocs/wordpress/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(s_cart...', 'do_shortcode_ta...', '[s_cart]\n')
+#3 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): do_shortcode('[s_cart]\n')
+#4 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[s_cart]\n', Array)
+#5 /Applications/MAMP/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '[s_cart]')
+#6 /Applications/MAMP/htdocs/wordpress/wp-content/themes/astra/template-parts/single/content-header.php(37): the_content()
+#7 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(812): require('/Applications/M...')
+#8 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(745): load_template('/Applications/M...', false, Array)
+#9 /Applications/MAMP/htdocs/wordpress/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#10 /Applications/MAMP/htdocs/wordpress/wp-content/themes/astra/inc/template-parts.php(376): get_template_part('template-parts/...')
+#11 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): astra_entry_content_single_page_template('')
+#12 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#13 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#14 /Applications/MAMP/htdocs/wordpress/wp-content/themes/astra/inc/core/theme-hooks.php(452): do_action('astra_entry_con...')
+#15 /Applications/MAMP/htdocs/wordpress/wp-content/themes/astra/template-parts/content-page.php(26): astra_entry_content_single_page()
+#16 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(812): require('/Applications/M...')
+#17 /Applications/MAMP/htdocs/wordpress/wp-includes/template.php(745): load_template('/Applications/M...', false, Array)
+#18 /Applications/MAMP/htdocs/wordpress/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#19 /Applications/MAMP/htdocs/wordpress/wp-content/themes/astra/inc/class-astra-loop.php(111): get_template_part('template-parts/...', 'page')
+#20 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): Astra_Loop->template_parts_page('')
+#21 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#22 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#23 /Applications/MAMP/htdocs/wordpress/wp-content/themes/astra/inc/class-astra-loop.php(199): do_action('astra_page_temp...')
+#24 /Applications/MAMP/htdocs/wordpress/wp-content/themes/astra/inc/class-astra-loop.php(176): Astra_Loop->loop_markup(true)
+#25 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(324): Astra_Loop->loop_markup_page('')
+#26 /Applications/MAMP/htdocs/wordpress/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#27 /Applications/MAMP/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#28 /Applications/MAMP/htdocs/wordpress/wp-content/themes/astra/inc/core/theme-hooks.php(267): do_action('astra_content_p...')
+#29 /Applications/MAMP/htdocs/wordpress/wp-content/themes/astra/page.php(32): astra_content_page_loop()
+#30 /Applications/MAMP/htdocs/wordpress/wp-includes/template-loader.php(106): include('/Applications/M...')
+#31 /Applications/MAMP/htdocs/wordpress/wp-blog-header.php(19): require_once('/Applications/M...')
+#32 /Applications/MAMP/htdocs/wordpress/index.php(17): require('/Applications/M...')
+#33 {main} thrown in /Applications/MAMP/htdocs/wordpress/wp-content/plugins/scommerce/includes/class-shortcodes.php on line 21
 
 
 
 
-
+A3. Start at top line and get to bottom
 
 
 
