@@ -1,5 +1,41 @@
 
 
+PHP:
+
+// Current date
+	$currentDate = new DateTime();
+
+	// Get the current year
+	$currentYear = $currentDate->format('Y');
+
+	// Start date of Spring Semester (December of previous year)
+	$springSemesterStart = new DateTime(($currentYear - 1) . '-12-01');
+	$springSemesterEnd = new DateTime($currentYear . '-02-01');
+
+	// Start date of Summer Semester
+	$summerSemesterStart = new DateTime($currentYear . '-04-01');
+	$summerSemesterEnd = new DateTime($currentYear . '-06-30');
+
+	// Start date of Fall Semester
+	$fallSemesterStart = new DateTime($currentYear . '-07-01');
+	$fallSemesterEnd = new DateTime($currentYear . '-09-01');
+	
+	
+	// Determine the upcoming semester
+	if ($currentDate < $springSemesterStart) {
+		$upcomingSemester = 'Spring Semester: December 1, ' . ($currentYear - 1) . ' - February 1, ' . $currentYear;
+	} elseif ($currentDate < $summerSemesterStart) {
+		$upcomingSemester = 'Summer Semester: April 1, ' . $currentYear . ' - June 30, ' . $currentYear;
+	} elseif ($currentDate < $fallSemesterStart) {
+		$upcomingSemester = 'Fall Semester: July 1, ' . $currentYear . ' - September 1, ' . $currentYear;
+	} else {
+		$upcomingSemester = 'Spring Semester: December 1, ' . $currentYear . ' - February 1, ' . ($currentYear + 1);
+	}
+
+
+
+
+
 
 Seasonal site changes:
 
