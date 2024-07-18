@@ -1,4 +1,7 @@
 
+https://www.lightxeditor.com/photo-editing/ai-portrait/
+
+
 https://tech-lagoon.com/imagechef/en/white-to-transparent.html
 
 Great article on modern web design:
