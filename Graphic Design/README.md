@@ -3,7 +3,7 @@ portrait:
 https://www.lightxeditor.com/photo-editing/ai-portrait/
 
 
-logo generator
+logo generator:
 https://www.design.com/ai-logo-generator
 
 
