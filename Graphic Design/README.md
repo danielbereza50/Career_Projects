@@ -1,5 +1,11 @@
 
+portrait:
 https://www.lightxeditor.com/photo-editing/ai-portrait/
+
+
+logo generator
+https://www.design.com/ai-logo-generator
+
 
 
 https://tech-lagoon.com/imagechef/en/white-to-transparent.html
