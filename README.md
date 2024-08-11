@@ -10,9 +10,12 @@ npx create-react-app ticket-network
 cd ticket-network
 npm start                          
 
+OR
+
 
 cd /Applications/MAMP/htdocs/ticket-network
 npm start 
+
 
 
 Home url: http://localhost:5000/
