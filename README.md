@@ -10,7 +10,7 @@ Just React.js:
 
 cd /Applications/MAMP/htdocs  
 
-npx create-react-app ticket-network
+npx create-react-app react-web-form
 
 cd ticket-network
 
@@ -19,11 +19,11 @@ npm start
 OR
 
 
-cd /Applications/MAMP/htdocs/ticket-network/
+cd /Applications/MAMP/htdocs/react-web-form/
 
 npm start
 
-cd /Applications/MAMP/htdocs/ticket-network/server
+cd /Applications/MAMP/htdocs/react-web-form/server
 
 node server.js
 
