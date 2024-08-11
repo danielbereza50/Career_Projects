@@ -21,10 +21,17 @@ npm start
 
 
 
+cd /Applications/MAMP/htdocs/ticket-network/
+npm start
+
+cd /Applications/MAMP/htdocs/ticket-network/server
+node server.js
+
+
+
 Home url: http://localhost:5000/
 
 Pages are "components"
-
 
 
 1. Install Node.js and npm on your Mac.
