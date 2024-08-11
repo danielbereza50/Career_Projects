@@ -54,3 +54,16 @@ https://www.freelancer.com/u/danielbereza24
 https://www.ziprecruiter.com/profile/
 
 
+
+<hr>
+
+Calendar meeting links:
+
+https://calendar.google.com/calendar/u/0/r
+
+https://calendly.com/danielbereza50
+
+
+
+
+
