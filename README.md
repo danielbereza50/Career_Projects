@@ -2,6 +2,19 @@
 A portfolio of past projects, build instructions and platforms are specified at the start of each branch in order to ensure proper compilation.  Everything is situated within its proper branch which is accessed through the drop down.   
 
 
+Just React.js:
+
+cd /Applications/MAMP/htdocs  
+npx create-react-app ticket-network
+
+cd ticket-network
+npm start                          
+
+
+cd /Applications/MAMP/htdocs/ticket-network
+npm start 
+
+
 Home url: http://localhost:5000/
 
 Pages are "components"
