@@ -5,15 +5,18 @@ A portfolio of past projects, build instructions and platforms are specified at 
 Just React.js:
 
 cd /Applications/MAMP/htdocs  
+
 npx create-react-app ticket-network
 
 cd ticket-network
+
 npm start                          
 
 OR
 
 
 cd /Applications/MAMP/htdocs/ticket-network
+
 npm start 
 
 
