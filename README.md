@@ -15,12 +15,6 @@ npm start
 OR
 
 
-cd /Applications/MAMP/htdocs/ticket-network
-
-npm start 
-
-
-
 cd /Applications/MAMP/htdocs/ticket-network/
 
 npm start
