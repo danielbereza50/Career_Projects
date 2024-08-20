@@ -86,3 +86,16 @@ A3. Start at top line and get to bottom
 
 
 
+
+
+
+/home/wp_tqh7mk/playaloudorg.stage.site
+
+.user.ini
+
+
+max_execution_time = 300
+max_input_time = -1
+
+
+
