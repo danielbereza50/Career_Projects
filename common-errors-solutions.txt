@@ -86,16 +86,3 @@ A3. Start at top line and get to bottom
 
 
 
-
-https://help.dreamhost.com/hc/en-us/articles/115002582932-Customizing-your-PHP-settings-with-DreamPress
-
-/home/wp_tqh7mk/playaloudorg.stage.site
-
-.user.ini
-
-
-max_execution_time = 300
-max_input_time = -1
-
-
-
