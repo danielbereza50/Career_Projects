@@ -6,7 +6,7 @@ $html .= '<div class = "calculator-container">';
 
 	$html .= '<div class = "calculator-top">
 				<div class = "calculator-top-item top-text"><span>Contractor Employee Cost Comparison Calculator</span></div>
-				<div class = "calculator-top-item top-image"><img src="/wp-content/plugins/contractor-calculator/public/images/ATS-logo-transparent.webp" alt="" width="100%"> </div>
+				<div class = "calculator-top-item top-image"><img src="/wp-content/plugins/contractor-calculator/public/images/" alt="" width="100%"> </div>
 			</div>';
 
 
