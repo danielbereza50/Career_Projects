@@ -164,6 +164,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
  	development:
 	https://chat.openai.com/chat
+ 	https://claude.ai/
 
 
  	design: 
