@@ -21,10 +21,10 @@
     <add key="MM_CONNECTION_DATABASETYPE_connNCTA" value="OleDb" />
     <add key="MM_CONNECTION_SCHEMA_connNCTA" value="" />
     <add key="MM_CONNECTION_CATALOG_connNCTA" value="" />
-    <add key="WebXelUploadLiteRegEmail" value="jeff@jeffpblues.com" />
-    <add key="WebXelUploadLiteRegKey" value="4uwN1pGb6/zYxXQXnbi4dh0TG2eO/vBK" />
-    <add key="WebXelAuthenticationRegEmail" value="jeff@jeffpblues.com" />
-    <add key="WebXelAuthenticationRegKey" value="YINi82RuUd775kgp+FRbw7/BgwhJ8gaM" />
+    <add key="WebXelUploadLiteRegEmail" value="" />
+    <add key="WebXelUploadLiteRegKey" value="" />
+    <add key="WebXelAuthenticationRegEmail" value="" />
+    <add key="WebXelAuthenticationRegKey" value="" />
   </appSettings>
   <system.web>
     <customErrors mode="Off" />
