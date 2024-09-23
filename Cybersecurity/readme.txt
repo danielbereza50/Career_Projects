@@ -213,5 +213,23 @@ By implementing these server-side security measures, you can significantly enhan
 
 
 
+troubleshooting
+
+
+SELECT * FROM wp_options WHERE option_value LIKE '%base64_decode%';
+
+
+
+Files like index.php, .htaccess, wp-config.php (for WordPress), or main scripts are common targets for malware injection.
+
+
+
+
+
+
+
+
+
+
 
 
