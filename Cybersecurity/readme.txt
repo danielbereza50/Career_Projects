@@ -215,6 +215,8 @@ By implementing these server-side security measures, you can significantly enhan
 
 troubleshooting
 
+https://blog.sucuri.net/2021/12/php-re-infectors-the-malware-that-keeps-on-giving.html
+
 
 SELECT * FROM wp_options WHERE option_value LIKE '%base64_decode%';
 
