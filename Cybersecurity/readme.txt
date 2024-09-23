@@ -215,6 +215,9 @@ By implementing these server-side security measures, you can significantly enhan
 
 troubleshooting
 
+
+* Change app and server pws
+
 https://blog.sucuri.net/2021/12/php-re-infectors-the-malware-that-keeps-on-giving.html
 
 
