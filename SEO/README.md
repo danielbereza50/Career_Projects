@@ -183,6 +183,6 @@ Remember, SEO is an ongoing process, and it's important to be patient as you imp
     using a Content Delivery Network (CDN) to reduce load times. Accessibility best practices include using semantic HTML, 
     providing alt text for images, ensuring keyboard navigation, maintaining sufficient color contrast, and 
     using ARIA roles for screen readers. For SEO, optimize title tags, meta descriptions, and URLs, use responsive design, 
-    implement structured data (schema markup), create high-quality content, and ensure secure connections with HTTPS. 
+    implement structured data (schema markup like e.g., JSON-LD), create high-quality content, and ensure secure connections with HTTPS. 
     These practices enhance user experience, broaden accessibility, and improve search engine rankings.
 
