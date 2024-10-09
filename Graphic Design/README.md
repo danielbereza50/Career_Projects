@@ -146,3 +146,18 @@ Prototype:
 
 
 
+
+    Low-Fidelity: Focus on structure and layout (wireframes).
+    Mid-Fidelity: Add basic styling and interactivity (mockups).
+    High-Fidelity: Full visual details and interactive elements (polished prototype).
+    Development: Translate designs into code and build the live website.
+    Testing: Optimize and refine before launch.
+
+
+
+
+
+
+
+    
+
