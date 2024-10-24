@@ -230,7 +230,22 @@ Files like index.php, .htaccess, wp-config.php (for WordPress), or main scripts 
 
 
 
+SELECT * FROM wpeh_options 
+WHERE option_value LIKE '%<script%' 
+   OR option_value LIKE '%eval(%' 
+   OR option_value LIKE '%base64_decode%' 
+   OR option_value LIKE '%iframe%' 
+   OR option_value LIKE '%javascript:%';
 
+
+
+
+SELECT * FROM wpeh_posts 
+WHERE post_content LIKE '%<script%' 
+   OR post_content LIKE '%eval(%' 
+   OR post_content LIKE '%base64_decode%' 
+   OR post_content LIKE '%iframe%' 
+   OR post_content LIKE '%javascript:%';
 
 
 
