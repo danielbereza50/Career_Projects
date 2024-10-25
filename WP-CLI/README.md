@@ -2,6 +2,17 @@
 A portfolio of past projects, build instructions and platforms are specified at the start of each branch in order to ensure proper compilation.  Everything is situated within its proper branch which is accessed through the drop down.
 
 
+    cron command Unix
+    
+    execute logic every 3 days
+    
+    Minute 	Hour 	Day 	Month 	Weekday 	Command 	Actions
+    * 	* 	*/3 	* 	* 	/usr/local/bin/php /home/user_name/public_html/users/cron/remind_user_of_app.php 	
+        
+
+
+
+
 created these directories on my machine:
 
 1.
