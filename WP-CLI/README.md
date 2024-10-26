@@ -4,7 +4,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
     cron command Unix-like system (such as Linux or macOS)
     
-    execute logic every 3 days
+    execute logic every day
     
     Minute 	Hour 	Day 	Month 	Weekday 	Command 	Actions
      0 	     0 	* 	* 	* 	/usr/local/bin/php /home/user_name/public_html/users/cron/remind_user_of_app.php 	
