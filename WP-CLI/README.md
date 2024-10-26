@@ -7,7 +7,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
     execute logic every 3 days
     
     Minute 	Hour 	Day 	Month 	Weekday 	Command 	Actions
-    * 	* 	*/3 	* 	* 	/usr/local/bin/php /home/user_name/public_html/users/cron/remind_user_of_app.php 	
+     0 	     0 	* 	* 	* 	/usr/local/bin/php /home/user_name/public_html/users/cron/remind_user_of_app.php 	
         
 
 
