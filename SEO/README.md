@@ -192,46 +192,46 @@ Remember, SEO is an ongoing process, and it's important to be patient as you imp
     
     https://developers.google.com/search/docs/appearance/structured-data
 
-<!-- Schema Markup for LocalBusiness -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Sample Home Services",
-  "description": "Expert home services including cleaning, repairs, and installations.",
-  "url": "https://www.samplehomeservices.com",
-  "logo": "https://www.samplehomeservices.com/images/logo.png",
-  "telephone": "+1-555-555-5555",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1234 Sample St",
-    "addressLocality": "Sample City",
-    "addressRegion": "CA",
-    "postalCode": "90210",
-    "addressCountry": "US"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "34.052235",
-    "longitude": "-118.243683"
-  },
-  "openingHours": "Mo,Tu,We,Th,Fr 08:00-18:00",
-  "image": "https://www.samplehomeservices.com/images/business-photo.png",
-  "priceRange": "$$",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+1-555-555-5555",
-    "contactType": "Customer Service",
-    "areaServed": "US",
-    "availableLanguage": ["English", "Spanish"]
-  },
-  "sameAs": [
-    "https://www.facebook.com/samplehomeservices",
-    "https://www.twitter.com/samplehomeservices",
-    "https://www.instagram.com/samplehomeservices"
-  ]
-}
-</script>
+    <!-- Schema Markup for LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Sample Home Services",
+      "description": "Expert home services including cleaning, repairs, and installations.",
+      "url": "https://www.samplehomeservices.com",
+      "logo": "https://www.samplehomeservices.com/images/logo.png",
+      "telephone": "+1-555-555-5555",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1234 Sample St",
+        "addressLocality": "Sample City",
+        "addressRegion": "CA",
+        "postalCode": "90210",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "34.052235",
+        "longitude": "-118.243683"
+      },
+      "openingHours": "Mo,Tu,We,Th,Fr 08:00-18:00",
+      "image": "https://www.samplehomeservices.com/images/business-photo.png",
+      "priceRange": "$$",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-555-555-5555",
+        "contactType": "Customer Service",
+        "areaServed": "US",
+        "availableLanguage": ["English", "Spanish"]
+      },
+      "sameAs": [
+        "https://www.facebook.com/samplehomeservices",
+        "https://www.twitter.com/samplehomeservices",
+        "https://www.instagram.com/samplehomeservices"
+      ]
+    }
+    </script>
 
 
     page speed audit:
