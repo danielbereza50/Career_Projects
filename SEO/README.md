@@ -206,5 +206,8 @@ Remember, SEO is an ongoing process, and it's important to be patient as you imp
     analytics:  
     https://analytics.google.com/analytics/web/
 
+      - mark-up up the product / service, each page has $ value
+    >  Pages and screens: Page title and screen class 
+
     
 
