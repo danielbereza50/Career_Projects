@@ -192,6 +192,8 @@ Remember, SEO is an ongoing process, and it's important to be patient as you imp
     
     https://developers.google.com/search/docs/appearance/structured-data
 
+    https://technicalseo.com/tools/schema-markup-generator/
+
     <!-- Schema Markup for LocalBusiness -->
     <script type="application/ld+json">
     {
