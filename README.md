@@ -21,7 +21,8 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 
 	commone ports for 
-	
+	ID: root
+ 	pw: ???
 	cpanel : https://domain.com/2083
 	WHM : https://domain.com/2087
 
