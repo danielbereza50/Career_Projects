@@ -212,46 +212,97 @@ Remember, SEO is an ongoing process, and it's important to be patient as you imp
     - website
 
 
-    <!-- Schema Markup for LocalBusiness -->
-    <script type="application/ld+json">
+      <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Sample Home Services",
-      "description": "Expert home services including cleaning, repairs, and installations.",
-      "url": "https://www.samplehomeservices.com",
-      "logo": "https://www.samplehomeservices.com/images/logo.png",
-      "telephone": "+1-555-555-5555",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "1234 Sample St",
-        "addressLocality": "Sample City",
-        "addressRegion": "CA",
-        "postalCode": "90210",
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "34.052235",
-        "longitude": "-118.243683"
-      },
-      "openingHours": "Mo,Tu,We,Th,Fr 08:00-18:00",
-      "image": "https://www.samplehomeservices.com/images/business-photo.png",
-      "priceRange": "$$",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+1-555-555-5555",
-        "contactType": "Customer Service",
-        "areaServed": "US",
-        "availableLanguage": ["English", "Spanish"]
-      },
-      "sameAs": [
-        "https://www.facebook.com/samplehomeservices",
-        "https://www.twitter.com/samplehomeservices",
-        "https://www.instagram.com/samplehomeservices"
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "name": "Sample Business",
+          "description": "Sample description for a business offering various services.",
+          "url": "https://www.samplebusiness.com",
+          "logo": "https://www.samplebusiness.com/img/sample-logo.png",
+          "telephone": "+1-123-456-7890",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Sample St",
+            "addressLocality": "Sample City",
+            "addressRegion": "SC",
+            "postalCode": "12345",
+            "addressCountry": "US"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "12.345678",
+            "longitude": "-98.765432"
+          },
+          "openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+          "image": "https://www.samplebusiness.com/img/sample-logo.png"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.samplebusiness.com"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Services",
+              "item": "https://www.samplebusiness.com/services"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Premium Service"
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "name": "Sample Business",
+          "url": "https://www.samplebusiness.com",
+          "logo": "https://www.samplebusiness.com/img/sample-logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-123-456-7890",
+            "contactType": "Customer Service",
+            "areaServed": "US",
+            "availableLanguage": "en"
+          },
+          "sameAs": [
+            "https://www.facebook.com/samplebusiness",
+            "https://www.instagram.com/samplebusiness"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "url": "https://www.samplebusiness.com",
+          "name": "Sample Business",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.samplebusiness.com/search?query={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Jane Doe",
+          "jobTitle": "Founder",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Sample Business"
+          }
+        }
       ]
     }
     </script>
+
+
+
 
 
     page speed audit:
