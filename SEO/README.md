@@ -203,5 +203,8 @@ Remember, SEO is an ongoing process, and it's important to be patient as you imp
     https://tagmanager.google.com/#/home
 
 
+    analytics:  
+    https://analytics.google.com/analytics/web/
+
     
 
