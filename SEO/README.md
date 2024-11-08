@@ -194,6 +194,8 @@ Remember, SEO is an ongoing process, and it's important to be patient as you imp
 
     https://technicalseo.com/tools/schema-markup-generator/
 
+
+    // I see Local Business schema. Maybe Breadcrumb, Organization, Person and Website makes sense for now?
     types of schema:
     - article
     - breadcrumb
