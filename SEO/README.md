@@ -194,6 +194,22 @@ Remember, SEO is an ongoing process, and it's important to be patient as you imp
 
     https://technicalseo.com/tools/schema-markup-generator/
 
+    types of schema:
+    - article
+    - breadcrumb
+    - event
+    - faq page
+    - how to 
+    - job posting
+    - local business
+    - organization
+    - person
+    - product
+    - recipe
+    - video 
+    - website
+
+
     <!-- Schema Markup for LocalBusiness -->
     <script type="application/ld+json">
     {
