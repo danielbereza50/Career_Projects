@@ -186,3 +186,22 @@ Remember, SEO is an ongoing process, and it's important to be patient as you imp
     implement structured data (schema markup like e.g., JSON-LD), create high-quality content, and ensure secure connections with HTTPS. 
     These practices enhance user experience, broaden accessibility, and improve search engine rankings.
 
+
+
+    Scheme Data audit:
+    
+    https://developers.google.com/search/docs/appearance/structured-data
+
+
+    page speed audit:
+    
+    https://developers.google.com/speed/pagespeed/insights/
+
+
+    tag manager:
+
+    https://tagmanager.google.com/#/home
+
+
+    
+
