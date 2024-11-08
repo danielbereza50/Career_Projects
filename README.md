@@ -20,6 +20,12 @@ A portfolio of past projects, build instructions and platforms are specified at 
 	db name: 4444
 
 
+	commone ports for 
+	
+	cpanel : https://domain.com/2083
+	WHM : https://domain.com/2087
+
+
 
 <div><b>Full Stack Engineer (MAMP, WAMP, LAMP 64 bit architecture) - WordPress</b></div>
 <br>
