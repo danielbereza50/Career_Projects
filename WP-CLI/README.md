@@ -166,6 +166,15 @@ Siteground Walkthrough
        -  ssh-add desktop/private-key.txt    
 
     4. ssh USER@HOST_NAME -pPORT
+
+    
+    ssh -i ~/Desktop/dummy_key.pem -p 12345 dummy_user@ssh.dummyhost.com
+    
+    Enter passphrase for key '/Users/dummyuser/Desktop/dummy_key.pem':
+    
+    mysql -u dummy_db_user -p -h localhost dummy_database < dummy_db_backup.sql
+
+
   
 
     ANOTHER WAY:
