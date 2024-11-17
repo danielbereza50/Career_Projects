@@ -249,7 +249,17 @@ WHERE post_content LIKE '%<script%'
 
 
 
+way users can Spoof their IP address:
 
+
+1. Proxy Server
+https://smartproxy.com/
+https://smartproxy.com/configuration/how-to-setup-proxy-on-firefox-browser
+
+
+
+2. VPN
+https://www.expressvpn.com/
 
 
 
