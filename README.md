@@ -34,6 +34,8 @@ A portfolio of past projects, build instructions and platforms are specified at 
 <div>Mac, Windows, Linux</div>
 <br>
 
+	https://whatismyipaddress.com/
+
 	Responsive email markup:
 
 	 // Get cart contents HTML using WooCommerce functions
