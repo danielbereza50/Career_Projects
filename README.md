@@ -849,6 +849,7 @@ How to:
 * https://loremipsum.io/
 * https://smallpdf.com/edit-pdf
 * https://www.sejda.com/sign-pdf
+* https://www.sejda.com/pdf-forms
 * https://products.aspose.app/words/replace/pdf
 * https://zapier.com/
 * https://vimeo.com/
