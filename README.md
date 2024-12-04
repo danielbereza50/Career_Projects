@@ -679,7 +679,15 @@ Import resources via CDN examples:
 	/// Fancybox Script
 	wp_enqueue_script( 'bootstrap-script-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js', array(), '3.5.7', true );
 	
-	
+	 // Enqueue Slick JavaScript from CDN
+    wp_enqueue_script('slick-js', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js', array('jquery'), '1.8.1', true);
+
+    // Enqueue Slick Theme CSS from CDN
+    wp_enqueue_style('slick-theme-css', 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css', array(), '1.8.1');
+
+
+
+ 
 	***Download any here:
 
 	https://cdnjs.com/libraries
