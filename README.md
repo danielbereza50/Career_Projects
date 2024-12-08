@@ -36,6 +36,8 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 	https://whatismyipaddress.com/
 
+ 	https://www.whynopadlock.com/
+
 	Responsive email markup:
 
 	 // Get cart contents HTML using WooCommerce functions
