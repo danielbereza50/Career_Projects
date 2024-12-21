@@ -17,3 +17,15 @@ https://www.wix.com/website/templates/html/blank
 App Marketplace:
 
 https://www.wix.com/app-market/
+
+
+
+
+https://www.weebly.com/
+Weebly to Wix
+
+https://next-cart.com/product/weebly-to-wix/
+https://litextension.com/wix-migration/weebly-to-wix-migration.html#ju-scroll_
+
+
+
