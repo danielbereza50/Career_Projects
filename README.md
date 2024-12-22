@@ -3,7 +3,7 @@ A portfolio of past projects, build instructions and platforms are specified at 
 
 
     https://danielbereza50.wixsite.com/my-site
-
+    https://danielbereza50.wixsite.com/my-site-1
 
     templates:
     
