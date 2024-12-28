@@ -1,5 +1,11 @@
 Information cited from here: https://backlinko.com/rank-high-on-google
 
+
+
+
+
+
+
 2 very import SEO metrices (Bounce Rate and Session Duration)
 
 Google Analytics 4:
@@ -40,9 +46,17 @@ https://sixads.net/blog/facebook-ads-cost/
 
 Google Ads Campaign: 
 
+https://ads.google.com/aw/
+
 https://ads.google.com/intl/en_us/getstarted/
 
 https://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost
+
+
+Google Merchant 
+
+
+https://merchants.google.com/mc/branding?a=xxx
 
 
 https://www.semrush.com
