@@ -318,6 +318,9 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 <div>AAAA, CNAME, MX, NS, SOA, and TXT</div>
 
 
+	
+	
+
        Host company A) registrar
        Host company B) hosting package 
 	
@@ -381,6 +384,22 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 	Other Samples:
 
  	john.doe@domain.com
+
+	gmail
+ 	
+	1 @ ASPMX.L.GOOGLE.COM 1 hour
+	
+	5 @ ALT1.ASPMX.L.GOOGLE.COM 1 hour
+	
+	5 @ ALT2.ASPMX.L.GOOGLE.COM 1 hour
+	
+	10 @ ALT3.ASPMX.L.GOOGLE.COM 1 hour
+	
+	10 @ ALT4.ASPMX.L.GOOGLE.COM 1 hour
+
+
+
+
 
 
 	If you ever need to verify that you are receiving emails, please check if your DNS settings match what's listed below.
