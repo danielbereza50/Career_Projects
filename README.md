@@ -406,7 +406,8 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 	domain.com.mail.protection.outlook.com.	3600	TXT	MS=ms000000
 	domain.com.mail.protection.outlook.com.	3600	TXT	v=spf1 include:spf.protection.outlook.com -all
 	autodiscover.domain.com	3600	CNAME	autodiscover.outlook.com
-
+	_sipfederationtls._tcp.domain.com.	Weight: 1 / Port: 443	SRV	sipdir.online.lync.om
+	_sip._tls.domain.com.	Weight: 1 / Port: 5061	SRV	sipdir.online.lync.om
 
 
 	If you ever need to verify that you are receiving emails, please check if your DNS settings match what's listed below.
