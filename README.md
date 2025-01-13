@@ -398,7 +398,14 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 	10 @ ALT4.ASPMX.L.GOOGLE.COM 1 hour
 
 
+	Microsoft
 
+	https://manage.accuwebhosting.com/knowledgebase/3798/How-to-setup-DNS-record-for-the-office-365-in-cPanel.html	
+ 
+	domain.com	300	MX	domain.com.mail.protection.outlook.com.
+	domain.com.mail.protection.outlook.com.	3600	TXT	MS=ms000000
+	domain.com.mail.protection.outlook.com.	3600	TXT	v=spf1 include:spf.protection.outlook.com -all
+	autodiscover.domain.com	3600	CNAME	autodiscover.outlook.com
 
 
 
