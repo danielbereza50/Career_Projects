@@ -146,6 +146,8 @@ A portfolio of past projects, build instructions and platforms are specified at 
 		b. flag
 
 
+	https://fonts.adobe.com/
+
 	Questions to ask yourself:
  	1. What can be imporved aesthetically?
          i.e.
@@ -438,6 +440,21 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 
 	* outlook has outgoing and incoming server ports to be set with mail.domain.com
  
+
+   htaccess server rules change 
+    # php -- BEGIN cPanel-generated handler, do not edit
+	# Set the “ea-php74” package as the default “PHP” programming language.
+	# <IfModule mime_module>
+	# AddHandler application/x-httpd-ea-php74___lsphp .php .php7 .phtml
+	# </IfModule>
+	# php -- END cPanel-generated handler, do not edit
+
+
+
+	<FilesMatch ".(php4|php5|php3|php2|php|phtml)$">
+	SetHandler application/x-httpd-alt-php74___lsphp
+	</FilesMatch>
+
 
 
     DNS Server examples:
