@@ -400,6 +400,29 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
 	10 @ ALT4.ASPMX.L.GOOGLE.COM 1 hour
 
 
+	domain.com. 
+
+
+	TXT
+	v=spf1 include:_spf.google.com ~all 
+
+
+	TXT
+
+	_dmarc.domain.com. 
+
+	v=DMARC1;p=none;sp=none;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400 
+
+	TXT
+
+	default._domainkey.domain.com. 
+
+	v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtrXupR2ezYOERSekWAPtS9JxARh3uXCkxJf9ENgd8uM56e8ATBOiXv6uIVyCB0zFszoxdouRJtKNInT67QDtDBO6YFY91k/CSu6QYpihoSJxfy/CM3+40E6pr0MZLhK0oinp9+s0xCaAQC88qR7CshKVWs2t1l+pssdrVac9zCmkkVH9L/OUBRppu45uxWdYJ
+	RlLbV66iDLBsCj9Ay6cVgWfQdn8bwdZWuAYGOrmzz+3BmwUJtk7FB911rmOnXcU9M9uxeQjsp3mlEhq7XgZwlX2G4XaW/gICIEJTxArJK6v8keq2GUEfEoW49wkH+NS9oofM7zIyRtcdByRpLeexQIDAQAB; 
+
+
+
+
 	Microsoft
 
 	https://manage.accuwebhosting.com/knowledgebase/3798/How-to-setup-DNS-record-for-the-office-365-in-cPanel.html	
