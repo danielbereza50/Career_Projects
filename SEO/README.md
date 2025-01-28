@@ -52,6 +52,15 @@ https://ads.google.com/intl/en_us/getstarted/
 
 https://www.wordstream.com/blog/ws/2015/05/21/how-much-does-adwords-cost
 
+https://www.ryrob.com/keyword-tool/
+
+https://ads.google.com/aw/keywordplanner/ideas/new
+
+
+top of page bid amount average for my focus keyword group, then x10 that 
+
+https://www.youtube.com/watch?v=OD5oOpCeglc
+
 
 Google Merchant 
 
@@ -61,8 +70,6 @@ https://merchants.google.com/mc/branding?a=xxx
 
 https://www.semrush.com
 
-
-https://www.ryrob.com/keyword-tool/
 
 
 
