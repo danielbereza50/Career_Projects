@@ -796,6 +796,19 @@ Relevant Links:
 * https://gtmetrix.com/
 * https://anywebp.com/convert-to-webp.html
 * https://www.nslookup.io/website-to-ip-lookup/
+* https://totheweb.com/learning_center/tools-convert-html-text-to-plain-text-for-content-review/
+
+
+	Check site status from before:
+
+	https://web.archive.org/
+
+	https://www.whatsmydns.net/#A/domain.com
+
+	https://geotargetly.com/geo-browse
+
+
+
 
 SEO links:
 
