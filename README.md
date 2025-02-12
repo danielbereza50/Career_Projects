@@ -624,6 +624,12 @@ https://www.jqueryscript.net/
 Payment Gateway Reminders:
 
 
+     // https://woocommerce.com/document/woopayments/testing-and-troubleshooting/testing/
+    // https://docs.stripe.com/testing
+   
+
+
+
   1. Verfication code needed for api credentials
   2. Required billing input fields on web form (map the following fields in a stream)
 
