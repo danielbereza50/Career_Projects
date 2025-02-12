@@ -366,7 +366,11 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
  	TXT 	
 	v=spf1 include:_spf.google.com ~all 
 	
- 
+
+ 	Email Routing
+	Local Mail Exchanger
+
+
 	Example MX Record:
 
 	Name
