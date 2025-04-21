@@ -5,6 +5,11 @@ https://www.google.com/business/
 
 https://ads.google.com/home/
 
+
+https://adsmanager.facebook.com/adsmanager/manage/campaigns?act=XXXXXX&selected_campaign_ids=XXXXXX&nav_source=business_manager
+
+
+
 Your Smart campaign isn't active
 Disapproval reason: type of service.
 
