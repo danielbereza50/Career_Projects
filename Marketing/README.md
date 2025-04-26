@@ -5,7 +5,7 @@ https://www.google.com/business/
 
 https://ads.google.com/home/
 
-
+https://merchants.google.com/
 
 https://www.submithub.com/
 
