@@ -157,14 +157,14 @@ Show your location, equipment and proof of management. Your video is only used f
 
 
 
-Record your business details
-Capture all 3 requirements in 1 continuous recording. Learn more about video verification.
-Show surrounding area such as street signs or neighboring businesses
-Your location should match the service area you entered
-Show business name printed on business card, license or vehicle
-Your business name should match the name you entered
-Show business equipment, booking system or unlock branded vehicle
-You need to show you're authorized to represent this business
+    Record your business details
+    Capture all 3 requirements in 1 continuous recording. Learn more about video verification.
+    Show surrounding area such as street signs or neighboring businesses
+    Your location should match the service area you entered
+    Show business name printed on business card, license or vehicle
+    Your business name should match the name you entered
+    Show business equipment, booking system or unlock branded vehicle
+    You need to show you're authorized to represent this business
 
 
 
