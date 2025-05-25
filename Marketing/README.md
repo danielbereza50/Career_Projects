@@ -146,10 +146,10 @@ https://blog.hubspot.com/marketing/youtube-seo
 
 
 
+https://www.vistaprint.com/business-cards/standard/templates?keyword=web%20agenecy
 
 google 'my business'
 
- 
 
 Business video
 Record a video of your business
@@ -165,6 +165,9 @@ Show business name printed on business card, license or vehicle
 Your business name should match the name you entered
 Show business equipment, booking system or unlock branded vehicle
 You need to show you're authorized to represent this business
+
+
+
 
 
 
