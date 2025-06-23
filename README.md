@@ -311,6 +311,8 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
     Propegation Checker:
 
     https://www.whatsmydns.net/
+    https://geopeeker.com/
+    
 
     Check for register:
     
