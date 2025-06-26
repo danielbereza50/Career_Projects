@@ -9,6 +9,13 @@ https://safebrowsing.google.com/safebrowsing/report_error/?hl=en
 
 
 
+https://sitecheck.sucuri.net/
+https://www.microsoft.com/en-us/wdsi/filesubmission
+
+
+
+
+
 https://www.md5hashgenerator.com/
 
 
