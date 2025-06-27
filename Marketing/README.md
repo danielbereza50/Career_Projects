@@ -168,6 +168,15 @@ Show your location, equipment and proof of management. Your video is only used f
 
 
 
+https://www.youtube.com/watch?v=hbM3befCOv4
+
+Leads > Search
+
+Bidding > Clicks
+
+
+
+
 
 
 
