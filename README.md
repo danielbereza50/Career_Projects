@@ -348,7 +348,9 @@ UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.example.com',
  
 	As per the previous interaction, the domain was unassigned and due to this the temp domain is connected to emails. From hosting we do provide temp domains and it is used to create emails and website when there is no 	domain is active. And by default it will choose temp domain if no domain is connected
 	Now the domain populuss.com is connected to the email accounts. I hope you are able to check
- 
+
+
+ 	client might use outlook, apple mail, gmail
 
 	Cancel 2FA
 	https://uk.godaddy.com/help/cancel-2-step-verification-7628
