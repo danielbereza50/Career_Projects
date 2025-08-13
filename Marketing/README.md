@@ -176,7 +176,33 @@ Bidding > Clicks
 
 
 
+| Directory                                     | Submission Link                                                                            |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **Google Business Profile** *(already done?)* | [https://business.google.com/](https://business.google.com/)                               |
+| **Bing Places**                               | [https://www.bingplaces.com/](https://www.bingplaces.com/)                                 |
+| **Apple Maps**                                | [https://register.apple.com/placesonmaps/](https://register.apple.com/placesonmaps/)       |
+| **Yelp**                                      | [https://biz.yelp.com/](https://biz.yelp.com/)                                             |
+| **Facebook Business Page**                    | [https://www.facebook.com/pages/create](https://www.facebook.com/pages/create)             |
+| **LinkedIn Company Page**                     | [https://www.linkedin.com/company/setup/new/](https://www.linkedin.com/company/setup/new/) |
+| **Angi**                                      | [https://www.angi.com/companylist/](https://www.angi.com/companylist/)                     |
+| **Nextdoor**                                  | [https://business.nextdoor.com/](https://business.nextdoor.com/)                           |
+| **Foursquare**                                | [https://foursquare.com/business/](https://foursquare.com/business/)                       |
+| **MapQuest**                                  | [https://www.mapquest.com/business](https://www.mapquest.com/business)                     |
 
+
+
+| Directory                            | Submission Link                                                                                                  |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| **Reiki.org Practitioner Directory** | [https://www.reiki.org/resources/practitioner-directory](https://www.reiki.org/resources/practitioner-directory) |
+| **Healing Touch Program Directory**  | [https://healingtouchprogram.com/practitioner-directory](https://healingtouchprogram.com/practitioner-directory) |
+| **Thumbtack**                        | [https://www.thumbtack.com/](https://www.thumbtack.com/)                                                         |
+| **Wellness.com**                     | [https://www.wellness.com/add](https://www.wellness.com/add)                                                     |
+| **NaturalTherapyPages**              | [https://www.naturaltherapypages.com/](https://www.naturaltherapypages.com/)                                     |
+| **Holistic Directory**               | [https://www.holisticdirectory.org/](https://www.holisticdirectory.org/)                                         |
+| **AHHA Self-Help Connector**         | [https://ahha.org/selfhelp-connector/](https://ahha.org/selfhelp-connector/)                                     |
+| **Holistic Chamber of Commerce**     | [https://holisticchamberofcommerce.com/](https://holisticchamberofcommerce.com/)                                 |
+| **HealingWell.com**                  | [https://www.healingwell.com/community/](https://www.healingwell.com/community/)                                 |
+| **Spiritual.com.au Directory**       | [https://spiritual.com.au/submit-your-listing/](https://spiritual.com.au/submit-your-listing/)                   |
 
 
 
