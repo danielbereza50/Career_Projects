@@ -976,6 +976,7 @@ How to:
 * https://infoheap.com/online-react-jsx-to-javascript/
 * https://gridbyexample.com/examples/
 * https://videocandy.com/compress-video.html
+* https://videocandy.com/video-player.html
 * https://online-video-cutter.com/
 * https://products.aspose.app/words/parser
 * https://www.desmos.com/scientific
