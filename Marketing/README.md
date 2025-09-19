@@ -175,8 +175,9 @@ Leads > Search
 Bidding > Clicks
 
 
-https://www.google.com/ping?sitemap=https://yourdomain.com/sitemap.xml
-https://www.bing.com/ping?sitemap=https://yourdomain.com/sitemap.xml
+    https://www.google.com/ping?sitemap=https://yourdomain.com/sitemap.xml
+    
+    https://www.bing.com/ping?sitemap=https://yourdomain.com/sitemap.xml
 
 
 
