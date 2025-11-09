@@ -13,8 +13,8 @@ https://open.spotify.com
 
 https://adsmanager.facebook.com/adsmanager/manage/campaigns?act=XXXXXX&selected_campaign_ids=XXXXXX&nav_source=business_manager
 
-Getting on Page 1 of Google, 
-SEO system that’s getting results in 2–4 weeks (not 6–12 months). 
+    Getting on Page 1 of Google, 
+    SEO system that’s getting results in 2–4 weeks (not 6–12 months). 
 
 
 Your Smart campaign isn't active
