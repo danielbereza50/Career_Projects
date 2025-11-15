@@ -11,6 +11,10 @@ https://www.submithub.com/
 
 https://open.spotify.com
 
+
+
+https://www.facebook.com/61572910466025/ad_center/?ref_source=www_comet_ads_bookmark
+
 https://adsmanager.facebook.com/adsmanager/manage/campaigns?act=XXXXXX&selected_campaign_ids=XXXXXX&nav_source=business_manager
 
     Getting on Page 1 of Google, 
